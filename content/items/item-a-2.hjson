@@ -1,0 +1,6 @@
+description: metal that was sanded to remove the rust
+name: sanded metal
+color: FFE4C9FF
+hardness: 2 
+hiddenOnPlanets: [serpulo, erekir]
+research: item-a-1

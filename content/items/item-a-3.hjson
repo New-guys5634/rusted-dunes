@@ -1,0 +1,6 @@
+description: rusted spring is used for advanced research later on
+name: rusted spring
+color: 623D35FF
+hardness: 4
+hiddenOnPlanets: [serpulo, erekir]
+research: item-a-2

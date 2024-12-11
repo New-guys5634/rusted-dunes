@@ -1,0 +1,7 @@
+description: rusted metal has been broken of and rusted for a long time
+name: rusted metal
+color: 231D1DFF
+hardness: 2 
+hiddenOnPlanets: [serpulo, erekir]
+alwaysUnlocked: true
+research: core-a-1

@@ -1,0 +1,6 @@
+description: eroded wood helps on better turrets and walls
+name: eroded wood
+color: 88593FFF
+hardness: 2
+hiddenOnPlanets: [serpulo, erekir]
+research: item-a-3
