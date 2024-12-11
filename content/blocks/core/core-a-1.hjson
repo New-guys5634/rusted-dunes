@@ -1,0 +1,24 @@
+type: CoreBlock
+name: rusting core
+description: rusting core 
+requirements: [
+  item-a-1/800
+  sand/900
+  item-a-2/500
+]
+isFirstTier: true
+size: 3
+outlineColor: 8E665CFFf
+squareSprite: false
+alwaysUnlocked: true
+unitType: core-unit-1
+health: 2500
+itemCapacity: 4200
+unitCapModifier: 8
+category: effect
+research: {
+  planet: dunes
+  root: true
+  name: dunes
+  requiresUnlock: false
+}
