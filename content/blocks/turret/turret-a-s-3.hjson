@@ -1,0 +1,45 @@
+name: burst  
+description: fires continues barrages at its opponent
+type: ItemTurret
+reload: 55
+shootCone: 20
+rotateSpeed: 3.5
+targetGround: true
+targetAir: false
+range: 160
+recoil: 2.3
+size: 1
+health: 350
+AmmoPerShot: 10
+shootSound: shoot
+outlineColor: 8E665CFFf
+shoot: {
+shots: 4
+shotDelay: 10
+}
+ammoTypes: {
+    item-a-1: {
+        damage: 25
+        speed: 6
+        height: 6
+        width: 6
+        lifetime: 36
+    }
+    item-a-2: {
+        damage: 35
+        speed: 6
+        height: 6
+        width: 6
+        lifetime: 36
+    }
+}
+requirements: [
+item-a-2/25
+sand/70
+item-a-4/15
+]
+research: {
+parent: turret-a-s-2
+}
+category: turret
+researchCostMultiplier: 0.5
