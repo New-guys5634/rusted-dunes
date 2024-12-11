@@ -1,0 +1,21 @@
+type: Drill
+drillTime: 450
+name: erosion drill
+description: mines ores horribly
+size: 2
+outlineColor: 8E665CFFf
+category: production
+hasLiquids: true
+liquidCapacity: 50
+drawMineItem: false
+research: {
+  parent: core-a-1
+}
+hasPower: false
+tier: 2
+itemCapacity: 10
+researchCostMultiplier: 0.2
+requirements: [
+item-a-1/25
+sand/15
+]
