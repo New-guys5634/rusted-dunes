@@ -1,0 +1,13 @@
+name: rust wind
+type: RainWeather
+sound: windhowl
+xspeed: 6
+yspeed: 3
+density: 40000
+status: none
+useWindVector: true
+sizeMin: 130
+sizeMax: 240
+splashTimeScale: 0
+color: AF2A2AFF
+force: 2
