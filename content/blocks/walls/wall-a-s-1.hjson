@@ -1,0 +1,16 @@
+name: rusted wall
+description: deffends structures
+type: Wall
+health: 500
+armor: 1
+outlineColor: 8E665CFFf
+requirements: [
+    item-a-1/8
+]
+category: defense
+research: {
+    parent: core-a-1
+    requirements: [
+        item-a-1/80
+    ]
+}

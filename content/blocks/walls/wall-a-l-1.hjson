@@ -1,0 +1,17 @@
+name: large rusted wall 
+description: deffends structures
+type: Wall
+health: 2000
+outlineColor: 8E665CFFf
+armor: 1
+size: 2
+requirements: [
+    item-a-1/32
+]
+category: defense
+research: {
+    parent: wall-a-s-1
+    requirements: [
+        item-a-1/320
+    ]
+}

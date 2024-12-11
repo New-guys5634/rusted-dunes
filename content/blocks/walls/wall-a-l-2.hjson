@@ -1,0 +1,17 @@
+name: large wooden wall 
+description: deffends structures
+type: Wall
+health: 2400
+outlineColor: 8E665CFFf
+armor: 1
+size: 2
+requirements: [
+    item-a-4/32
+]
+category: defense
+research: {
+    parent: wall-a-s-2
+    requirements: [
+        item-a-4/320
+    ]
+}
