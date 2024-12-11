@@ -1,0 +1,48 @@
+name: wastage 
+description: a strong medium large unit with 2 strong shot blasts
+type: mech
+mechLegColor: 1f1f1f
+health: 8145
+armor: 12
+hitSize: 19
+speed: .2
+rotateSpeed: 4
+accel: 0.70
+itemCapacity: 15
+outlineColor: 8E665CFF
+weapons: [
+{
+  name: mech-unit-a-4-gun
+  top: false
+  x: 0
+  y: 0
+  shootY: 6
+  shootX: 16
+  mirror: true
+  rotate: false
+  shootCone: 10
+  shootSound: shotgun
+  inaccuracy: 3
+  reload: 80
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  shoot: {
+  type: ShootSpread
+  spread: 2
+  shots: 9
+  }
+  bullet: {
+   type: BasicBulletType
+   width: 12
+   height: 10
+   damage: 85
+   splashDamage: 25
+   splashDamageRadius: 16
+   speed: 8
+   lifetime: 20
+   trailWidth: 4
+   trailLength: 18
+   }
+  }
+]
