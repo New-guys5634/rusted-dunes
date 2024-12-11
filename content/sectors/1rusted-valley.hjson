@@ -1,0 +1,12 @@
+localizedName: rusted valley 
+description: the start of rusting 
+sector: 0
+captureWave: 10
+planet: dunes
+alwaysUnlocked: true
+research: {
+   parent: core-a-1
+}
+alwaysUnlocked: true
+difficulty: 1
+overrideLaunchDefaults: true

@@ -1,0 +1,17 @@
+localizedName: scorched desert
+description: you've reached the inclosed. use the new resources to your advantage.
+captureWave: 20
+difficulty: 2
+planet: dunes
+sector: 4
+overrideLaunchDefaults: true
+addStartingItems: true
+research: {
+  parent: 1rusted-valley
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 1rusted-valley
+    }
+  ]
+}
