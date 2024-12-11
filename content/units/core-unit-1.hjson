@@ -1,0 +1,68 @@
+name: basic drone
+type: payload
+flying: true
+health: 120
+armor: 1
+hitSize: 9
+
+controller: BuilderAI
+isEnemy: false
+mineWalls: true
+mineFloor: true
+buildSpeed: 1.0
+itemCapacity: 10
+
+speed: 3.4
+accel: 0.4
+drag: 0.1
+mineSpeed: 3.5
+mineTier: 1
+rotateSpeed: 7
+
+crashDamageMultiplier: 0
+hittable: false
+targetable: false
+fogRadius: 0
+coreUnitDock: true
+outlineColor: 8E665CFFf
+
+payloadCapacity: 64
+pickupUnits: true
+vulnerableWithPayloads: true
+
+weapons: [
+    {
+        type: RepairBeamWeapon
+		widthSinMag: 0.1
+        x: 0
+        y: 2
+        mirror: false
+        shootY: 0
+		beamWidth: 0.5
+        repairSpeed: 1
+        fractionRepairSpeed: 0.05
+        shootCone: 15
+		
+        targetUnits: true
+        targetBuildings: true
+        autoTarget: treu
+        controllable: true
+        laserColor: FFD380FF
+        healColor: FF9C59FF
+		bullet: {
+		    maxRange: 35
+		}
+    }
+]
+engines: [
+    {
+        x: 5
+        y: -6
+        radius: 2
+    }
+    {
+        x: -5
+        y: -6
+        radius: 2
+    }
+]

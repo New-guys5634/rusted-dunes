@@ -1,0 +1,48 @@
+name: wastement
+description: a basic unit that shoots long ranged projectiles at its opponent 
+type: mech
+mechLegColor: 1f1f1f
+health: 925
+armor: 5
+hitSize: 14
+speed: .4
+rotateSpeed: 4
+accel: 0.70
+itemCapacity: 15
+outlineColor: 8E665CFF
+weapons: [
+{
+  name: mech-unit-a-3-gun
+  top: false
+  x: 0
+  y: 0
+  shootY: 5
+  shootX: 8
+  mirror: true
+  rotate: false
+  shootCone: 10
+  shootSound: artillery
+  inaccuracy: 3
+  reload: 60
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  shoot: {
+  type: ShootSpread
+  spread: 2
+  shots: 6
+  }
+  bullet: {
+   type: BasicBulletType
+   width: 12
+   height: 10
+   damage: 25
+   splashDamage: 15
+   splashDamageRadius: 16
+   speed: 7
+   lifetime: 18
+   trailWidth: 3
+   trailLength: 14
+   }
+  }
+]

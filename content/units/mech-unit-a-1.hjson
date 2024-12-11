@@ -1,0 +1,48 @@
+name: waste
+description: a basic unit that shoots small projectiles at its opponent 
+type: mech
+mechLegColor: 1f1f1f
+health: 175
+armor: 1
+hitSize: 8
+speed: .8
+rotateSpeed: 4
+accel: 0.70
+itemCapacity: 5
+outlineColor: 8E665CFF
+weapons: [
+{
+  name: mech-unit-a-1-gun
+  top: false
+  x: 0
+  y: 0
+  shootY: 5
+  shootX: 7
+  mirror: true
+  rotate: false
+  shootCone: 10
+  shootSound: shoot
+  inaccuracy: 3
+  reload: 30
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  shoot: {
+  type: ShootSpread
+  spread: 1
+  shots: 3
+  }
+  bullet: {
+   type: BasicBulletType
+   width: 7
+   height: 8   
+   damage: 15
+   splashDamage: 5
+   splashDamageRadius: 4
+   speed: 3
+   lifetime: 60
+   trailWidth: 1
+   trailLength: 12
+   }
+  }
+]

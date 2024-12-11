@@ -1,0 +1,87 @@
+type: mech
+name: rocket
+description: rocket shoots bursts of bullets at its opponent
+hovering: true
+hoverable: true
+shadowElevation: 0.1
+mechFrontSway: 0
+mechSideSway: 0
+mechStride: 0
+drag: 0.04
+outlineColor: 8E665CFF
+speed: 3.8
+rotateSpeed: 4
+accel: 0.01440
+groundLayer: 60
+health: 215
+armor: 4
+hitSize: 8
+itemCapacity: 15
+useEngineElevation: false
+lowAltitude: true
+engines: [
+  {
+    x: 0
+    y: -7
+    radius: 2
+  }
+]
+parts: [
+  {
+    type: HoverPart
+    color: FFB570FF
+    radius: 15
+    sides: 8
+    layerOffset: -0.0002
+    x: 0
+    y: 0
+    phase: 140
+  }
+]
+abilities: [
+  {
+    type: MoveEffectAbility
+    teamColor: true
+    effect: missileTrailShort
+    x: 0
+    y: -5
+    interval: 5
+    minVelocity: 0.8
+  }
+]
+weapons: [
+ {
+  name: hover-unit-b-1-gun
+  
+  top: false
+  x: 0
+  y: 0
+  shootY: 6
+  shootX: 4.5
+  mirror: true
+  rotate: false
+  shootCone: 80
+  shootSound: shoot
+  inaccuracy: 0
+  reload: 30
+  recoil: 1
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  velocityRnd: 0.40
+  shoot: {
+  shots: 6
+  shotDelay: 5
+  }
+  bullet: {
+   type: BasicBulletType
+   width: 8
+   height: 10
+   damage: 15
+   speed: 6
+   lifetime: 20
+   trailWidth: 3
+   trailLength: 5
+   }
+  }
+]
