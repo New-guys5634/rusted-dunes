@@ -1,0 +1,58 @@
+name: rusting unit craft
+description: constructs units that are low tier at a slow pace
+type: UnitFactory
+category: units
+size: 3
+configurable: true
+plans: [
+  {
+    unit: mech-unit-a-1
+    time: 1000
+    requirements: [
+        sand/30
+        item-a-2/10
+        item-a-4/15
+    ]
+  }
+{
+     unit: unit-tank-a-1
+     time: 1300
+     requirements: [
+        sand/30
+        item-a-2/20
+        item-a-4/15
+     ]
+   }
+{
+      unit: hover-unit-b-1
+      time: 900
+       requirements: [
+        sand/25
+        item-a-2/15
+        item-a-4/25
+     ]
+   }
+]
+requirements: [
+sand/90
+item-a-1/850
+item-a-2/90
+item-a-4/48
+item-a-5/55
+]
+research: {
+  parent: core-a-1
+  objectives: [
+    {
+      type: OnSector
+      preset: 1rusted-valley
+    }
+  ]
+}
+researchCost: [
+sand/900
+item-a-1/850
+item-a-2/900
+item-a-4/480
+item-a-5/550
+]
