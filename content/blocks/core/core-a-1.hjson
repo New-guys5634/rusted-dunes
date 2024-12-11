@@ -4,7 +4,6 @@ description: rusting core
 requirements: [
   item-a-1/800
   sand/900
-  item-a-2/500
 ]
 isFirstTier: true
 size: 3
