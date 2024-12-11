@@ -1,0 +1,5 @@
+type: OreBlock
+name: wood ore
+variants: 3
+itemDrop: "item-a-4"
+wallOre: true
