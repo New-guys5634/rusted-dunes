@@ -1,0 +1,17 @@
+type: Conveyor
+name: eroded conveyor
+description: a piece of trash used to transport items
+requirements: [
+item-a-1/1
+]
+category: distribution
+speed: 0.02
+research: core-a-1
+junctionReplacement: Junction-s-1
+  health: 35
+research: {
+  parent: core-a-1
+  requirements: [
+item-a-1/10
+  ]
+}

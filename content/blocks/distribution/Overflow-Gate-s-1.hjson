@@ -1,0 +1,10 @@
+type: OverflowGate
+name: rusted overflow gate
+description: sets the items in other output if main is clogged
+category: distribution
+research: Sorter-s-1
+requirements: [
+item-a-1/15
+sand/15
+]
+researchCostMultiplier: 0.5

@@ -1,0 +1,15 @@
+type: Router
+name: rusted Distributor
+description: same as router but bigger
+size: 2
+speed: 7
+health: 125
+itemCapacity: 10
+requirements: [
+item-a-1/25
+sand/15
+]
+squareSprite: false
+category: distribution
+research: Router-s-1
+researchCostMultiplier: 0.5

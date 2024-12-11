@@ -1,0 +1,13 @@
+type: Junction
+name: eroded Junction
+description: transports the items through other conveyors
+health: 45
+size: 1
+speed: 22
+requirements: [
+item-a-1/20
+]
+squareSprite: false
+category: distribution
+research: s-conveyor
+researchCostMultiplier: 0.5

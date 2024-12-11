@@ -1,0 +1,15 @@
+type: Router
+name: eroded Router
+description: inputs get set in different outputs
+size: 1
+speed: 6
+health: 75
+itemCapacity: 5
+requirements: [
+item-a-1/5
+sand/5
+]
+squareSprite: false
+category: distribution
+research: s-conveyor
+researchCostMultiplier: 0.5

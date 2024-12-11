@@ -1,0 +1,10 @@
+type: Sorter
+name: eroded Sorter
+description: allows certain inputs than others
+category: distribution
+research: Router-s-1
+requirements: [
+item-a-1/15
+sand/10
+]
+researchCostMultiplier: 0.5
