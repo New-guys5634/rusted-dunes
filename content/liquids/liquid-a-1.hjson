@@ -1,0 +1,13 @@
+name: molten rust
+description: 
+color: AF2A2AFF
+barColor: AF2A2AFF
+viscosity: 0.3
+temperature: 0.5
+gas: false
+coolant: false 
+
+research: {
+    parent: item-a-2
+}
+coolant: true
