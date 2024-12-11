@@ -1,0 +1,38 @@
+type: ConsumeGenerator
+name: scorched burner
+description: burns stuff for power
+size: 1
+category: power
+research: {
+  parent: core-a-1
+}
+squareSprite: true
+requirements: [
+item-a-1/55
+item-a-2/40
+item-a-4/15
+]
+consumes: {
+  itemFlammable: {}
+}
+powerProduction: 0.8
+itemDuration: 450
+generateEffect: generatespark
+ambientSound: smelter
+ambientSoundVolume: 0.1
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawCrucibleFlame
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+} 
+researchCostMultiplier: 1
