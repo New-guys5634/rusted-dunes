@@ -1,0 +1,12 @@
+name: molten rust 
+type: Floor
+variants: 0
+
+isLiquid: true
+liquidDrop: liquid-a-1
+
+status: melting
+statusDuration: 300
+speedMultiplier: 0.1
+drownTime: 50
+cacheLayer: slag
