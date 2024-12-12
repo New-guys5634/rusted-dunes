@@ -1,0 +1,17 @@
+name: large crystal wall 
+description: deffends structures
+type: Wall
+health: 3000
+outlineColor: 8E665CFFf
+armor: 1
+size: 2
+requirements: [
+    item-a-7/32
+]
+category: defense
+research: {
+    parent: wall-a-s-3
+    requirements: [
+        item-a-7/320
+    ]
+}

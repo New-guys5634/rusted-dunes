@@ -1,0 +1,16 @@
+name: crystal wall
+description: deffends structures
+type: Wall
+health: 750
+armor: 1
+outlineColor: 8E665CFFf
+requirements: [
+    item-a-7/8
+]
+category: defense
+research: {
+    parent: wall-a-s-2
+    requirements: [
+        item-a-7/80
+    ]
+}
