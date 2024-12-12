@@ -13,6 +13,12 @@ health: 350
 AmmoPerShot: 10
 shootSound: shoot
 outlineColor: 8E665CFFf
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.3
+}
 ammoTypes: {
     item-a-4: {
         damage: 40

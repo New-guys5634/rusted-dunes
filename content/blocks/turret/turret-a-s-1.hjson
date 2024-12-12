@@ -13,6 +13,12 @@ health: 359
 AmmoPerShot: 6
 shootSound: shootAlt
 outlineColor: 8E665CFFf
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.1
+}
 shoot: {
     shots: 5
     shotDelay: 1
