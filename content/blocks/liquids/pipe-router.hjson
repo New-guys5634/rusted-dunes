@@ -1,0 +1,16 @@
+type: LiquidRouter
+name: Wooden conduit router
+description: splits liquids into three outputs
+size: 1
+solid: false
+underBullets: true
+health: 65
+liquidCapacity: 20
+category: liquid
+squareSprite: false
+research: pipe-junction
+requirements: [
+item-a-4/5
+sand/15
+]
+researchCostMultiplier: 1

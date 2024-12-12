@@ -1,0 +1,16 @@
+type: Conduit
+name: wooden conduit
+description: moves liquids forward 
+category: liquid
+research: pump-a-1
+requirements: [
+item-a-4/1
+sand/2
+]
+health: 50
+leaks: false
+junctionReplacement: pipe-junction
+underBullets: true
+researchCostMultiplier: 1
+liquidPressure: 1.000
+liquidCapacity: 10

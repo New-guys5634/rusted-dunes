@@ -1,0 +1,15 @@
+type: Pump
+name: wooden pump
+description: pumps liquids what else 
+size: 1
+category: liquid
+research: core-a-1
+consumes: {
+power: 0.5
+}
+requirements: [
+item-a-4/25
+sand/10
+]
+pumpAmount: 0.05
+researchCostMultiplier: 1

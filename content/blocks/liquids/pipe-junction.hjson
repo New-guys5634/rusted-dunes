@@ -1,0 +1,12 @@
+type: LiquidJunction
+name: wooden conduit Junction
+description: allows liquids to cross eachother 
+solid: false
+category: liquid
+squareSprite: false
+research: pipe-a-1
+requirements: [
+item-a-4/5
+sand/10
+]
+researchCostMultiplier: 1
