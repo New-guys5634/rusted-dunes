@@ -6,7 +6,15 @@ viscosity: 0.3
 temperature: 0.5
 gas: false
 coolant: false 
-
+particleEffect: {
+    particles: 4
+    length: 0
+    lifetime: 90
+    sizeFrom: 3
+    sizeTo: 0
+    colorFrom: AF2A2AFF
+    colorTo: AF2A2AFF
+}
 research: {
     parent: item-a-2
 }
