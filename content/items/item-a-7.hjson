@@ -1,0 +1,6 @@
+description: crystal sheet can be used for better walls and menders.
+name: crystal sheet
+color: AF2A2AFF
+hardness: 3
+hiddenOnPlanets: [serpulo, erekir]
+research: item-a-6
