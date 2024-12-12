@@ -1,0 +1,17 @@
+localizedName: old road
+description: A small crux base has located been located up the hill learn units and use molten rust to enhance your turrets
+captureWave: 20
+difficulty: 3
+planet: dunes
+sector: 17
+overrideLaunchDefaults: true
+addStartingItems: true
+research: {
+  parent: 2scorched-desert
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 2scorched-desert
+    }
+  ]
+}
