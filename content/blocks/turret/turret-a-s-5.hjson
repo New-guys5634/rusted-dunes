@@ -1,0 +1,62 @@
+name: point 
+description: fires crystals or wood at its opponent dealing large damage 
+type: ItemTurret
+reload: 95
+shootCone: 20
+rotateSpeed: 3.5
+targetGround: true
+targetAir: false
+range: 180
+recoil: 2
+size: 2
+health: 390
+AmmoPerShot: 10
+shootSound: laser
+outlineColor: BFECFFFF
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.1
+}
+shoot: {
+  type: ShootSpread
+  spread: 2
+  shots: 3
+}
+ammoTypes: {
+    item-a-7: {
+        damage: 60
+        speed: 9
+        height: 6
+        width: 6
+        lifetime: 20
+   trailWidth: 2
+   trailLength: 8
+  frontColor: BFECFFFF
+   backColor: BFECFFFF
+   trailColor: BFECFFFF
+    }
+    item-a-4: {
+        damage: 35
+        speed: 9
+        height: 6
+        width: 6
+        lifetime: 20
+   trailWidth: 2
+   trailLength: 6
+   frontColor: 8E665CFFf
+   backColor: 8E665CFFf
+   trailColor: 8E665CFFf
+    }
+}
+requirements: [
+item-a-2/90
+sand/145
+item-a-7/120
+]
+research: {
+parent: turret-a-s-3
+}
+category: turret
+researchCostMultiplier: 1
