@@ -26,7 +26,7 @@ shoot: {
 }
 ammoTypes: {
     item-a-7: {
-        damage: 60
+        damage: 45
         speed: 9
         height: 6
         width: 6
@@ -36,6 +36,7 @@ ammoTypes: {
   frontColor: BFECFFFF
    backColor: BFECFFFF
    trailColor: BFECFFFF
+      reloadMultiplier: 0.7
     }
     item-a-4: {
         damage: 35
@@ -48,6 +49,7 @@ ammoTypes: {
    frontColor: 8E665CFFf
    backColor: 8E665CFFf
    trailColor: 8E665CFFf
+   reloadMultiplier: 1.2
     }
 }
 requirements: [
