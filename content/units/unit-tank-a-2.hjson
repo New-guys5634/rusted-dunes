@@ -1,0 +1,49 @@
+type: tank
+name: crank
+description: shoots  two miniguns types guns 
+omniMovement: false
+faceTarget: false
+outlineColor: 8E665CFF
+speed: 0.6
+rotateSpeed: 2.5
+groundLayer: 60
+health: 480
+armor: 1
+hitSize: 10
+itemCapacity: 5
+treadRects: [
+{
+    x: -15
+    y: -25
+    width: 22
+    height: 51
+    }
+]
+weapons: [
+ {
+  name: unit-tank-a-2-gun
+  top: false
+  x: 6
+  y: 2
+  shootY: 4
+  shootX: 1
+  mirror: true
+  rotate: true
+  rotationLimit: 100
+  shootCone: 20
+  shootSound: shoot
+  inaccuracy: 0
+  reload: 15
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35
+  bullet: {
+   type: BasicBulletType
+   width: 8
+   height: 8
+   damage: 28
+   speed: 8
+   lifetime: 15
+   }
+  }
+]
