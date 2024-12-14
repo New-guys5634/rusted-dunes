@@ -9,7 +9,7 @@ requirements: [
 ]
 category: defense
 research: {
-    parent: wall-a-s-2
+    parent: wall-a-l-2
     requirements: [
         item-a-7/80
     ]
