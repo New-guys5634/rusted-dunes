@@ -15,8 +15,8 @@ itemCapacity: 10
 speed: 3.4
 accel: 0.4
 drag: 0.1
-mineSpeed: 3.5
-mineTier: 1
+mineSpeed: 2.2
+mineTier: 2
 rotateSpeed: 7
 
 crashDamageMultiplier: 0
