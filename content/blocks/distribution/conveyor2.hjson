@@ -1,0 +1,17 @@
+type: Conveyor
+name: crystal conveyor
+description: a piece of crystal supper glued on the piece of trash and transfers items
+requirements: [
+item-a-7/1
+]
+category: distribution
+speed: 0.08
+research: s-conveyor
+junctionReplacement: Junction-s-1
+  health: 50
+research: {
+  parent: s-conveyor
+  requirements: [
+item-a-7/100
+  ]
+}
