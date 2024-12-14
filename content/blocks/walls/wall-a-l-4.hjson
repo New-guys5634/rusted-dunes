@@ -13,5 +13,6 @@ research: {
     parent: wall-a-s-4
     requirements: [
         item-a-5/320
-    ]
+]
+}
 
