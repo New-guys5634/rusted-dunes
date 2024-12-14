@@ -12,7 +12,7 @@ size: 2
 health: 390
 AmmoPerShot: 10
 shootSound: laser
-outlineColor: BFECFFFF
+outlineColor: 000000FF
 coolant: {
   type: ConsumeCoolant
   allowGas: true

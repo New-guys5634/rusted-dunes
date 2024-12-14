@@ -12,7 +12,7 @@ size: 1
 health: 350
 AmmoPerShot: 10
 shootSound: shoot
-outlineColor: 8E665CFFf
+outlineColor: 000000FF
 coolant: {
   type: ConsumeCoolant
   allowGas: true

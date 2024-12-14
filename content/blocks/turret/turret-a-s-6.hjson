@@ -1,0 +1,52 @@
+name: blunt
+description: uses electronic power to ruin the opponents
+type: PowerTurret
+reload: 135
+shootCone: 20
+rotateSpeed: 3.5
+targetGround: true
+targetAir: false
+range: 235
+recoil: 2.5
+size: 2
+health: 390
+shootSound: laser
+outlineColor: 000000FF
+consumes: {
+  power: 2
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.1
+}
+}
+shootType: {
+    type: FlakBulletType
+        damage: 85
+        speed: 7
+        height: 6
+        width: 6
+        lifetime: 35
+   homingRange: 15
+   homingPower: 3
+   homingDelay: 2
+   trailWidth: 2
+   trailLength: 8
+  frontColor: BFECFFFF
+   backColor: BFECFFFF
+   trailColor: BFECFFFF
+      collidesAir: false
+      collidesGround: true
+      collideTerrain: fakse
+}
+requirements: [
+item-a-6/130
+sand/200
+item-a-7/145
+]
+research: {
+parent: turret-a-s-5
+}
+category: turret
+researchCostMultiplier: 1
