@@ -1,0 +1,16 @@
+name:  old iron wall
+description: deffends structures
+type: Wall
+health: 900
+armor: 1
+outlineColor: 8E665CFFf
+requirements: [
+    item-a-5/8
+]
+category: defense
+research: {
+    parent: wall-a-s-3
+    requirements: [
+        item-a-5/80
+    ]
+}
