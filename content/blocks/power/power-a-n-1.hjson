@@ -1,0 +1,25 @@
+name: wooden node
+description: transfers power through others
+type: BeamNode
+  
+hasPower: true
+hasItems: false
+hasLiquids: false
+
+health: 100
+size: 1
+requirements: [
+item-a-4/5
+item-a-1/5
+item-a-2/5
+ ]
+range: 8
+category: power
+research: {
+     parent: power-a-s-1
+}
+researchCost: [
+item-a-4/50
+item-a-1/50
+item-a-2/50
+]

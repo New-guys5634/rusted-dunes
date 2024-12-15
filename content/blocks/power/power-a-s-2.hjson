@@ -1,0 +1,42 @@
+type: ConsumeGenerator
+name: scorched reactor 
+description: burns items and molten rust for more power
+size: 1
+category: power
+research: {
+  parent: power-a-s-1
+}
+requirements: [
+item-a-1/150
+item-a-6/15
+item-a-7/45
+]
+consumes: {
+liquid: liquid-a-1/0.2
+items: {
+    items: [
+item-a-6/2
+    ]
+  }
+}
+powerProduction: 2.1
+itemDuration: 220
+generateEffect: generatespark
+ambientSound: smelter
+ambientSoundVolume: 0.2
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawCrucibleFlame
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+} 
+researchCostMultiplier: 1
