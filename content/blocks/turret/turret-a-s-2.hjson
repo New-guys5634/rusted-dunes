@@ -1,7 +1,7 @@
 name: continues 
 description: Fires barrage of bullets at the opponent
 type: ItemTurret
-reload: 14
+reload: 25
 shootCone: 20
 rotateSpeed: 3.5
 targetGround: true
@@ -21,7 +21,7 @@ coolant: {
 }
 ammoTypes: {
     item-a-1: {
-        damage: 15
+        damage: 10
         speed: 6
         height: 6
         width: 6
@@ -29,7 +29,7 @@ ammoTypes: {
         reloadMultiplier: 1.3
     }
     item-a-2: {
-        damage: 25
+        damage: 20
         speed: 6
         height: 6
         width: 6

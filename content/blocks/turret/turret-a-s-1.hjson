@@ -1,7 +1,7 @@
 name: spas shotgun 
 description: Fires spreads of bullets at the opponent
 type: ItemTurret
-reload: 90
+reload: 75
 shootCone: 20
 rotateSpeed: 3.5
 targetGround: true
@@ -13,6 +13,7 @@ health: 359
 AmmoPerShot: 6
 shootSound: shootAlt
 outlineColor: 000000FF
+velocityRnd: 0.30
 coolant: {
   type: ConsumeCoolant
   allowGas: true
@@ -20,13 +21,14 @@ coolant: {
   amount: 0.1
 }
 shoot: {
-    shots: 5
-    shotDelay: 1
+type: ShootSpread
+  spread: 2
+    shots: 4
 }
 
 ammoTypes: {
     item-a-1: {
-        damage: 5
+        damage: 10
         speed: 6
         height: 6
         width: 6
@@ -34,7 +36,7 @@ ammoTypes: {
         reloadMultiplier: 1.4
     }
     item-a-2: {
-        damage: 15
+        damage: 18
         speed: 6
         height: 7
         width: 7
