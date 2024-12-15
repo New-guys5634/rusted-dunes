@@ -38,6 +38,7 @@ shootType: {
     backColor: BFECFFFF
     frontColor: BFECFFFF
 }
+}
 requirements: [
 sand/40
 item-a-7/30
