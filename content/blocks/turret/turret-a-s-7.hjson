@@ -6,11 +6,11 @@ shootCone: 20
 rotateSpeed: 3.5
 targetGround: true
 targetAir: false
-range: 85
+range: 75
 recoil: 2
 size: 1
 health: 390
-shootSound: laser
+shootSound: spark
 outlineColor: 000000FF
 consumes: {
   power: 0.5
