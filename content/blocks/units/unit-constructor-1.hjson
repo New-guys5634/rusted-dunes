@@ -45,7 +45,7 @@ research: {
   objectives: [
     {
       type: OnSector
-      preset: 1rusted-valley
+      preset: 3old-road
     }
   ]
 }
