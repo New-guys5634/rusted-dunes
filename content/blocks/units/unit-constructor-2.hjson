@@ -1,29 +1,29 @@
-name: mech construction site
-description: constructs mechs that are low tier at a slow pace
+name: hover construction site
+description: constructs hover crafts that are low tier at a slow pace
 type: UnitFactory
 category: units
 size: 3
 configurable: true
 plans: [
   {
-    unit: mech-unit-a-1
-    time: 1300
+    unit: hover-unit-b-1
+    time: 1500
     requirements: [
-        sand/30
-        item-a-2/10
+        sand/45
+        item-a-2/25
         item-a-4/15
     ]
 }
 ]
 requirements: [
-sand/90
-item-a-1/850
+sand/110
+item-a-1/50
 item-a-2/90
 item-a-4/48
 item-a-5/55
 ]
 research: {
-  parent: core-a-1
+  parent: unit-constructor-1
   objectives: [
     {
       type: OnSector
@@ -32,8 +32,8 @@ research: {
   ]
 }
 researchCost: [
-sand/900
-item-a-1/850
+sand/1100
+item-a-1/500
 item-a-2/900
 item-a-4/480
 item-a-5/550
