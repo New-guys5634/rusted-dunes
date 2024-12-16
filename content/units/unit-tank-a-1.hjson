@@ -56,3 +56,5 @@ weapons: [
    }
   }
 ]
+research: unit-constructor-3
+researchCostMultiplier: 1
