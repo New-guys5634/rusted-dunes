@@ -1,0 +1,21 @@
+type: Drill
+drillTime: 450
+name: old iron drill
+description: mines ores less horribly 
+size: 2
+category: production
+hasLiquids: true
+liquidCapacity: 50
+drawMineItem: false
+research: {
+  parent: drill-a-1
+}
+hasPower: false
+tier: 3
+itemCapacity: 15
+researchCostMultiplier: 1
+requirements: [
+item-a-5/85
+sand/65
+item-a-1/90
+]
