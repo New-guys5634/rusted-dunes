@@ -1,0 +1,16 @@
+localizedName: attack centre 
+description: an enemy base has been spotted use units and crystal sheets to your advantage 
+difficulty: 3
+planet: dunes
+sector: 191
+overrideLaunchDefaults: true
+addStartingItems: true
+research: {
+  parent: 3old-road
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 3old-road
+    }
+  ]
+}
