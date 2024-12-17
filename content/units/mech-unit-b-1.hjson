@@ -1,0 +1,62 @@
+name: upgrade 
+description: an upgraded waste that has a blaster 
+type: mech
+mechLegColor: 1f1f1f
+health: 220
+armor: 1
+hitSize: 8
+speed: .8
+rotateSpeed: 4
+accel: 0.70
+itemCapacity: 5
+outlineColor: 313131FF
+weapons: [
+{
+  name: mech-unit-b-1-gun
+  top: false
+  x: 0
+  y: 0
+  shootY: 6
+  shootX: 6
+  mirror: true
+  rotate: false
+  shootCone: 10
+  shootSound: laser
+  inaccuracy: 3
+  reload: 65
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  bullet: {
+   type: BasicBulletType
+   width: 7
+   height: 8   
+   damage: 30
+   splashDamage: 15
+   splashDamageRadius: 40
+   speed: 5
+   lifetime: 35
+   trailWidth: 1
+   trailLength: 15
+hitEffect: {
+                type: ExplosionEffect
+                lifetime: 80
+                waveStroke: 1
+                waveRadBase: 2
+                waveLife: 15
+                waveRad: 25
+                waveColor: 313131FF
+                smokeColor: AF2A2AFF
+                sparkColor: 313131FF
+                sparks: 9
+                smokes: 35
+                sparkRad: 10
+                smokeSize: 2
+                smokeSizeBase: 1
+                smokeRad: 80
+                sparkStroke: 3
+                sparkLen: 5
+            }
+ }
+ }
+]
