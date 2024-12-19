@@ -1,0 +1,39 @@
+description: crafts rusted projectiles
+name: rusted projectile crafter 
+type: GenericCrafter
+size: 2
+health: 200
+craftTime: 90
+hasItems: true
+hasLiquids: false
+hasPower: false
+itemCapacity: 15
+consumes: {
+  items: {
+    items: [
+item-a-1/4
+    ]
+  }
+}
+requirements: [
+item-a-1/110
+sand/25
+]
+category: crafting
+outputItem: item-b-1/1
+research: factory-s-1
+researchCostMultiplier: 0.2
+drawer: {
+  type: DrawMulti
+  drawers: [
+  {
+type: DrawDefault
+}
+  {
+type: DrawGlowRegion
+color: 8E665CFFf
+suffix: -glow
+glowScale: 25
+  }
+  ]
+}
