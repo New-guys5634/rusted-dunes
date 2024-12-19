@@ -1,0 +1,6 @@
+description: sanded projectile is used for defences but sometimes for units less advance as wooden projectile
+name: sanded projectile
+color: FFE4C9FF
+hardness: 2
+hiddenOnPlanets: [serpulo, erekir]
+research: item-b-10

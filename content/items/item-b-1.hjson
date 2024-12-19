@@ -1,0 +1,6 @@
+description: rusted projectile is the weakest one mainly used for defences
+name: rusted projectile
+color: 515151FF
+hardness: 2
+hiddenOnPlanets: [serpulo, erekir]
+research: item-b-10
