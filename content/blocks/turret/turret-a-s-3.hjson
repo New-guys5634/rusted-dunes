@@ -24,14 +24,14 @@ shots: 4
 shotDelay: 10
 }
 ammoTypes: {
-    item-a-1: {
+    item-b-1: {
         damage: 25
         speed: 6
         height: 6
         width: 6
         lifetime: 36
     }
-    item-a-2: {
+    item-a-9: {
         damage: 35
         speed: 6
         height: 6

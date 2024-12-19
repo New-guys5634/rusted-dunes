@@ -20,14 +20,14 @@ coolant: {
   amount: 0.3
 }
 ammoTypes: {
-    item-a-4: {
-        damage: 40
+    item-a-9: {
+        damage: 35
         speed: 8
         height: 6
         width: 6
         lifetime: 36
     }
-    item-a-5: {
+    item-a-8: {
         damage: 50
         speed: 8
         height: 6
