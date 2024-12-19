@@ -119,6 +119,9 @@ itemWhitelist: [
 "item-a-5"
 "item-a-6"
 "item-a-7"
+"item-a-8"
+"item-a-9"
+"item-b-1"
 ]
 hiddenItems: [
     "copper"
