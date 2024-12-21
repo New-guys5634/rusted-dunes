@@ -1,0 +1,17 @@
+localizedName: lead points
+description: an outpost was matched on our radar but ended up being a trap use as many turrets and use silicon 
+captureWave: 25
+difficulty: 4
+planet: dunes
+sector: 142
+overrideLaunchDefaults: true
+addStartingItems: true
+research: {
+  parent: 4.attack-centre
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 4.attack-centre
+    }
+  ]
+}
