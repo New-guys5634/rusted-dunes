@@ -16,7 +16,7 @@ speed: 3.4
 accel: 0.4
 drag: 0.1
 mineSpeed: 2.2
-mineTier: 2
+mineTier: 1
 rotateSpeed: 7
 
 crashDamageMultiplier: 0
