@@ -1,0 +1,42 @@
+description: compressions sand and shale to make silicon 
+name: silicon compression
+type: GenericCrafter
+size: 3
+health: 350
+craftTime: 125
+hasItems: true
+hasLiquids: false
+hasPower: false
+itemCapacity: 15
+consumes: {
+  items: {
+    items: [
+sand/3
+item-b-2/1
+    ]
+  }
+}
+requirements: [
+item-a-1/200
+sand/95
+item-a-2/145
+item-a-7/95
+]
+category: crafting
+outputItem: silicon/1
+research: factory-m-3
+researchCostMultiplier: 1
+drawer: {
+  type: DrawMulti
+  drawers: [
+  {
+type: DrawDefault
+}
+  {
+type: DrawGlowRegion
+color: 8E665CFFf
+suffix: -glow
+glowScale: 25
+  }
+  ]
+}
