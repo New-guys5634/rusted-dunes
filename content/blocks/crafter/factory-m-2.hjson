@@ -44,5 +44,15 @@ color: 8E665CFFf
 suffix: -glow
 glowScale: 60
   }
-  ]
+	{
+        type: DrawRegion
+        suffix: "-bottom"
+    }
+	{
+		type: DrawArcSmelt
+	}
+	{
+        type: DrawDefault
+    }
+]
 }
