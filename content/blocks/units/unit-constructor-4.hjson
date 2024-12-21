@@ -1,0 +1,41 @@
+name: wooden reconstructor
+description: reconstructors the base forms of the units to there second weak form 
+type: Reconstructor
+size: 3
+health: 450
+category: units
+
+consumes: {
+  power: 3
+    items: {
+      items: [
+sand/25
+item-a-4/50
+item-a-2/35
+      ]
+    }
+}
+upgrades: [
+  [unit-tank-a-1,unit-tank-a-2]
+  [hover-unit-b-1,hover-unit-b-2]
+  [mech-unit-a-1,mech-unit-a-2]
+]
+constructTime: 1000
+
+requirements: [
+item-a-4/75
+item-a-1/325
+sand/250
+item-a-2/200
+item-a-5/35
+]
+research: {
+    parent: unit-constructor-1
+} 
+researchCost: [
+item-a-4/750
+item-a-1/3250
+sand/2500
+item-a-2/2000
+item-a-5/350
+]
