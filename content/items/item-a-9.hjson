@@ -3,4 +3,4 @@ name: sanded projectile
 color: FFE4C9FF
 hardness: 2
 hiddenOnPlanets: [serpulo, erekir]
-research: item-b-10
+research: item-b-1

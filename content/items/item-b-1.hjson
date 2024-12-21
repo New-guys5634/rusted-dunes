@@ -3,4 +3,4 @@ name: rusted projectile
 color: 515151FF
 hardness: 2
 hiddenOnPlanets: [serpulo, erekir]
-research: item-b-10
+research: item-a-9

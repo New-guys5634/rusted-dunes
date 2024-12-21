@@ -1,0 +1,6 @@
+description: shale used for silicon and liquids
+name:  sheeted shale
+color: 515151FF
+hardness: 4
+hiddenOnPlanets: [serpulo, erekir]
+research: item-a-7
