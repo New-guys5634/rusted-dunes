@@ -1,5 +1,5 @@
 type: BurstDrill
-name: small wooden bursr
+name: small wooden burst
 description: a small drill used for basic items and used for small spots
 size: 1
 category: production
@@ -7,7 +7,7 @@ hasLiquids: false
 hardnessDrillMultiplier: 50
 drillTime: 300
 hasPower: false
-tier: 2
+tier: 1
 shake: 0.5
 itemCapacity: 20
 researchCostMultiplier: 1
@@ -24,6 +24,6 @@ drillEffect: {
 requirements: [
 sand/8
 item-a-1/15
-item-a-5/5
+item-a-4/5
 ]
 research: core-a-1
