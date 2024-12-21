@@ -26,6 +26,29 @@ category: crafting
 outputItem: silicon/1
 research: factory-m-3
 researchCostMultiplier: 1
+craftEffect: {
+  type: RadialEffect
+  amount: 5
+  rotationSpacing: 90
+  rotationOffset: 45
+  lengthOffset: 8.4
+  effect: {
+    type: ParticleEffect
+    particles: 6
+    cone: 380
+    followParent: true
+    rotWithParent: false
+    sizeFrom: 0.8
+    sizeTo: 0.3
+    colorFrom: 8E665CFFf
+    colorTo: 8E665CFFf
+    lifetime: 90
+    length: 1
+    baseLength: 1.2
+    interp: pow2
+    sizeInterp: pow3In
+  }
+}
 drawer: {
   type: DrawMulti
   drawers: [
