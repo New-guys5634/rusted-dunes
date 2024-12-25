@@ -111,8 +111,9 @@ mesh: [
 ]
 launchCandidates: []
 itemWhitelist: [
-"item-a-1"
 "sand"
+"silicon"
+"item-a-1"
 "item-a-2"
 "item-a-3"
 "item-a-4"
@@ -122,6 +123,7 @@ itemWhitelist: [
 "item-a-8"
 "item-a-9"
 "item-b-1"
+"item-b-2"
 ]
 hiddenItems: [
     "copper"
@@ -131,7 +133,6 @@ hiddenItems: [
     "coal"
     "titanium"
     "thorium"
-    "silicon"
     "plastanium"
     "phase-fabric"
     "surge-alloy"
