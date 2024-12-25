@@ -1,0 +1,68 @@
+type: ConsumeGenerator
+name: silicon reactor 
+description: burns sand and shale for power and small amount of water 
+size: 2
+category: power
+liquidCapacity: 50
+research: {
+  parent: power-a-s-2
+}
+requirements: [
+item-a-7/75
+silicon/35
+item-b-2/55
+]
+consumes: {
+items: {
+    items: [
+sand/5
+item-b-2/2
+    ]
+  }
+}
+outputLiquid: water/0.2
+powerProduction: 3
+itemDuration: 220
+generateEffect: generatespark
+ambientSound: smelter
+ambientSoundVolume: 0.2
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawCrucibleFlame
+    }
+    {
+      type: DrawDefault
+    }
+]
+}
+generateEffectRange: 1
+effectChance: 0.035
+generateEffect: {
+    type: RadialEffect
+    layer: 100
+    rotationSpacing: 35
+    amount: 8
+    lengthOffset: 3
+    effect: {
+      particles: 2
+      length: 50
+      lifetime: 850
+      cone: 18
+      baseRotation: 15
+      useRotation: false 
+      sizeFrom: 0
+      sizeTo: 8
+      colorFrom: 615B5BFF
+      colorTo: 313131FF
+      sizeInterp: pow2Out
+      interp: pow2Out
+      layer: 100
+    }
+  }
+researchCostMultiplier: 1
