@@ -1,0 +1,118 @@
+type: mech
+name: cruse
+description: cruse fires an strong penetration laser at its opponents
+hovering: true
+hoverable: true
+shadowElevation: 0.1
+mechFrontSway: 0
+mechSideSway: 0
+mechStride: 0
+drag: 0.04
+outlineColor: 8E665CFFf
+speed: 4
+rotateSpeed: 4
+accel: 0.01440
+groundLayer: 60
+health: 950
+armor: 5
+hitSize: 14
+itemCapacity: 10
+useEngineElevation: false
+lowAltitude: true
+engines: [
+  {
+    x: 6
+    y: -8
+    radius: 2
+  }
+  {
+    x: -6
+    y: -8
+    radius: 2
+  }
+]
+parts: [
+  {
+    type: HoverPart
+    color: FFB570FF
+    radius: 15
+    sides: 8
+    layerOffset: -0.0002
+    x: -6
+    y: -8
+    phase: 65
+  }
+  {
+    type: HoverPart
+    color: FFB570FF
+    radius: 15
+    sides: 8
+    layerOffset: -0.0002
+    x: 6
+    y: -8
+    phase: 65
+  }
+]
+abilities: [
+  {
+    type: MoveEffectAbility
+    teamColor: true
+    effect: missileTrailShort
+    x: 0
+    y: -6
+    interval: 5
+    minVelocity: 0.8
+  }
+]
+weapons: [
+ {
+  name: hover-na-b-3
+  
+  top: false
+  x: 0
+  y: 0
+  shootY: 6
+  shootX: 0
+  mirror: false
+  rotate: false
+  shootCone: 80
+  shootSound: laser
+  inaccuracy: 0
+  reload: 125
+  recoil: 1
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  shootStatus: unmoving
+  shootStatusDuration: 45
+  shoot: {
+  firstShotDelay: 45
+  }
+  bullet: {
+chargeEffect: [
+{
+lifetime: 45
+type: waveEffect
+colorFrom: FFE4C9FF
+colorTo: D2AE8CFF
+strokeTo: 0
+strokeFrom: 0
+sizeFrom: 15
+sizeTo: 0
+}
+]
+  type: LaserBulletType
+  recoil: 2
+  colors: [FFE4C9FF, F7CBA4FF, D2AE8CFF]
+  lightningColor: FFE4C9FF
+  length: 125
+  width: 15
+  lightning: 4
+  lightningLength: 16
+  lightningDamage: 15
+  lightningCone: 20
+  damage: 100
+  buildingDamageMultiplier: 0.6
+}
+}
+]
