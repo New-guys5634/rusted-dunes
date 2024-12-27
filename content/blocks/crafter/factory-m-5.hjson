@@ -1,0 +1,42 @@
+description: crafts sanded projectiles
+name: Sanded projectile crafter 
+type: GenericCrafter
+size: 2
+health: 245
+craftTime: 120
+hasItems: true
+hasLiquids: false
+hasPower: false
+itemCapacity: 20
+consumes: {
+  items: {
+    items: [
+item-b-1/2
+sand/5
+    ]
+  }
+}
+requirements: [
+item-a-2/95
+sand/25
+item-a-1/265
+item-a-3/45
+]
+category: crafting
+outputItem: item-a-9/1
+research: factory-m-4
+researchCostMultiplier: 1
+drawer: {
+  type: DrawMulti
+  drawers: [
+  {
+type: DrawDefault
+}
+  {
+type: DrawGlowRegion
+color: 8E665CFFf
+suffix: -glow
+glowScale: 25
+  }
+  ]
+}
