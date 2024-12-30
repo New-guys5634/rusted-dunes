@@ -1,15 +1,11 @@
 name: "rusted-dunes"
 description: 
 ''' 
-a mod worked by two idiots that have basically 0.02 brain power 
+rusted dunes is a type of mod that's not hard or easy and your goals are to make technology in use of eroded materials or rusted materials and produce rusted units and soon upgrade them to there potential 
 
-this mod is going to give the player a nightmare of an experience your goal is to conquer this planet and escape before the nightmares of mechs on this planet kills you...
-
-xb5611 and beee presents this mod
-
-enjoy the tetanus shots ~xb
+dunes is a wasted planet and the crux has also broken most of their equipment due to thick atmosphere of rust 
 '''
-author: "beee and xb5611"
+author: "beee"
 minGameVersion: 145
 version: "1.0"
 displayName: "rusted dunes"
