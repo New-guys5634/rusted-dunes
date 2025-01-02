@@ -30,12 +30,12 @@ bloom: true
 cloudMesh: [
 {
     type: HexSkyMesh
-    planet: shards 
+    planet: dunes 
     seed: 74
     speed: 0.8
     radius: 0.13
     divisions: 6
-    color: B09947FF
+    color: 76151EFF
     octaves: 3
     persistence: 0.3
     scl: 0.85
@@ -43,12 +43,12 @@ cloudMesh: [
 }
 {
     type: HexSkyMesh
-    planet: shards 
+    planet: dunes 
     seed: 64
     speed: 0.2
     radius: 0.13
     divisions: 4
-    color: B08769FF
+    color: 8E665CFF
     octaves: 6
     persistence: 0.2
     scl: 0.85
@@ -58,7 +58,7 @@ cloudMesh: [
 mesh: [
   {
     type: NoiseMesh
-    planet: shards 
+    planet: dunes
     seed: 562697
     color1: 8E665CFF
     color2: 76151EFF
@@ -71,12 +71,12 @@ mesh: [
   }
   { 
   type: NoiseMesh
-  planet: shards
+  planet: dunes
   seed: 644564
   color1: AF2A2AFF
   color2: 8E665CFF
-  divisions: 4
-  radius: 0.9
+  divisions: 5
+  radius: 1
   octaves: 9
   persistence: 1
   scl: 0.85
@@ -84,7 +84,7 @@ mesh: [
   }
   {
      type: NoiseMesh
-  planet: shards
+  planet: dunes
   seed: 756452
   color1: 9E78DDFF
   color2:  8E665CFF
@@ -97,12 +97,12 @@ mesh: [
   }
   {
      type: NoiseMesh
-  planet: shards
+  planet: dunes
   seed: 435678
   color1: 76151EFF
   color2: AF2A2AFF
-  divisions: 5
-  radius: 0.765
+  divisions: 6
+  radius: 0.865
   octaves: 1
   persistence: 1
   scl: 0.72
