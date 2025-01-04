@@ -1,6 +1,6 @@
 type: CoreBlock
-name: rusting core
-description: rusting core 
+name: Rusted Core
+description: Starter core. Once destroyed the sector is lost
 requirements: [
   item-a-1/800
   sand/900
