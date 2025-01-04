@@ -1,6 +1,6 @@
-description: rusted metal has been broken of and rusted for a long time
-name: rusted metal
-color: 231D1DFF
+description: Rusted metal has broken of a main object and has been scattered due to the sanding event.
+name: Rusted metal
+color: 231D1D
 hardness: 2 
 hiddenOnPlanets: [serpulo, erekir]
 alwaysUnlocked: true

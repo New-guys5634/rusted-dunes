@@ -1,5 +1,5 @@
-description: extremely old iron
-name: old iron
+description: Old iron was undiscovered by the old nation but discovered by crux but seems not to be effected by the sanding event.
+name: Old iron
 color: 313131FF
 hardness: 4
 hiddenOnPlanets: [serpulo, erekir]

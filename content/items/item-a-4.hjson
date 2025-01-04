@@ -1,6 +1,6 @@
-description: eroded wood helps on better turrets and walls
-name: eroded wood
-color: 88593FFF
+description: Wood that been remand from the sanding event but is eroded and not many left on dunes.
+name: Eroded wood
+color: 88593F
 hardness: 2
 hiddenOnPlanets: [serpulo, erekir]
 research: item-a-3

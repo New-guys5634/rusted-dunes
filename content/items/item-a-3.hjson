@@ -1,6 +1,6 @@
-description: rusted spring is used for advanced research later on
-name: rusted spring
-color: 623D35FF
+description: Rusted spring part had been scattered due the sanding event destroying the old nation.
+name: Rusted spring
+color: 623D35
 hardness: 4
 hiddenOnPlanets: [serpulo, erekir]
 research: item-a-2
