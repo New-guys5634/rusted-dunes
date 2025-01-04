@@ -1,6 +1,6 @@
-description: shale used for silicon and liquids
-name:  sheeted shale
-color: 515151FF
+description: A piece of shale used for materials and other stuff.
+name:  Shale
+color: 515151
 hardness: 4
 hiddenOnPlanets: [serpulo, erekir]
 research: item-a-7

@@ -1,6 +1,6 @@
-description: eroded wood helps on better turrets and walls
-name: eroded wood
-color: 88593FFF
+description: A piece of wood that has been eroded by time.
+name: Eroded Wood
+color: 88593F
 hardness: 2
 hiddenOnPlanets: [serpulo, erekir]
 research: item-a-3

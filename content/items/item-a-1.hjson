@@ -1,6 +1,6 @@
-description: rusted metal has been broken of and rusted for a long time
-name: rusted metal
-color: 231D1DFF
+description: A piece of iron that has fallen into disuse and has become completely rusted over.
+name: Rusted Iron
+color: 231D1D
 hardness: 2 
 hiddenOnPlanets: [serpulo, erekir]
 alwaysUnlocked: true

@@ -1,6 +1,6 @@
-description: rusted spring is used for advanced research later on
-name: rusted spring
-color: 623D35FF
+description: An iron spring that has been made of the rusted metal scattering the planet.
+name: Rusted Iron Spring
+color: 623D35
 hardness: 4
 hiddenOnPlanets: [serpulo, erekir]
 research: item-a-2

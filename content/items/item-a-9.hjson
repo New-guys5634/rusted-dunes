@@ -1,6 +1,6 @@
-description: sanded projectile is used for defences but sometimes for units less advance as wooden projectile
-name: sanded projectile
-color: FFE4C9FF
+description: A sanded piece of iron that has been formed into a projectile.
+name: Sanded Projectile
+color: FFE4C9
 hardness: 2
 hiddenOnPlanets: [serpulo, erekir]
 research: item-b-1

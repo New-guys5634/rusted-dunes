@@ -1,6 +1,6 @@
-description: extremely old iron
-name: old iron
-color: 313131FF
+description: A piece of iron that has been worn down by time.
+name: Worn Iron
+color: 313131
 hardness: 4
 hiddenOnPlanets: [serpulo, erekir]
 research: item-a-4

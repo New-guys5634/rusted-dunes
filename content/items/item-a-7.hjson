@@ -1,6 +1,6 @@
-description: crystal sheet can be used for better walls and menders.
-name: crystal sheet
-color: BFECFFFF
+description: A sheet of a crystal that is used for advanced production.
+name: Crystal Sheet
+color: BFECFF
 hardness: 3
 hiddenOnPlanets: [serpulo, erekir]
 research: item-a-6

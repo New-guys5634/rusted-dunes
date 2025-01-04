@@ -1,6 +1,6 @@
-description: extremely flameble material used in power
-name: scorched material
-color: AF2A2AFF
+description: An alloy that is extremely flammable.
+name: Emblazoned Alloy
+color: AF2A2A
 hardness: 2
 flammability: 1.4
 hiddenOnPlanets: [serpulo, erekir]
