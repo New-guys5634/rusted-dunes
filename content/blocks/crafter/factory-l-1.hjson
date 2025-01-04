@@ -1,5 +1,5 @@
-description: compressions sand and shale to make silicon 
-name: silicon compression
+description: Compresses Sand and Shale together to create Silicon
+name: Silicon Compressor
 type: GenericCrafter
 size: 3
 health: 350

@@ -1,5 +1,5 @@
-description: purifies rusted metal but better 
-name: medium metal purifier
+description: Sands down Rusted Iron at a faster rate than the Iron Sander
+name: Iron Purifier
 type: GenericCrafter
 size: 2
 health: 200

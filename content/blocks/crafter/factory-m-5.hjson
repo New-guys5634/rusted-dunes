@@ -1,5 +1,5 @@
-description: crafts sanded projectiles
-name: Sanded projectile crafter 
+description: Forms Sanded Iron into projectiles.
+name: Sanded Projectile Former
 type: GenericCrafter
 size: 2
 health: 245

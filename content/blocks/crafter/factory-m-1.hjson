@@ -1,5 +1,5 @@
-description: crafts rusted springs
-name: rusted spring crafter
+description: A factory that produces springs out of rusted metal.
+name: Rusted Spring Factory
 type: GenericCrafter
 size: 2
 health: 310

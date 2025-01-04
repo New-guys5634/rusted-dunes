@@ -1,5 +1,5 @@
-description: crafts old iron
-name: old iron crafter
+description: Forms various materals into Worn Iron
+name: Iron Former
 type: GenericCrafter
 size: 2
 health: 360
