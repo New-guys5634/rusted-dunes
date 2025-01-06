@@ -13,7 +13,7 @@ health: 450
 shootSound: malignShoot
 outlineColor: 000000FF
 consumes: {
-  power: 0.6
+  power: 2.5
 coolant: {
   type: ConsumeCoolant
   allowGas: true
