@@ -1,0 +1,92 @@
+name: cannon
+description: uses elictritcy and projectiles to fire a powerful artillery shot
+type: ItemTurret
+reload: 145
+shootCone: 20
+rotateSpeed: 3
+targetGround: true
+targetAir: false
+range: 200
+recoil: 2.5
+size: 3
+health: 450
+shootSound: malignShoot
+outlineColor: 000000FF
+consumes: {
+  power: 0.6
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.3
+}
+}
+drawer:{
+ type: DrawTurret
+ parts: [
+     {
+      type: RegionPart
+      suffix: -barrel
+      progress: recoil
+      moveY: -3
+      heatProgress: recoil
+      mirror: false
+      under: true
+         }
+]
+}
+ammoTypes: {
+    item-a-9: {
+   type: ArtilleryBulletType
+   width: 6
+   height: 8
+   
+   splashDamage: 85
+   splashDamageRadius: 75
+   shootEffect: sparkShoot
+   speed: 3
+   lifetime: 50
+   
+   trailWidth: 2
+   trailLength: 9
+    trailRotation: true
+   frontColor: FFE4C9FF
+   backColor: FFE4C9FF
+   trailColor: FFE4C9FF
+ 
+ trailEffect: shootSmokeTitan
+ trailInterval: 3
+    shootEffect: {
+     type: MultiEffect
+        effects: [
+             {
+              type: ParticleEffect
+              particles: 1
+              lifetime: 65
+              length: 3.5
+              sizeFrom: 4
+              sizeTo: 0
+              colorFrom: f1f1f1
+              colorTo: f1f1f1
+              strokeFrom: 6
+              strokeTo: 1
+              interp: pow3Out
+              spin: 0
+              sizeInterp: pow2In
+              region: rusted-dunes-halo
+              }
+        ]
+    }
+ }
+}
+requirements: [
+sand/35
+silicon/75
+item-a-7/30
+item-a-3/100
+]
+research: {
+parent: turret-a-s-6
+}
+category: turret
+researchCostMultiplier: 1
