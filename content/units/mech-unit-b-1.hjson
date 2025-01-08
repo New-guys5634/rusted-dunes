@@ -1,5 +1,5 @@
-name: upgrade 
-description: an upgraded waste that has a blaster 
+name: Upgrade 
+description: The first tier which got waste upgraded with has a blaster.
 type: mech
 mechLegColor: 1f1f1f
 health: 220
@@ -31,8 +31,8 @@ weapons: [
    type: BasicBulletType
    width: 7
    height: 8   
-   damage: 30
-   splashDamage: 15
+   damage: 40
+   splashDamage: 18
    splashDamageRadius: 40
    speed: 5
    lifetime: 35

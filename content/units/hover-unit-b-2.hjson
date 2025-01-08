@@ -1,6 +1,6 @@
 type: mech
-name: missile 
-description: missile is fast and shoots barrage of bullets at its opponent 
+name: Missile 
+description: The second tier that is fast and shoots barrage of bullets at its opponent.
 hovering: true
 hoverable: true
 shadowElevation: 0.1

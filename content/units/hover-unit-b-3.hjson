@@ -1,6 +1,6 @@
 type: mech
-name: cruse
-description: cruse fires an strong penetration laser at its opponents
+name: Cruse
+description: The third tier that fires an strong penetration laser at its opponents.
 hovering: true
 hoverable: true
 shadowElevation: 0.1

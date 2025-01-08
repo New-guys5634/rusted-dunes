@@ -1,6 +1,6 @@
 type: tank
-name: meeno
-description: mid quick unit fires slow speed bullets
+name: Meeno
+description: The first tier which is mid quick unit fires slow speed bullets.
 omniMovement: false
 faceTarget: false
 outlineColor: 8E665CFF

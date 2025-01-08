@@ -1,6 +1,6 @@
 type: mech
-name: rocket
-description: rocket shoots bursts of bullets at its opponent
+name: Rocket
+description: The first tier that fires bursts of bullets at its opponent.
 hovering: true
 hoverable: true
 shadowElevation: 0.1

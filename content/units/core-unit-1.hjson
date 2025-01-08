@@ -1,4 +1,5 @@
-name: basic drone
+name: Rusting drone
+description: The starting drone for rusting core.
 type: payload
 flying: true
 health: 120

@@ -1,6 +1,6 @@
 type: tank
-name: crank
-description: shoots  two miniguns types guns 
+name: Crank
+description: The second tier which shoots two miniguns types guns.
 omniMovement: false
 faceTarget: false
 outlineColor: 8E665CFF

@@ -1,6 +1,6 @@
 type: tank
-name: can
-description: shoots 4 dueling weapons at the opponent 
+name: Can
+description: The third tier which shoots 4 dueling weapons at the opponent.
 omniMovement: false
 faceTarget: false
 outlineColor: 8E665CFF
