@@ -77,7 +77,6 @@ ammoTypes: {
               }
         ]
     }
- }
 {
     item-a-8: {
    type: ArtilleryBulletType
