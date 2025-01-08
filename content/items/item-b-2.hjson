@@ -1,5 +1,5 @@
-description: shale used for silicon and liquids
-name:  sheeted shale
+description: Shale that has been ripped out of the layer of dunes and has been cooled down from the sun and rust.
+name: Sheeted shale
 color: 515151FF
 hardness: 4
 hiddenOnPlanets: [serpulo, erekir]

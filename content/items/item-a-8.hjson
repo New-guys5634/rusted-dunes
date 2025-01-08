@@ -1,6 +1,6 @@
-description: wooden projectile is used for defences but sometimes for units
-name: wooden projectile
-color: 8E665CFF
+description: Wooden projectile is used for defences but sometimes for units.
+name: Wooden projectile
+color: 8E665C
 hardness: 2
 hiddenOnPlanets: [serpulo, erekir]
 research: item-a-9

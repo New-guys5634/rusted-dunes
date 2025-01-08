@@ -1,6 +1,6 @@
-description: crystal sheet can be used for better walls and menders.
-name: crystal sheet
-color: BFECFFFF
+description: Crystal sheet can be found in sertian areas of dunes that hasn't been effected by the heat.
+name: Crystal sheet
+color: BFECFF
 hardness: 3
 hiddenOnPlanets: [serpulo, erekir]
 research: item-a-6

@@ -1,5 +1,5 @@
-description: rusted projectile is the weakest one mainly used for defences
-name: rusted projectile
+description: Rusted projectile is the weakest one mainly used for defences.
+name: Rusted projectile
 color: 515151FF
 hardness: 2
 hiddenOnPlanets: [serpulo, erekir]
