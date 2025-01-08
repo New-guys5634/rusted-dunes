@@ -14,7 +14,7 @@ research: {
 hasPower: false
 tier: 2
 itemCapacity: 10
-researchCostMultiplier: 0.2
+researchCostMultiplier: 0.1
 requirements: [
 item-a-1/25
 sand/15
