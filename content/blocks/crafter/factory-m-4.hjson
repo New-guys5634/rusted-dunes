@@ -22,7 +22,7 @@ sand/25
 category: crafting
 outputItem: item-b-1/1
 research: factory-s-1
-researchCostMultiplier: 0.2
+researchCostMultiplier: 0.1
 drawer: {
   type: DrawMulti
   drawers: [
