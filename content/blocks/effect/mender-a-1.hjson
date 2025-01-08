@@ -1,0 +1,36 @@
+name: Wooden mender
+description: Restores lost health to blocks.
+category: effect
+type: MendProjector
+health: 125
+size: 1
+
+hasItems: false
+hasLiquids: true
+hasPower: true
+range: 15
+healPercent: 1
+reload: 200
+phaseBoost: 1
+phaseRangeBoost: 15
+  consumes: {
+      power: 1.5
+    liquids: {
+    liquids: [
+    liquid-a-1/0.2
+    ]
+      optional: true
+      booster: true
+}
+}
+requirements: [
+item-a-1/65
+item-a-2/35
+item-a-4/15
+sand/45
+]
+research: {
+  parent: core-a-1
+}
+
+researchCostMultiplier: 1
