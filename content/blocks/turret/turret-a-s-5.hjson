@@ -25,7 +25,7 @@ shoot: {
   shots: 3
 }
 ammoTypes: {
-    item-a-7: {
+    item-a-8: {
         damage: 45
         speed: 9
         height: 6
@@ -38,7 +38,7 @@ ammoTypes: {
    trailColor: BFECFFFF
       reloadMultiplier: 0.7
     }
-    item-a-4: {
+    item-a-9: {
         damage: 35
         speed: 9
         height: 6

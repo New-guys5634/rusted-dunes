@@ -21,7 +21,7 @@ coolant: {
 }
 ammoTypes: {
     item-b-1: {
-        damage: 10
+        damage: 7
         speed: 6
         height: 6
         width: 6
@@ -29,7 +29,7 @@ ammoTypes: {
         reloadMultiplier: 0.8
     }
     item-a-9: {
-        damage: 20
+        damage: 12
         speed: 6
         height: 6
         width: 6
