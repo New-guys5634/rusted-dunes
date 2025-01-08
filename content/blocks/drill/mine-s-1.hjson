@@ -1,6 +1,6 @@
 type: BurstDrill
-name: small wooden burst
-description: a small drill used for basic items and used for small spots
+name: Small wooden burst
+description: A small drill used for basic items and used for small spots.
 size: 1
 category: production
 hasLiquids: false

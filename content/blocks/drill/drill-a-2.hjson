@@ -1,7 +1,7 @@
 type: Drill
 drillTime: 300
-name: old iron drill
-description: mines ores less horribly 
+name: Old iron drill
+description: Drills ores more efficiently.
 size: 2
 category: production
 hasLiquids: true

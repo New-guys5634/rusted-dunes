@@ -1,7 +1,7 @@
 type: Drill
 drillTime: 450
-name: erosion drill
-description: mines ores horribly
+name: Rusted metal drill
+description: Drills ores slowly.
 size: 2
 outlineColor: 8E665CFFf
 category: production

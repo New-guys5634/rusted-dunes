@@ -1,6 +1,6 @@
 type: BeamDrill
-name: rusted wall drill
-description: mines walls and it's rusted 
+name: Rusted wall drill
+description: Drills ores on the walls at slow pace. 
 size: 1
 squareSprite: false
 requirements: [
