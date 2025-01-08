@@ -1,5 +1,5 @@
-description: crafts rusted springs
-name: rusted spring crafter
+description: Molds sand and sanded metal to create rusted springs.
+name: Rusted spring molder
 type: GenericCrafter
 size: 2
 health: 310

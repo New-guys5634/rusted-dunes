@@ -1,5 +1,5 @@
-description: crafts rusted projectiles
-name: rusted projectile crafter 
+description: Consumes rusted metal for an output of rusted projectiles.
+name: Rusted projectile crafter 
 type: GenericCrafter
 size: 2
 health: 200

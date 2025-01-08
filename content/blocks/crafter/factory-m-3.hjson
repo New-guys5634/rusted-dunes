@@ -1,5 +1,5 @@
-description: purifies rusted metal but better 
-name: medium metal purifier
+description: Purifies rusted metal at a faster rate.
+name: Rusted metal purifier
 type: GenericCrafter
 size: 2
 health: 200

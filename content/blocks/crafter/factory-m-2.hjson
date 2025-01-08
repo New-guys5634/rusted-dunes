@@ -1,5 +1,5 @@
-description: crafts old iron
-name: old iron crafter
+description: Compresses rusted springs and and rusted metals together to create old iron.
+name: Old iron compressor
 type: GenericCrafter
 size: 2
 health: 360
