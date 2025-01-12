@@ -1,5 +1,4 @@
 localizedName: dunes
-generator: SerpuloPlanetGenerator
 parent: skies
 iconColor: 8E665CFF
 orbitRadius: 7
