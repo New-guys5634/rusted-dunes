@@ -1,0 +1,49 @@
+name: flame
+description: Uses scorched materials to burn opponents.
+type: ItemTurret
+reload: 10
+shootCone: 20
+rotateSpeed: 3
+targetGround: true
+targetAir: false
+range: 65
+recoil: 0.5
+size: 1
+health: 315
+shootSound: flame
+outlineColor: 000000FF
+consumes: {
+  power: 0.5
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.3
+}
+}
+ammoTypes: {
+    item-a-6: {
+    type: ContinuousFlameBulletType
+    lifetime: 15
+    drawFlare: false
+    hitColor: 76151EFF
+    damage: 5
+    knockback: 2
+    pierce: true
+    pierceArmor: false
+    length: 80
+    width: 1.5
+    colors: [AF2A2AFF, 76151EFF]
+}
+}
+requirements: [
+sand/65
+item-a-1/55
+item-a-2/35
+item-a-6/15
+]
+research: {
+parent: turret-a-s-4
+}
+category: turret
+researchCostMultiplier: 1
