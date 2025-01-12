@@ -27,6 +27,7 @@ clearSectorOnLose: true
 allowWaves: true
 prebuildBase: false
 bloom: true
+solarSystem: sun
 cloudMesh: [
 {
     type: HexSkyMesh
