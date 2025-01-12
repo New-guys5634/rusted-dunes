@@ -1,10 +1,11 @@
 parent: sun
-radius: 4
+radius: 2
 orbitRadius: 90
 atmosphereRadIn: 0.3
 atmosphereRadOut: 0.4
 atmosphereColor: BFECFFFF
 accessible: false
+solarSystem: sun
 mesh: [
   {
     type: HexSkyMesh
