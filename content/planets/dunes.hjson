@@ -1,8 +1,8 @@
 localizedName: dunes
 generator: SerpuloPlanetGenerator
-parent: sun
+parent: skies
 iconColor: 8E665CFF
-orbitRadius: 35
+orbitRadius: 7
 hasAtmosphere: true
 updateLighting: true
 allowLaunchSchematics: false
@@ -27,7 +27,6 @@ clearSectorOnLose: true
 allowWaves: true
 prebuildBase: false
 bloom: true
-solarSystem: skies
 cloudMesh: [
 {
     type: HexSkyMesh
