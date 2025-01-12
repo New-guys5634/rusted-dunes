@@ -1,28 +1,18 @@
-localizedName: sand giant
-generator: SerpuloPlanetGenerator
 parent: sun
-iconColor: 9B0865FF
-orbitRadius: 310
-hasAtmosphere: false
-updateLighting: true
-atmosphereRadIn: 0.1
-atmosphereRadOut: 0.3
+radius: 4
+camRadius: 1
+orbitRadius: 90
+orbitOffset: 100
+atmosphereRadIn: 0.3
+atmosphereRadOut: 0.4
 atmosphereColor: BFECFFFF
-drawOrbit: true
-radius: 1.5
-minZoom: 1.2
 accessible: false
-alwaysUnlocked: false
-defaultCore: "core-a-1"
-sectorSeed: 1855
-startSector: 1
-sectorSize: 0.2	
 mesh: [
   {
     type: HexSkyMesh
-    radius: 1
+    radius: 0
     divisions: 5
-    speed: -4
+    speed: 2
     color: BFECFFFF
     octaves: 1
     persistence: 1
@@ -31,9 +21,9 @@ mesh: [
   }
   {
     type: HexSkyMesh
-    radius: 1.1
+    radius: 0.05
     divisions: 5
-    speed: 2.7
+    speed: 3.5
     color: 8BCAF6FF
     octaves: 1
     persistence: 1
@@ -42,9 +32,9 @@ mesh: [
   }
   {
     type: HexSkyMesh
-    speed: 3.2
+    speed: 4
     divisions: 5
-    radius: 1.15
+    radius: 0.07
     color: FFE4C9FF
     octaves: 3
     persistence: 0.5
@@ -53,67 +43,15 @@ mesh: [
   }
   {
     type: HexSkyMesh
-    speed: 2.3
+    speed: 2.5
     divisions: 5
-    radius: 1.05
+    radius: 0.02
     color: 615B5BFF
     octaves: 3
     persistence: 0.5
     scl: 1
     thresh: 0.6
   }
-  {
-    type: NoiseMesh
-    planet: skies
-    seed: -1
-    color1: FFE4C9FF
-    color2: 615B5BFF
-    divisions: 5
-    radius: 0.9
-    octaves: 9
-    persistence: 0.5
-    scl: 0.05
-    mag: 1.2
-    thresh: 0.6
-}
-{
-    type: NoiseMesh
-    planet: skies
-    seed: -1
-    color1: FFE4C9FF
-    color2: FFE4C9FF
-    divisions: 6
-    radius: 0.4
-    octaves: 9
-    persistence: 0.5
-    scl: 0.1
-    mag: 1.2
-    thresh: 0.6
-}
-]
-hiddenItems: [
-    "copper"
-    "lead"
-    "scrap"
-    "graphite"
-    "coal"
-    "titanium"
-    "thorium"
-    "silicon"
-    "plastanium"
-    "phase-fabric"
-    "surge-alloy"
-    "spore-pod"
-    "sand"
-    "blast-compound"
-    "pyratite"
-    "metaglass"
-    "beryllium"
-    "oxide"
-    "tungsten"
-    "carbide"
-    "fissile-matter"
-    "dormant-cyst"
 ]
 #color/BFECFFFF crystal 
 #color2/8BCAF6FF crystal 
