@@ -1,6 +1,6 @@
 localizedName: dunes
 generator: SerpuloPlanetGenerator
-parent: sun
+parent: skies
 iconColor: 8E665CFF
 orbitRadius: 65
 hasAtmosphere: true
