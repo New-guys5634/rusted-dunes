@@ -1,8 +1,6 @@
 parent: sun
 radius: 4
-camRadius: 1
 orbitRadius: 90
-orbitOffset: 100
 atmosphereRadIn: 0.3
 atmosphereRadOut: 0.4
 atmosphereColor: BFECFFFF
