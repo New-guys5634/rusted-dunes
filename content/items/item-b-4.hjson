@@ -1,0 +1,7 @@
+description: Charged iron that has been charged durning the sanding event.
+name: Charged iron
+color: 313131
+hardness: 3
+charge: 0.2
+hiddenOnPlanets: [serpulo, erekir]
+research: item-a-5

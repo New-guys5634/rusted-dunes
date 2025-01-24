@@ -1,0 +1,8 @@
+description: Sticky fibre is more flamible and it has charge in it.
+name: Sticky fibre
+color: EDF3A9
+hardness: 2
+flammability: 1.6
+charge: 0.5
+hiddenOnPlanets: [serpulo, erekir]
+research: item-a-6
