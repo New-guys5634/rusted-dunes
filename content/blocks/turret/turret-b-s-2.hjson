@@ -1,0 +1,70 @@
+name: Blits
+description: Uses flamible resources to burn enemies badly.
+type: ItemTurret
+reload: 65
+shootCone: 20
+rotateSpeed: 2
+targetGround: true
+targetAir: false
+range: 215
+recoil: 0.5
+size: 2
+health: 215
+shootSound: shootAlt
+outlineColor: 000000FF
+consumes: {
+  power: 0.2
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.3
+}
+}
+ammoTypes: {
+    item-a-6: {
+   type: ArtilleryBulletType
+   width: 5
+   height: 7 
+   splashDamage: 50
+   splashDamageRadius: 40
+   speed: 2.5
+   lifetime: 90
+   trailWidth: 2
+   trailLength: 8
+   frontColor: AF2A2AFF
+   backColor: AF2A2AFF
+   trailColor: 76151EFF
+    status: melting
+    statusDuration: 135
+    makeFire: true
+}
+    item-b-3: {
+   type: ArtilleryBulletType
+   width: 5
+   height: 7 
+   splashDamage: 75
+   splashDamageRadius: 40
+   speed: 2.5
+   lifetime: 90
+   trailWidth: 2
+   trailLength: 8
+   frontColor: EDF3A9
+   backColor: EDF3A9
+   trailColor: EDF3A9
+    status: melting
+    statusDuration: 185
+    makeFire: true
+}
+}
+requirements: [
+sand/100
+item-a-4/45
+item-a-5/30
+item-a-6/65
+]
+research: {
+parent: turret-a-s-9
+}
+category: turret
+researchCostMultiplier: 1
