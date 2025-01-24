@@ -8,7 +8,7 @@ targetGround: true
 targetAir: false
 range: 215
 recoil: 0.5
-size: 2
+size: 1
 health: 215
 shootSound: shootAlt
 outlineColor: 000000FF
