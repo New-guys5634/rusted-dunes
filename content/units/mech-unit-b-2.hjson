@@ -1,0 +1,66 @@
+name: Stabilize 
+description: The second tier that has a blaster wich fires a burst of explosive bullets.
+type: mech
+mechLegColor: 1f1f1f
+health: 500
+armor: 1
+hitSize: 10
+speed: .7
+rotateSpeed: 4
+accel: 0.70
+itemCapacity: 10
+outlineColor: 313131FF
+weapons: [
+{
+  name: mech-unit-b-2-gun
+  top: false
+  x: 0
+  y: 0
+  shootY: 6
+  shootX: 6
+  mirror: true
+  rotate: false
+  shootCone: 10
+  shootSound: laser
+  inaccuracy: 3
+  reload: 85
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  shoot: {
+  shots: 3
+  shotDelay: 10
+  }
+  bullet: {
+   type: BasicBulletType
+   width: 8
+   height: 9
+   damage: 55
+   splashDamage: 25
+   splashDamageRadius: 40
+   speed: 6
+   lifetime: 35
+   trailWidth: 2
+   trailLength: 15
+hitEffect: {
+                type: ExplosionEffect
+                lifetime: 70
+                waveStroke: 4
+                waveRadBase: 1
+                waveLife: 26
+                waveRad: 15
+                waveColor: 313131FF
+                smokeColor: AF2A2AFF
+                sparkColor: 313131FF
+                sparks: 6
+                smokes: 35
+                sparkRad: 6
+                smokeSize: 1
+                smokeSizeBase: 1
+                smokeRad: 50
+                sparkStroke: 2
+                sparkLen: 3
+            }
+ }
+ }
+]
