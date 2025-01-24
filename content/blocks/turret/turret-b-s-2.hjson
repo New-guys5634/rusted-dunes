@@ -58,10 +58,10 @@ ammoTypes: {
 }
 }
 requirements: [
-sand/100
-item-a-4/45
-item-a-5/30
-item-a-6/65
+sand/350
+item-b-3/35
+item-a-5/65
+item-b-4/25
 ]
 research: {
 parent: turret-a-s-9
