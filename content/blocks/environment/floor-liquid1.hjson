@@ -1,0 +1,7 @@
+name: Sticky water
+type: Floor
+variants: 3
+isLiquid: true
+speedMultiplier: 0.9
+cacheLayer: water
+liquidDrop: water

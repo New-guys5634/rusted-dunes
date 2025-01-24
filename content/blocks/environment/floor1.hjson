@@ -1,0 +1,6 @@
+type: Floor
+itemDrop: item-b-3
+name: Sticky fibre 
+decoration: floor-boulders1
+variants: 3
+
