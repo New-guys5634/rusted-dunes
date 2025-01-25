@@ -33,13 +33,13 @@ research: factory-m-3
 researchCostMultiplier: 1
 craftEffect: {
   type: RadialEffect
-  amount: 5
+  amount: 8
   rotationSpacing: 90
   rotationOffset: 45
-  lengthOffset: 8.4
+  lengthOffset: 10
   effect: {
     type: ParticleEffect
-    particles: 6
+    particles: 12
     cone: 380
     followParent: true
     rotWithParent: false
@@ -53,20 +53,6 @@ craftEffect: {
     interp: pow2
     sizeInterp: pow3In
   }
-}
-drawer: {
-  type: DrawMulti
-  drawers: [
-  {
-type: DrawDefault
-}
-  {
-type: DrawGlowRegion
-color: 8E665CFFf
-suffix: -glow
-glowScale: 25
-  }
-  ]
 }
 generateEffectRange: 1.5
 effectChance: 0.02
