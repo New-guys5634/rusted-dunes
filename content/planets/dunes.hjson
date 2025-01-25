@@ -27,7 +27,6 @@ clearSectorOnLose: true
 allowWaves: true
 prebuildBase: false
 bloom: true
-defaultEnv: 17
 cloudMesh: [
 {
     type: HexSkyMesh
