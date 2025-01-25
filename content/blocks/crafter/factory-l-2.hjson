@@ -1,0 +1,94 @@
+description: Decompresses sticky fibre with molten rust to receive items.
+name: Large decompression separator
+type: Separator
+size: 3
+health: 350
+craftTime: 175
+hasItems: true
+hasLiquids: true
+hasPower: false
+itemCapacity: 15
+liquidCapacity: 50
+consumes: {
+  liquid: liquid-a-1/0.2
+  items: {
+    items: [
+item-b-3/2
+    ]
+  }
+}
+requirements: [
+item-a-1/260
+sand/200
+item-a-2/200
+item-b-4/100
+]
+results: [
+item-a-1/1
+item-a-2/1
+sand/2
+]
+category: crafting
+research: factory-m-3
+researchCostMultiplier: 1
+craftEffect: {
+  type: RadialEffect
+  amount: 5
+  rotationSpacing: 90
+  rotationOffset: 45
+  lengthOffset: 8.4
+  effect: {
+    type: ParticleEffect
+    particles: 6
+    cone: 380
+    followParent: true
+    rotWithParent: false
+    sizeFrom: 0.8
+    sizeTo: 0.3
+    colorFrom: 8E665CFFf
+    colorTo: 8E665CFFf
+    lifetime: 90
+    length: 1
+    baseLength: 1.2
+    interp: pow2
+    sizeInterp: pow3In
+  }
+}
+drawer: {
+  type: DrawMulti
+  drawers: [
+  {
+type: DrawDefault
+}
+  {
+type: DrawGlowRegion
+color: 8E665CFFf
+suffix: -glow
+glowScale: 25
+  }
+  ]
+}
+generateEffectRange: 1.5
+effectChance: 0.02
+generateEffect: {
+    type: RadialEffect
+    layer: 90
+    rotationSpacing: 65
+    amount: 6
+    lengthOffset: 6
+    effect: {
+      particles: 2
+      length: 50
+      lifetime: 100
+      cone: 20
+      baseRotation: 15
+      useRotation: false 
+      sizeFrom: 0
+      sizeTo: 12
+      colorFrom: e0e0e066
+      colorTo: e0e0e000
+      sizeInterp: pow2Out
+      interp: pow2Out
+      layer: 90
+    }
+  }
