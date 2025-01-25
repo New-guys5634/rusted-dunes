@@ -27,6 +27,7 @@ clearSectorOnLose: true
 allowWaves: true
 prebuildBase: false
 bloom: true
+defaultEnv: 17
 cloudMesh: [
 {
     type: HexSkyMesh
@@ -124,6 +125,8 @@ itemWhitelist: [
 "item-a-9"
 "item-b-1"
 "item-b-2"
+"item-b-3"
+"item-b-4"
 ]
 hiddenItems: [
     "copper"
