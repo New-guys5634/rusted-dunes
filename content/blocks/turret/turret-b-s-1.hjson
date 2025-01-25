@@ -26,8 +26,8 @@ ammoTypes: {
    type: ArtilleryBulletType
    width: 5
    height: 7 
-   splashDamage: 65
-   splashDamageRadius: 40
+   splashDamage: 15
+   splashDamageRadius: 5
    speed: 2.5
    lifetime: 90
    trailWidth: 2
