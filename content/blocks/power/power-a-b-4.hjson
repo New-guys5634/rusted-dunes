@@ -1,0 +1,19 @@
+type: Battery
+name: Power storage unit
+description: A wooden power cell used for storing small amounts of powers.
+health: 115
+size: 1
+squareSprite: false
+consumes: {
+  powerBuffered: 650
+}
+requirements: [
+item-a-2/1
+item-a-3/2
+item-a-4/5
+item-a-6/5
+]
+category: power
+research: power-a-n-1
+researchCostMultiplier: 0.5
+
