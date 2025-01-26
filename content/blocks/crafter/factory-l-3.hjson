@@ -25,7 +25,7 @@ item-a-2/145
 item-a-7/95
 ]
 category: crafting
-outputItem: item-a-9/2
+outputItem: item-a-8/2
 research: factory-m-5
 researchCostMultiplier: 1
 craftEffect: {
