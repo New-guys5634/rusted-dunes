@@ -1,0 +1,21 @@
+type: StorageBlock
+size: 2
+scaledHealth: 85
+name: Wooden storage container
+description: Stores items and acts like a extra storage for the core.
+itemCapacity: 350
+category: effect
+research: {
+  parent: core-a-1
+  objectives: [
+    {
+      type: OnSector
+      preset: 3old-road
+    }
+  ]
+}
+requirements: [
+item-a-1/45
+item-a-4/50
+]
+researchCostMultiplier: 0.5
