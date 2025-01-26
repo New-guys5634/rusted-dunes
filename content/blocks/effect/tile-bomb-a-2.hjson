@@ -1,0 +1,32 @@
+  type: ShockMine
+  name: Explosive sand landmine
+  description: Explodes when steped on dealing low damage but appling the melting effect.
+  hasShadow: false
+  health: 15
+  damage: 15
+  tileDamage: 15
+  length: 24
+  tendrils: 6
+  category: effect
+research: {
+  parent: core-a-1
+  objectives: [
+    {
+      type: OnSector
+      preset: 3old-road
+    }
+  ]
+}
+  bullet: {
+    type: ExplosionBulletType
+    splashDamage: 15
+    splashDamageRadius: 10
+    killShooter: true
+    status: melting
+    statusDuration: 75
+  }
+  requirements: [
+  item-a-1/50
+  sand/95
+  ]
+researchCostMultiplier: 0.5

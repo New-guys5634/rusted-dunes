@@ -1,0 +1,24 @@
+  type: ShockMine
+  name: Explosive fibre landmine
+  description: Explodes when steped on dealing low damage but appling the melting effect.
+  hasShadow: false
+  health: 65
+  damage: 20
+  tileDamage: 40
+  length: 24
+  tendrils: 6
+  category: effect
+research: tile-bomb-a-2
+  bullet: {
+    type: ExplosionBulletType
+    splashDamage: 35
+    splashDamageRadius: 15
+    killShooter: true
+    status: melting
+    statusDuration: 325
+  }
+  requirements: [
+  item-a-1/75
+  item-b-3/25
+  ]
+researchCostMultiplier: 0.5

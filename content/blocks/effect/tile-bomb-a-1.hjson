@@ -1,0 +1,24 @@
+  type: ShockMine
+  name: Explosive landmine
+  description: Explodes when steped on dealing low damage but appling the melting effect.
+  hasShadow: false
+  health: 75
+  damage: 45
+  tileDamage: 5
+  length: 24
+  tendrils: 6
+  category: effect
+  research: tile-bomb-a-2
+  bullet: {
+    type: ExplosionBulletType
+    splashDamage: 55
+    splashDamageRadius: 10
+    killShooter: true
+    status: melting
+    statusDuration: 150
+  }
+  requirements: [
+  item-a-1/50
+  item-a-6/25
+  ]
+researchCostMultiplier: 0.5
