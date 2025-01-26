@@ -1,0 +1,92 @@
+description: Uses the previous projectile, wood and water to create wooden projectiles.
+name: Large wooden projectile maker 
+type: GenericCrafter
+size: 3
+health: 400
+craftTime: 100
+hasItems: true
+hasLiquids: true
+hasPower: false
+itemCapacity: 10
+liquidCapacity: 50
+consumes: {
+  liquid: water/0.3
+  items: {
+    items: [
+item-a-4/2
+item-a-9/1
+    ]
+  }
+}
+requirements: [
+item-a-1/200
+sand/95
+item-a-2/145
+item-a-7/95
+]
+category: crafting
+outputItem: item-a-9/2
+research: factory-m-5
+researchCostMultiplier: 1
+craftEffect: {
+  type: RadialEffect
+  amount: 8
+  rotationSpacing: 90
+  rotationOffset: 45
+  lengthOffset: 8
+  effect: {
+    type: ParticleEffect
+    particles: 8
+    cone: 380
+    followParent: true
+    rotWithParent: false
+    sizeFrom: 0.8
+    sizeTo: 0.3
+    colorFrom: 8E665CFFf
+    colorTo: 8E665CFFf
+    lifetime: 90
+    length: 2
+    baseLength: 1.2
+    interp: pow2
+    sizeInterp: pow3In
+  }
+}
+drawer: {
+  type: DrawMulti
+  drawers: [
+  {
+type: DrawDefault
+}
+  {
+type: DrawGlowRegion
+color: 8E665CFFf
+suffix: -glow
+glowScale: 25
+  }
+  ]
+}
+generateEffectRange: 1.5
+effectChance: 0.02
+generateEffect: {
+    type: RadialEffect
+    layer: 90
+    rotationSpacing: 45
+    amount: 6
+    lengthOffset: 5
+    effect: {
+      particles: 2
+      length: 25
+      lifetime: 85
+      cone: 20
+      baseRotation: 15
+      useRotation: false 
+      sizeFrom: 0
+      sizeTo: 8
+      colorFrom: e0e0e066
+      colorTo: e0e0e000
+      sizeInterp: pow2Out
+      interp: pow2Out
+      layer: 90
+    }
+  }
+ 
