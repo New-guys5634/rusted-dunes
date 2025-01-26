@@ -5,7 +5,7 @@ requirements: [
 item-a-7/1
 ]
 category: distribution
-speed: 0.08
+speed: 0.10
 research: s-conveyor
 junctionReplacement: Junction-s-1
   health: 50
