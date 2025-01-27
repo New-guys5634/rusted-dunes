@@ -1,0 +1,20 @@
+localizedName: Rusty rust
+description: "Rust this twirling path way has remains of stone basically useless but your thoughts hit deep with is there life.
+
+A great opportunity to use this sector for old iron.
+[#feb380]Note: This is an optional sector. Capturing it is not required for conquering the campaign."
+captureWave: 20
+difficulty: 4
+planet: dunes
+sector: 201
+overrideLaunchDefaults: true
+addStartingItems: true
+research: {
+  parent: 3old-road
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 3old-road
+    }
+  ]
+}
