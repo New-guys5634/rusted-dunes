@@ -1,0 +1,20 @@
+localizedName: Krust
+description: "Krust is a long sharpy dangerous zone. In the middle is located a large amount of wood use it to your advantage.
+
+A great opportunity to use this sector for wood.
+[#feb380]Note: This is an optional sector. Capturing it is not required for conquering the campaign."
+captureWave: 25
+difficulty: 4
+planet: dunes
+sector: 161
+overrideLaunchDefaults: true
+addStartingItems: true
+research: {
+  parent: b-1-a-op-rust
+  objectives: [
+    {
+      type: SectorComplete
+      preset: b-1-a-op-rust
+    }
+  ]
+}
