@@ -1,0 +1,19 @@
+name: Rusted payload conveyor
+description: Moves forward objects to the destination of point.
+type: PayloadConveyor
+size: 3
+moveTime: 100
+moveForce: 300
+payloadLimit: 3
+category: units
+requirements: [
+item-a-1/50
+item-a-2/25
+sand/45
+]
+research: unit-constructor-1
+researchCost: [
+item-a-1/500
+item-a-2/250
+sand/450
+  ]
