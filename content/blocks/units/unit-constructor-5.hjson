@@ -1,0 +1,35 @@
+name: Builds construction bay
+description: Builds buildings and mechanical special equipment.
+type: Constructor
+size: 3
+category: units
+requirements: [
+sand/90
+item-a-1/85
+item-a-2/90
+item-a-4/45
+item-a-5/75
+item-a-7/45
+] 
+hasPower: true
+consumes: {
+  power: 0.8
+}
+buildSpeed: 0.8
+filter: [
+turret-a-s-1
+turret-a-s-2
+turret-a-s-3
+turret-a-s-4
+wall-a-s-1
+wall-a-s-2
+wall-a-l-1
+wall-a-l-2
+power-a-n-1
+special-a-1-block
+special-a-2-block
+]
+research: unit-constructor-1
+conductivePower: true
+researchCostMultiplier: 1
+maxBlockSize: 3
