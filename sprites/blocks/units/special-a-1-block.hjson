@@ -1,0 +1,11 @@
+type: Wall
+name: Ammo kit
+description: Used as ammo.
+size: 2
+placeablePlayer: false
+requirements: [
+item-a-4/35
+item-a-9/45
+]
+research: unit-constructor-1
+researchCostMultiplier: 0.25

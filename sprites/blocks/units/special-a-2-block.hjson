@@ -1,0 +1,12 @@
+type: Wall
+name: Joint
+description: It's a joint used for mechs.
+size: 2
+placeablePlayer: false
+requirements: [
+item-a-4/55
+item-a-1/65
+item-a-2/35
+]
+research: unit-constructor-1
+researchCostMultiplier: 0.25
