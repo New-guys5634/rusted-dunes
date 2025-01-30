@@ -1,6 +1,6 @@
 description: Consumes flamble items to produce heat.
 name: Sanded heating system
-type: GenericCrafter
+type: HeatProducer
 size: 2
 health: 125
 craftTime: 120
