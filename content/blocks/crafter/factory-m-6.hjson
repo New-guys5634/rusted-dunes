@@ -1,0 +1,45 @@
+description: Consumes flamble items to produce heat.
+name: Sanded heating system
+type: GenericCrafter
+size: 2
+health: 125
+craftTime: 120
+hasItems: true
+hasLiquids: false
+hasPower: false
+itemCapacity: 20
+heatOutput: 2
+consumes: {
+  items: {
+    items: [
+item-a-6/1
+    ]
+  }
+}
+requirements: [
+item-a-1/55
+item-a-2/45
+item-a-3/65
+item-a-6/35
+]
+category: crafting
+research: factory-s-1
+researchCostMultiplier: 1
+generateEffect: generatespark
+ambientSound: smelter
+ambientSoundVolume: 0.1
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawCrucibleFlame
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
