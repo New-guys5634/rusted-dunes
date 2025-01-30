@@ -1,0 +1,172 @@
+name: Ranged
+description: Uses flamible resources to destroy the enemies by a range.
+type: ItemTurret
+reload: 115
+shootCone: 20
+rotateSpeed: 2
+targetGround: true
+targetAir: false
+range: 725
+recoil: 0.8
+size: 3
+health: 450
+shootSound: shootAlt
+chargeSound: lasercharge2
+outlineColor: 000000FF
+consumes: {
+  power: 0.5
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.2
+}
+}
+drawer:{
+ type: DrawTurret
+ parts: [
+     {
+         type: RegionPart
+          suffix: -part0
+         mirror: false
+         outline: true
+        progress: {
+          type: warmup
+          op: blend
+          other: heat
+          amount: 0.6
+          }
+          outlineLayerOffset: -0.0001
+         moveX: -1
+         moveY: 0
+             layerOffset: -0.0001
+         }
+]
+}
+ammoTypes: {
+    item-a-6: {
+chargeEffect: [
+{
+lifetime: 90
+type: waveEffect
+colorFrom: 010101
+colorTo: 010101
+strokeTo: 4
+strokeFrom: 0
+sizeFrom: 25
+sizeTo: 0
+}
+]
+   type: ArtilleryBulletType
+   width: 8
+   height: 10
+   splashDamage: 125
+   splashDamageRadius: 35
+   speed: 4
+   lifetime: 115
+   trailWidth: 3
+   trailLength: 12
+   frontColor: AF2A2AFF
+   backColor: AF2A2AFF
+   trailColor: 76151EFF
+    status: tarred
+    statusDuration: 200
+    makeFire: true
+        hitEffect: {
+          type: multiEffect
+          effects: [
+            {
+              type: ParticleEffect
+              particles: 12
+              lifetime: 25
+              length: 90
+              lightColor: AF2A2AFF
+              sizeFrom: 10
+              sizeTo: 3
+              colorFrom: 313131FF
+              colorTo: AF2A2AFF
+            }
+            {
+              type: ParticleEffect
+              lightOpacity: 0
+              particles: 32
+              length: 45
+              baseLength: 10
+              lifetime: 120
+              sizeFrom: 7
+              sizeTo: 1
+              colorFrom: 313131FF
+              colorTo: AF2A2AFF
+}
+]
+}
+}
+    item-b-3: {
+chargeEffect: [
+{
+lifetime: 90
+type: waveEffect
+colorFrom: 010101
+colorTo: 010101
+strokeTo: 4
+strokeFrom: 0
+sizeFrom: 25
+sizeTo: 0
+}
+]
+   type: ArtilleryBulletType
+   width: 8
+   height: 10
+   splashDamage: 215
+   splashDamageRadius: 35
+   speed: 4
+   lifetime: 115
+   trailWidth: 3
+   trailLength: 12
+   frontColor: EDF3A9
+   backColor: EDF3A9
+   trailColor: EDF3A9
+    status: tarred
+    statusDuration: 200
+    makeFire: true
+        hitEffect: {
+          type: multiEffect
+          effects: [
+            {
+              type: ParticleEffect
+              particles: 12
+              lifetime: 25
+              length: 90
+              lightColor: EDF3A9
+              sizeFrom: 10
+              sizeTo: 3
+              colorFrom: EDF3A9
+              colorTo: EDF3A9
+            }
+            {
+              type: ParticleEffect
+              lightOpacity: 0
+              particles: 32
+              length: 45
+              baseLength: 10
+              lifetime: 120
+              sizeFrom: 7
+              sizeTo: 1
+              colorFrom: EDF3A9
+              colorTo: EDF3A9
+}
+]
+}
+}
+}
+requirements: [
+sand/550
+item-b-3/185
+item-a-5/300
+item-b-4/95
+]
+research: {
+parent: turret-a-s-9
+}
+category: turret
+researchCostMultiplier: 1
