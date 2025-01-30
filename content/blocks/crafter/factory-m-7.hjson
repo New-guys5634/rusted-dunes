@@ -1,0 +1,44 @@
+type: HeatCrafter
+name: Heat converter tank
+description: Uses heat to generate molten rust out of the extreme temperatures.
+size: 2
+heatRequirement: 1
+outputLiquid: liquid-a-1/0.4
+squareSprite: false
+maxEfficiency: 1.25
+category: crafting
+research: factory-m-6
+researchCostMultiplier: 1
+requirements: [
+item-a-1/75
+item-a-2/95
+item-a-3/45
+sand/85
+item-a-6/65
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: liquid-a-1
+      alpha: 0.6
+      padding: 2
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawHeatInput
+      heatColor: 641616B3
+    }
+  ]
+}
+ambientSound: smelter
+ambientSoundVolume: 0.2
+hasLiquids: true
+liquidCapacity: 100
