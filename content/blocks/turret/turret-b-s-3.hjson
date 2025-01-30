@@ -22,6 +22,9 @@ coolant: {
   amount: 0.2
 }
 }
+  shoot: {
+  firstShotDelay: 60
+}
 drawer:{
  type: DrawTurret
  parts: [
