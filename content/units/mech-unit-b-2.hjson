@@ -42,25 +42,33 @@ weapons: [
    lifetime: 35
    trailWidth: 2
    trailLength: 15
-hitEffect: {
-                type: ExplosionEffect
-                lifetime: 70
-                waveStroke: 4
-                waveRadBase: 1
-                waveLife: 26
-                waveRad: 15
-                waveColor: 313131FF
-                smokeColor: AF2A2AFF
-                sparkColor: 313131FF
-                sparks: 6
-                smokes: 35
-                sparkRad: 6
-                smokeSize: 1
-                smokeSizeBase: 1
-                smokeRad: 50
-                sparkStroke: 2
-                sparkLen: 3
+        hitEffect: {
+          type: multiEffect
+          effects: [
+            {
+              type: ParticleEffect
+              particles: 12
+              lifetime: 25
+              length: 90
+              lightColor: AF2A2AFF
+              sizeFrom: 10
+              sizeTo: 3
+              colorFrom: 313131FF
+              colorTo: AF2A2AFF
             }
- }
+            {
+              type: ParticleEffect
+              lightOpacity: 0
+              particles: 32
+              length: 45
+              baseLength: 10
+              lifetime: 120
+              sizeFrom: 7
+              sizeTo: 1
+              colorFrom: 313131FF
+              colorTo: AF2A2AFF
+}
+]
+}
  }
 ]
