@@ -21,6 +21,8 @@ item-a-1/65
 item-a-2/90
 item-a-4/48
 item-a-5/55
+item-a-6/75
+item-a-7/45
 ]
 research: {
   parent: unit-constructor-1
@@ -36,5 +38,7 @@ sand/1400
 item-a-1/650
 item-a-2/900
 item-a-4/480
+item-a-6/750
+item-a-7/450
 item-a-5/550
 ]
