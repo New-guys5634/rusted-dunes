@@ -46,3 +46,6 @@ weapons: [
    }
   }
 ]
+research: mech-unit-a-1
+researchCostMultiplier: 1 
+
