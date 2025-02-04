@@ -9,9 +9,9 @@ consumes: {
   power: 3
     items: {
       items: [
-sand/25
-item-a-4/50
-item-a-2/35
+item-b-1/25
+item-a-5/45
+item-a-7/50
       ]
     }
 }
