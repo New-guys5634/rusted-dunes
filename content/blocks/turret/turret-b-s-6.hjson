@@ -1,0 +1,54 @@
+name: Guning
+description: Fires a massive bullet at the opponent.
+type: ItemTurret
+reload: 95
+shootCone: 20
+rotateSpeed: 3.5
+targetGround: true
+targetAir: false
+range: 215
+recoil: 2.3
+size: 2
+health: 415
+AmmoPerShot: 8
+shootSound: bang
+outlineColor: 000000FF
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.2
+}
+ammoTypes: {
+    item-b-1: {
+        damage: 45
+   splashDamage: 35
+   splashDamageRadius: 20
+        speed: 6
+        height: 6
+        width: 6
+        lifetime: 36
+        reloadMultiplier: 0.8
+    }
+    item-a-9: {
+        damage: 65
+   splashDamage: 45
+   splashDamageRadius: 20
+        speed: 6
+        height: 6
+        width: 6
+        lifetime: 36
+}
+}
+requirements: [
+item-a-1/95
+item-a-3/75
+item-a-4/75
+sand/85
+]
+
+research: {
+parent: turret-a-s-4
+}
+category: turret
+researchCostMultiplier: 1

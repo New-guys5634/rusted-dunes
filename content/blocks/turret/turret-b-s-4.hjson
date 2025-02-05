@@ -1,0 +1,60 @@
+name: Shot spread
+description: Fires spreads of bullets at the opponent
+type: ItemTurret
+reload: 50
+shootCone: 20
+rotateSpeed: 3.5
+targetGround: true
+targetAir: false
+range: 215
+recoil: 2.5
+size: 2
+health: 450
+AmmoPerShot: 6
+shootSound: bang
+outlineColor: 000000FF
+velocityRnd: 0.33
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.1
+}
+shoot: {
+type: ShootSpread
+  spread: 2
+    shots: 3
+}
+
+ammoTypes: {
+    item-a-9: {
+        damage: 21
+   splashDamage: 10
+   splashDamageRadius: 20
+        speed: 6
+        height: 6
+        width: 6
+        lifetime: 36
+        reloadMultiplier: 0.7
+    }
+    item-a-8: {
+        damage: 31
+   splashDamage: 15
+   splashDamageRadius: 20
+        speed: 6
+        height: 7
+        width: 7
+        lifetime: 36
+   }
+}
+requirements: [
+item-a-1/25
+item-a-3/55
+sand/75
+]
+
+research: {
+parent: turret-a-s-1
+}
+category: turret
+researchCostMultiplier: 1
