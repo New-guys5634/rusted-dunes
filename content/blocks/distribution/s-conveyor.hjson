@@ -8,6 +8,7 @@ category: distribution
 speed: 0.05
 research: core-a-1
 junctionReplacement: Junction-s-1
+bridgeReplacement: Bridge-a-1
   health: 35
 research: {
   parent: core-a-1

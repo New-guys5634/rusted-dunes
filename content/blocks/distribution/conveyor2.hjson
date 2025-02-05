@@ -8,6 +8,7 @@ category: distribution
 speed: 0.10
 research: s-conveyor
 junctionReplacement: Junction-s-1
+bridgeReplacement: Bridge-a-1
   health: 50
 research: {
   parent: s-conveyor

@@ -1,0 +1,15 @@
+ type: ItemBridge
+  name: Rusted bridge 
+  description: Slow and olden used as a transport over walls.
+  health: 40
+  range: 3
+  transportTime: 3
+  hasPower: false
+requirements: [
+  item-a-1/15
+] 
+category: distribution
+research: Junction-s-1
+researchCost: [
+    item-a-1/150
+  ]
