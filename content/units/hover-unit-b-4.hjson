@@ -1,0 +1,132 @@
+type: mech
+name: Grevice
+description: The fourth tier that fires two dueling lasers and a scorch in the centre.
+hovering: true
+hoverable: true
+shadowElevation: 0.1
+mechFrontSway: 0
+mechSideSway: 0
+mechStride: 0
+drag: 0.04
+outlineColor: 8E665CFFf
+speed: 4
+rotateSpeed: 4
+accel: 0.01440
+groundLayer: 60
+health: 7450
+armor: 6
+hitSize: 17
+itemCapacity: 10
+useEngineElevation: false
+lowAltitude: true
+engines: [
+  {
+    x: 6
+    y: -9
+    radius: 2
+  }
+  {
+    x: -6
+    y: -9
+    radius: 2
+  }
+]
+parts: [
+  {
+    type: HoverPart
+    color: FFB570FF
+    radius: 15
+    sides: 8
+    layerOffset: -0.0002
+    x: -6
+    y: -9
+    phase: 65
+  }
+  {
+    type: HoverPart
+    color: FFB570FF
+    radius: 15
+    sides: 8
+    layerOffset: -0.0002
+    x: 6
+    y: -9
+    phase: 65
+  }
+]
+abilities: [
+  {
+    type: MoveEffectAbility
+    teamColor: true
+    effect: missileTrailShort
+    x: 0
+    y: -6
+    interval: 5
+    minVelocity: 0.8
+  }
+]
+weapons: [
+ {
+  name: hover-na
+  
+  top: false
+  x: 0
+  y: 0
+  shootY: 7
+  shootX: 8
+  mirror: true
+  rotate: false
+  shootCone: 80
+  shootSound: laser
+  inaccuracy: 0
+  reload: 85
+  recoil: 1
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  bullet: {
+  type: LaserBulletType
+  recoil: 2
+  colors: [FFE4C9FF, F7CBA4FF, D2AE8CFF]
+  lightningColor: FFE4C9FF
+  length: 125
+  width: 15
+  lightning: 4
+  lightningLength: 16
+  lightningDamage: 15
+  lightningCone: 20
+  damage: 145
+  buildingDamageMultiplier: 0.6
+}
+}
+}
+  name: hover-na
+  
+  top: false
+  x: 0
+  y: 0
+  shootY: 4
+  shootX: 0
+  mirror: false
+  rotate: false
+  shootCone: 80
+  shootSound: flame
+  inaccuracy: 0
+  reload: 4
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  bullet: {
+    type: ContinuousFlameBulletType
+    lifetime: 15
+    drawFlare: false
+    hitColor: 76151EFF
+    damage: 9
+    knockback: 2
+    pierce: true
+    pierceArmor: false
+    length: 80
+    width: 1.5
+    colors: [AF2A2AFF, 76151EFF]
+}
+}
+]
