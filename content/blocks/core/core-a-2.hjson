@@ -1,0 +1,18 @@
+type: CoreBlock
+name: Wooden core
+description: The wooden core. second form. once destroyed the sector is lost.
+requirements: [
+  item-a-6/1200
+  item-a-4/450
+  item-a-5/650
+]
+size: 4
+outlineColor: 8E665CFFf
+squareSprite: false
+unitType: core-unit-2
+health: 6599
+itemCapacity: 9500
+unitCapModifier: 8
+category: effect
+researchCostMultiplier: 1
+research: core-a-1
