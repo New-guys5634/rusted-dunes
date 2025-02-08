@@ -14,5 +14,5 @@ health: 6599
 itemCapacity: 9500
 unitCapModifier: 8
 category: effect
-researchCostMultiplier: 1
+researchCostMultiplier: 0.5
 research: core-a-1
