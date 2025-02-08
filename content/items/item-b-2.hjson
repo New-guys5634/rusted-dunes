@@ -1,6 +1,6 @@
 description: Shale that has been ripped out of the layer of dunes and has been cooled down from the sun and rust.
 name: Sheeted shale
 color: 515151FF
-hardness: 4
+hardness: 3
 hiddenOnPlanets: [serpulo, erekir]
 research: item-a-7
