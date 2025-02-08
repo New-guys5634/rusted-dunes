@@ -51,7 +51,7 @@ weapons: [
         laserColor: FFD380FF
         healColor: FF9C59FF
 		bullet: {
-		    maxRange: 65
+		    maxRange: 35
 		}
     }
 ]
