@@ -46,6 +46,7 @@ weapons: [
 		
         targetUnits: true
         targetBuildings: true
+        autoTarget: treu
         controllable: true
         laserColor: FFD380FF
         healColor: FF9C59FF
