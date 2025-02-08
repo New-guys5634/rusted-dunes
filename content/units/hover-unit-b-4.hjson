@@ -98,7 +98,7 @@ weapons: [
   buildingDamageMultiplier: 0.6
 }
 }
-}
+{
   name: hover-na
   
   top: false
