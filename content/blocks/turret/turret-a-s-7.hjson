@@ -23,7 +23,7 @@ coolant: {
 }
 shootType: {
   type: LightningBulletType
-  damage: 15
+  damage: 35
   lightningLength: 15
   lightningLengthRand: 1
   lightningColor: BFECFFFF
@@ -37,6 +37,10 @@ shootType: {
     lifetime: 1
     backColor: BFECFFFF
     frontColor: BFECFFFF
+      collidesAir: false
+      collidesGround: true
+      collideTerrain: fakse
+    status: shocked
 }
 }
 requirements: [
