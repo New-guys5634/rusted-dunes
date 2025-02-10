@@ -1,0 +1,50 @@
+type: tank
+name: Mank
+description: The fourth tier which shoots  a massive cannon that deal massive damage.
+omniMovement: false
+faceTarget: false
+outlineColor: 8E665CFF
+speed: 0.3
+rotateSpeed: 1.5
+groundLayer: 60
+health: 8959
+armor: 4
+hitSize: 17
+itemCapacity: 15
+treadRects: [
+{
+    x: -15
+    y: -25
+    width: 50
+    height: 80
+    }
+]
+weapons: [
+ {
+  name: unit-tank-a-4-gun
+  top: false
+  x: 6
+  y: 2
+  shootY: 4
+  shootX: 1
+  mirror: false
+  rotate: true
+  rotationLimit: 180
+  shootCone: 20
+  shootSound: bolt
+  inaccuracy: 0
+  reload: 70
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35
+  bullet: {
+   type: ArtilleryBulletType
+   width: 12
+   height: 12
+   speed: 8
+   lifetime: 18
+   splashDamage: 125
+   splashDamageRadius: 40
+   }
+  }
+]
