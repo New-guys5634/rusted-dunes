@@ -16,17 +16,17 @@ treadRects: [
     x: -15
     y: -25
     width: 50
-    height: 80
+    height: 60
     }
 ]
 weapons: [
  {
   name: unit-tank-a-4-gun
   top: false
-  x: 6
-  y: 2
-  shootY: 4
-  shootX: 1
+  x: 0
+  y: 0
+  shootY: 0
+  shootX: 0
   mirror: false
   rotate: true
   rotationLimit: 180
@@ -43,7 +43,7 @@ weapons: [
    height: 12
    speed: 8
    lifetime: 18
-   splashDamage: 125
+   splashDamage: 300
    splashDamageRadius: 40
    }
   }
