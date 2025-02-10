@@ -1,0 +1,16 @@
+  type: SolarGenerator
+  powerProduction: 0.2150
+name: Wooden panel
+description: Generates power from the solar with the advantage of scorched metal.
+size: 1
+health: 65
+category: power
+requirements: [
+item-a-1/65
+item-a-4/60
+item-a-6/25
+]
+research: {
+  parent: power-a-s-1
+}
+researchCostMultiplier: 1
