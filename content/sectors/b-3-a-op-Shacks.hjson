@@ -1,0 +1,20 @@
+localizedName: Shacks
+description: "Shacks is a advantage section fulled with ores and three core zones take advantage and fight the newly t4.
+
+A great opportunity to use this sector for Sanded metal.
+[#feb380]Note: This is an optional sector. Capturing it is not required for conquering the campaign."
+captureWave: 19
+difficulty: 4
+planet: dunes
+sector: 7
+overrideLaunchDefaults: true
+addStartingItems: true
+research: {
+  parent: 4.attack-centre
+  objectives: [
+    {
+      type: SectorComplete
+      preset: b-2-a-op-krust
+    }
+  ]
+}
