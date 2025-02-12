@@ -11,6 +11,7 @@ researchCostMultiplier: 0.5
 recoil: 0
 category: turret
 range: 120
+outlineColor: 000000FF
 requirements: [
 sand/65
 item-a-1/50
@@ -40,7 +41,7 @@ ammoTypes: {
     knockback: 0.7
     status: melting 
     statusDuration: 100
-    damage: 3
+    damage: 2
     layer: 98
   }
 }

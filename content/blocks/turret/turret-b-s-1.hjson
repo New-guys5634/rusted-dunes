@@ -39,6 +39,29 @@ ammoTypes: {
     statusDuration: 165
     makeFire: true
 }
+item-b-1{
+   type: ArtilleryBulletType
+   width: 5
+   height: 7 
+   splashDamage: 25
+   splashDamageRadius: 10
+   speed: 2.5
+   lifetime: 90
+   trailWidth: 2
+   trailLength: 8
+   frontColor: AF2A2AFF
+   backColor: AF2A2AFF
+   trailColor: 76151EFF
+    status: shocked
+    statusDuration: 165
+      ammoMultiplier: 4
+      hitSize: 10
+     lightning: 4
+     lightningLengthRand: 1.8
+     lightningLength: 7
+     lightningDamage: 15
+      hitSound: spark
+}
 }
 requirements: [
 sand/100
