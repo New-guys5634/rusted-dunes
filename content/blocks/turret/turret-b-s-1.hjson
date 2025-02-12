@@ -39,7 +39,7 @@ ammoTypes: {
     statusDuration: 165
     makeFire: true
 }
-item-b-1{
+item-b-3: {
    type: ArtilleryBulletType
    width: 5
    height: 7 
@@ -49,9 +49,9 @@ item-b-1{
    lifetime: 90
    trailWidth: 2
    trailLength: 8
-   frontColor: AF2A2AFF
-   backColor: AF2A2AFF
-   trailColor: 76151EFF
+   frontColor: EDF3A9
+   backColor: EDF3A9
+   trailColor: EDF3A9
     status: shocked
     statusDuration: 165
       ammoMultiplier: 4
