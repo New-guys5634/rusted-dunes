@@ -1,6 +1,6 @@
 type: LiquidJunction
-name: wooden conduit Junction
-description: allows liquids to cross eachother 
+name: Wooden conduit Junction
+description: Allows liquids to cross eachother.
 solid: false
 category: liquid
 squareSprite: false

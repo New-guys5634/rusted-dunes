@@ -1,6 +1,6 @@
 type: Pump
-name: wooden pump
-description: pumps liquids what else 
+name: Wooden pump
+description: Pumps liquids. 
 size: 1
 category: liquid
 research: core-a-1
