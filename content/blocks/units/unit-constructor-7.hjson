@@ -27,7 +27,7 @@ rusted-dunes-power-a-n-1/4
   }
   {
     type: AssemblerUnitPlan
-    unit: mech-unit-a-3/4
+    unit: mech-unit-a-4
     requirements: [
 rusted-dunes-turret-a-s-3/4
 rusted-dunes-wall-a-s-2/4
