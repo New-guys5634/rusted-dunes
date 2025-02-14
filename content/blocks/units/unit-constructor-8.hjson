@@ -1,0 +1,15 @@
+type: UnitAssemblerModule
+name: Basic advancer
+description: Increases units by once.
+size: 3
+category: units
+research: unit-constructor-7
+requirements: [
+item-a-4/50
+item-a-1/45
+sand/95
+]
+consumes: {
+  power: 1
+}
+researchCostMultiplier: 1
