@@ -1,0 +1,46 @@
+type: UnitAssembler
+name: Mech construction bay
+description: Constructs mechs to the higher tiers such as( T3 and T4 ).
+size: 5
+category: units
+research: unit-constructor-4
+requirements: [
+item-a-1/125
+sand/135
+item-a-2/75
+item-a-4/85
+item-a-6/45
+item-a-7/75
+]
+plans: [
+  {
+    type: AssemblerUnitPlan
+    unit: mech-unit-a-3
+    requirements: [
+rusted-dunes-turret-a-s-3/2
+rusted-dunes-wall-a-s-2/2
+rusted-dunes-special-a-2-block/1
+rusted-dunes-special-a-1-block/1
+rusted-dunes-power-a-n-1/4
+    ]
+    time: 1250
+  }
+  {
+    type: AssemblerUnitPlan
+    unit: mech-unit-a-3/4
+    requirements: [
+rusted-dunes-turret-a-s-3/4
+rusted-dunes-wall-a-s-2/4
+rusted-dunes-special-a-2-block/2
+rusted-dunes-special-a-1-block/2
+rusted-dunes-power-a-n-1/6
+    ]
+    time: 1750
+  }
+]
+squareSprite: false
+consumes: {
+  power: 3
+}
+areaSize: 12
+researchCostMultiplier: 1
