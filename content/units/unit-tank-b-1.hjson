@@ -55,6 +55,7 @@ weapons: [
     status: shocked
    }
   }
+}
 ]
 research: unit-tank-a-1
 researchCostMultiplier: 1
