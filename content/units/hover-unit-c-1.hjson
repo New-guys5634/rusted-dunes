@@ -73,7 +73,7 @@ weapons: [
    type: ArtilleryBulletType
    width: 5
    height: 7 
-   splashDamage: 25
+   splashDamage: 35
    splashDamageRadius: 10
    speed: 2.5
    lifetime: 90

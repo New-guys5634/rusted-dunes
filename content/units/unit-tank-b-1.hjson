@@ -32,7 +32,7 @@ weapons: [
   shootCone: 20
   shootSound: spark
   inaccuracy: 2
-  reload: 35
+  reload: 25
   targetInterval: 1
   targetSwitchInterval: 3
   cooldownTime: 35 
@@ -46,7 +46,7 @@ weapons: [
     width: 6
     height: 16
     speed: 4
-    damage: 8
+    damage: 12
     hitEffect: hitBulletColor
     despawnEffect: hitBulletColor
     lifetime: 2
