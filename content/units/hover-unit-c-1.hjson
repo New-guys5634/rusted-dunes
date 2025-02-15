@@ -1,0 +1,98 @@
+type: mech
+name: Rocket
+description: The first tier that fires bursts of bullets at its opponent.
+hovering: true
+hoverable: true
+shadowElevation: 0.1
+mechFrontSway: 0
+mechSideSway: 0
+mechStride: 0
+drag: 0.04
+outlineColor: 8E665CFF
+speed: 3.8
+rotateSpeed: 4
+accel: 0.01440
+groundLayer: 60
+health: 215
+armor: 4
+hitSize: 8
+itemCapacity: 15
+useEngineElevation: false
+lowAltitude: true
+engines: [
+  {
+    x: 0
+    y: -7
+    radius: 2
+  }
+]
+parts: [
+  {
+    type: HoverPart
+    color: FFB570FF
+    radius: 15
+    sides: 8
+    layerOffset: -0.0002
+    x: 0
+    y: 0
+    phase: 140
+  }
+]
+abilities: [
+  {
+    type: MoveEffectAbility
+    teamColor: true
+    effect: missileTrailShort
+    x: 0
+    y: -5
+    interval: 5
+    minVelocity: 0.8
+  }
+]
+weapons: [
+ {
+  name: hover-unit-c-1-gun
+  
+  top: false
+  x: 0
+  y: 0
+  shootY: 1
+  shootX: 0
+  mirror: true
+  rotate: true
+  shootCone: 80
+  shootSound: shoot
+  inaccuracy: 0
+  reload: 85
+  recoil: 1
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  velocityRnd: 0.40
+  bullet: {
+   type: ArtilleryBulletType
+   width: 5
+   height: 7 
+   splashDamage: 25
+   splashDamageRadius: 10
+   speed: 2.5
+   lifetime: 90
+   trailWidth: 2
+   trailLength: 8
+   frontColor: EDF3A9
+   backColor: EDF3A9
+   trailColor: EDF3A9
+    status: shocked
+    statusDuration: 165
+      ammoMultiplier: 4
+      hitSize: 10
+     lightning: 4
+     lightningLengthRand: 1.8
+     lightningLength: 7
+     lightningDamage: 15
+      hitSound: spark
+   }
+  }
+]
+research: hover-unit-b-1
+researchCostMultiplier: 1 
