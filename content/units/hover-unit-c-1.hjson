@@ -1,6 +1,6 @@
 type: mech
-name: Rocket
-description: The first tier that fires bursts of bullets at its opponent.
+name: Explosion 
+description: The upgradef tier that  fires single electronic at its opponent.
 hovering: true
 hoverable: true
 shadowElevation: 0.1
@@ -13,7 +13,7 @@ speed: 3.8
 rotateSpeed: 4
 accel: 0.01440
 groundLayer: 60
-health: 215
+health: 295
 armor: 4
 hitSize: 8
 itemCapacity: 15
