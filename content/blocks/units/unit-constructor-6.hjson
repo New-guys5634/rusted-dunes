@@ -16,6 +16,8 @@ item-b-2/40
 }
 upgrades: [
   [mech-unit-a-1,mech-unit-b-1]
+  [unit-tank-a-1,unit-tank-b-1]
+  [hover-unit-b-1,hover-unit-c-1]
 ]
 constructTime: 1250
 requirements: [
