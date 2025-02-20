@@ -1,0 +1,19 @@
+localizedName: Novial
+description: "Novial is an enemy base with new ores. use advanced units to destroy the base.
+
+A great opportunity to use this sector for Sticky fibre.
+[#feb380]Note: This is an optional sector. Capturing it is not required for conquering the campaign."
+difficulty: 4
+planet: dunes
+sector: 129
+overrideLaunchDefaults: true
+addStartingItems: true
+research: {
+  parent: 4.attack-centre
+  objectives: [
+    {
+      type: SectorComplete
+      preset: b-3-a-op-Shacks
+    }
+  ]
+}
