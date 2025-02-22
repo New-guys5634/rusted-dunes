@@ -1,0 +1,76 @@
+name: Draft
+description: Uses scorched materials to launch a mega heavy projectile at the opponents.
+type: ItemTurret
+reload: 50
+shootCone: 20
+rotateSpeed: 2
+targetGround: true
+targetAir: false
+range: 275
+recoil: 0.8
+size: 2
+health: 450
+shootSound: shootAlt
+outlineColor: 000000FF
+consumes: {
+  power: 0.5
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.1
+}
+}
+ammoTypes: {
+    item-a-6: {
+   type: ArtilleryBulletType
+   width: 5
+   height: 7 
+   splashDamage: 40
+   splashDamageRadius: 12
+   speed: 2.5
+   lifetime: 90
+   trailWidth: 2
+   trailLength: 8
+   frontColor: AF2A2AFF
+   backColor: AF2A2AFF
+   trailColor: 76151EFF
+    status: melting
+    statusDuration: 165
+    makeFire: true
+}
+item-b-3: {
+   type: ArtilleryBulletType
+   width: 5
+   height: 7 
+   splashDamage: 95
+   splashDamageRadius: 18
+   speed: 2.5
+   lifetime: 90
+   trailWidth: 2
+   trailLength: 8
+   frontColor: EDF3A9
+   backColor: EDF3A9
+   trailColor: EDF3A9
+    status: shocked
+    statusDuration: 165
+      ammoMultiplier: 4
+      hitSize: 10
+     lightning: 6
+     lightningLengthRand: 1.8
+     lightningLength: 7
+     lightningDamage: 15
+      hitSound: spark
+}
+}
+requirements: [
+sand/300
+item-a-4/75
+item-a-5/85
+item-a-6/150
+]
+research: {
+parent: turret-b-s-1
+}
+category: turret
+researchCostMultiplier: 1

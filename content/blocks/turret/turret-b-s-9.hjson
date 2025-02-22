@@ -1,0 +1,54 @@
+name: Electronic 
+description: uses elictritcy sparks to knock back and ruin the opponent.
+type: PowerTurret
+reload: 55
+shootCone: 20
+rotateSpeed: 3.5
+targetGround: true
+targetAir: false
+range: 75
+recoil: 2
+size: 1
+health: 550
+shootSound: spark
+outlineColor: 000000FF
+consumes: {
+  power: 0.5
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.3
+}
+}
+shootType: {
+  type: LightningBulletType
+  damage: 35
+  lightningLength: 16
+  lightningLengthRand: 1
+  lightningColor: BFECFFFF
+  lightningType: {
+    width: 6
+    height: 16
+    speed: 4
+    damage: 25
+    knockback: 15
+    hitEffect: hitBulletColor
+    despawnEffect: hitBulletColor
+    lifetime: 2
+    backColor: 0000fa
+    frontColor: BFECFFFF
+    status: shocked
+}
+}
+requirements: [
+sand/40
+item-a-7/65
+item-a-5/45
+item-a-1/95
+]
+research: {
+parent: turret-a-s-7
+}
+category: turret
+researchCostMultiplier: 1
