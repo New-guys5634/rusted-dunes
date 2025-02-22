@@ -38,6 +38,8 @@ ammoTypes: {
     status: melting
     statusDuration: 165
     makeFire: true
+ trailEffect: shootSmokeTitan
+ trailInterval: 3
 }
 item-b-3: {
    type: ArtilleryBulletType
@@ -61,6 +63,8 @@ item-b-3: {
      lightningLength: 7
      lightningDamage: 15
       hitSound: spark
+ trailEffect: shootSmokeTitan
+ trailInterval: 3
 }
 }
 requirements: [
