@@ -1,0 +1,53 @@
+description: Uses rusted springs and scorched material to refabricat old iron more efficiently.
+name: Old iron refabricator
+type: GenericCrafter
+size: 2
+health: 435
+craftTime: 285
+hasItems: true
+hasLiquids: false
+hasPower: false
+itemCapacity: 30
+consumes: {
+  items: {
+    items: [
+item-a-3/1
+item-a-6/4
+    ]
+  }
+requirements: [
+item-a-1/125
+item-a-4/100
+item-a-5/25
+item-a-3/65
+sand/250
+]
+category: crafting
+outputItem: item-a-5/5
+research: factory-m-2
+researchCost: [
+item-a-1/750
+item-a-4/540
+item-a-5/250
+item-a-3/950
+sand/950
+]
+generateEffect: generatespark
+ambientSound: smelter
+ambientSoundVolume: 0.1
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawCrucibleFlame
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
+
