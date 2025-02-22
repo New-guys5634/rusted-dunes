@@ -1,0 +1,52 @@
+description: Molds metal rust and wood to create rusted springs more efficiently.
+name: Rusted spring mechanism
+type: GenericCrafter
+size: 2
+health: 550
+craftTime: 250
+hasItems: true
+hasLiquids: false
+hasPower: false
+itemCapacity: 30
+consumes: {
+  items: {
+    items: [
+item-a-1/5
+item-a-4/2
+    ]
+  }
+}
+requirements: [
+item-a-1/150
+item-a-4/95
+item-a-3/45
+sand/95
+]
+category: crafting
+outputItem: item-a-3/4
+research: factory-m-1
+researchCost: [
+item-a-1/1500
+item-a-4/9500
+item-a-3/450
+sand/950
+]
+generateEffect: generatespark
+ambientSound: smelter
+ambientSoundVolume: 0.1
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawCrucibleFlame
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
+
