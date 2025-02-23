@@ -1,0 +1,53 @@
+name: Shale 
+description: Fires artillery type long projectiles knocking back the opponent far. Used mainly for support.
+type: ItemTurret
+reload: 65
+shootCone: 20
+rotateSpeed: 3.5
+targetGround: true
+targetAir: false
+range: 210
+recoil: 2
+size: 2
+shootSound: shootAlt
+outlineColor: 000000FF
+consumes: {
+  power: 0.2
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.3
+}
+}
+ammoTypes: {
+    item-b-2: {
+   type: ArtilleryBulletType
+   width: 5
+   height: 7 
+   splashDamage: 50
+   splashDamageRadius: 15
+   knockBack: 12
+   speed: 3
+   lifetime: 90
+   trailWidth: 2
+   trailLength: 6
+   frontColor: AF2A2AFF
+   backColor: AF2A2AFF
+   trailColor: 76151EFF
+    makeFire: true
+ trailEffect: shootSmokeTitan
+ trailInterval: 3
+}
+}
+requirements: [
+sand/84
+item-b-2/65
+item-a-5/45
+silicon/25
+]
+research: {
+parent: turret-b-s-8
+}
+category: turret
+researchCostMultiplier: 1
