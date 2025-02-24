@@ -1,0 +1,52 @@
+name: Sentry
+description: Fires repeating projectiles at the enemies knocking back the opponent and dealing high damage.
+type: ItemTurret
+reload: 10
+shootCone: 20
+rotateSpeed: 3.5
+targetGround: true
+targetAir: false
+range: 210
+recoil: 2
+size: 2
+shootSound: shootAlt
+outlineColor: 000000FF
+consumes: {
+  power: 0.5
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.5
+}
+}
+ammoTypes: {
+   sand: {
+   type: 
+   width: 5
+   height: 7 
+   damage: 15
+   knockBack: 8
+   speed: 4
+   lifetime: 60
+   trailWidth: 2
+   trailLength: 5
+        pierce: true
+       pierceCap: 5
+       pierceBuilding: true
+    makeFire: true
+ trailEffect: shootSmokeTitan
+ trailInterval: 3
+}
+}
+requirements: [
+sand/650
+item-b-2/50
+item-a-5/75
+silicon/50
+]
+research: {
+parent: turret-b-s-6
+}
+category: turret
+researchCostMultiplier: 1
