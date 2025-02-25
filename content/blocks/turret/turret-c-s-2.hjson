@@ -21,8 +21,7 @@ coolant: {
 }
 }
 ammoTypes: {
-   sand: {
-   type: 
+   sand: { 
    width: 5
    height: 7 
    damage: 15
@@ -34,9 +33,6 @@ ammoTypes: {
         pierce: true
        pierceCap: 5
        pierceBuilding: true
-    makeFire: true
- trailEffect: shootSmokeTitan
- trailInterval: 3
 }
 }
 requirements: [
