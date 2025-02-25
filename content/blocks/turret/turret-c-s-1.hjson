@@ -27,7 +27,7 @@ ammoTypes: {
    height: 7 
    splashDamage: 50
    splashDamageRadius: 15
-   knockBack: 12
+   knockback: 12
    speed: 3
    lifetime: 90
    trailWidth: 2

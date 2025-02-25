@@ -25,7 +25,7 @@ ammoTypes: {
    width: 5
    height: 7 
    damage: 15
-   knockBack: 12
+   knockback: 12
    speed: 4
    lifetime: 60
    trailWidth: 2
