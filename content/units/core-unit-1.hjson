@@ -66,17 +66,18 @@ name: core-unit-1-wep
   shootCone: 20
   shootSound: shootAlt
   inaccuracy: 0
-  reload: 25
+  reload: 20
   targetInterval: 1
   targetSwitchInterval: 3
   cooldownTime: 35 
   bullet: {
    type: BasicBulletType
-        damage: 4
+        damage: 6
         speed: 6
         height: 6
         width: 6
         lifetime: 36
+        buildingDamageMultiplier: 0.001
    }
   }
 ]
