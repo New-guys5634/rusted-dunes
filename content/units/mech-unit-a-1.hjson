@@ -5,7 +5,7 @@ mechLegColor: 1f1f1f
 health: 175
 armor: 1
 hitSize: 8
-speed: .8
+speed: .6
 rotateSpeed: 4
 accel: 0.70
 itemCapacity: 5
@@ -36,8 +36,8 @@ weapons: [
    type: BasicBulletType
    width: 7
    height: 8   
-   damage: 15
-   splashDamage: 5
+   damage: 8
+   splashDamage: 4
    splashDamageRadius: 4
    speed: 3
    lifetime: 60

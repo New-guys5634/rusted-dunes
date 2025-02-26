@@ -4,7 +4,7 @@ description: The first tier which is mid quick unit fires slow speed bullets.
 omniMovement: false
 faceTarget: false
 outlineColor: 8E665CFF
-speed: 0.7
+speed: 0.9
 rotateSpeed: 2.5
 groundLayer: 60
 health: 200
