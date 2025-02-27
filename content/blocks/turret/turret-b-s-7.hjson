@@ -46,3 +46,6 @@ ammoTypes: {
   }
 }
 squareSprite: false
+research: {
+parent: turret-b-s-1
+}
