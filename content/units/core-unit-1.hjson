@@ -12,6 +12,8 @@ mineWalls: true
 mineFloor: true
 buildSpeed: 1.0
 itemCapacity: 10
+mineWalls: true
+mineFloor: true
 
 speed: 3.4
 accel: 0.4
