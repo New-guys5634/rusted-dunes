@@ -1,5 +1,5 @@
-name: point 
-description: fires crystals or wood at its opponent dealing large damage 
+name: Point 
+description: Fires 3 projectiles at once dealing high damage.
 type: ItemTurret
 reload: 95
 shootCone: 20
@@ -33,9 +33,9 @@ ammoTypes: {
         lifetime: 20
    trailWidth: 2
    trailLength: 8
-  frontColor: BFECFFFF
-   backColor: BFECFFFF
-   trailColor: BFECFFFF
+  frontColor: 8E665C
+   backColor: 8E665C
+   trailColor: 8E665C
       reloadMultiplier: 0.7
     }
     item-a-9: {
@@ -46,9 +46,9 @@ ammoTypes: {
         lifetime: 20
    trailWidth: 2
    trailLength: 6
-   frontColor: 8E665CFFf
-   backColor: 8E665CFFf
-   trailColor: 8E665CFFf
+   frontColor: FFE4C9FF
+   backColor: FFE4C9FF
+   trailColor: FFE4C9FF
    reloadMultiplier: 1.2
     }
 }

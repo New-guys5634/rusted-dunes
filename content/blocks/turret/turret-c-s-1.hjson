@@ -32,9 +32,9 @@ ammoTypes: {
    lifetime: 90
    trailWidth: 2
    trailLength: 6
-   frontColor: AF2A2AFF
-   backColor: AF2A2AFF
-   trailColor: 76151EFF
+   frontColor: 515151FF
+   backColor: 515151FF
+   trailColor: 515151FF
     makeFire: true
  trailEffect: shootSmokeTitan
  trailInterval: 3
