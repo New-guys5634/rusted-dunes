@@ -1,6 +1,6 @@
 type: Conveyor
-name: crystal conveyor
-description: a piece of crystal supper glued on the piece of trash and transfers items
+name: Crystal conveyor
+description: A better transfer conveyor than the first one.
 requirements: [
 item-a-7/1
 ]

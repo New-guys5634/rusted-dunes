@@ -1,6 +1,6 @@
 type: Conveyor
-name: eroded conveyor
-description: a piece of trash used to transport items
+name: Rusted conveyor
+description: The first conveyor use to transport items.
 requirements: [
 item-a-1/1
 ]
