@@ -1,0 +1,48 @@
+description: Consumes molten rust and rusted metal for a stack of rusted projectiles.
+name: Rusted projectile Melter 
+type: GenericCrafter
+size: 2
+health: 250
+craftTime: 150
+hasItems: true
+hasLiquids: false
+hasPower: false
+itemCapacity: 30
+liquidCapacity: 50
+consumes: {
+consumes: {
+  liquid: liquid-a-1/0.2
+  items: {
+    items: [
+item-a-1/2
+    ]
+  }
+}
+requirements: [
+item-a-1/150
+sand/75
+item-a-2/45
+item-a-3/15
+]
+category: crafting
+outputItem: item-b-1/8
+research: factory-m-4
+researchCostMultiplier: 0.1
+generateEffect: generatespark
+ambientSound: smelter
+ambientSoundVolume: 0.1
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawCrucibleFlame
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
