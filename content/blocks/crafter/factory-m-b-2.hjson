@@ -1,0 +1,47 @@
+description: Consumes molten rust and sand for rusted metal.
+name: Rusted Metal Melter 
+type: GenericCrafter
+size: 2
+health: 125
+craftTime: 100
+hasItems: true
+hasLiquids: false
+hasPower: false
+itemCapacity: 30
+liquidCapacity: 50
+consumes: {
+  liquid: liquid-a-1/0.1
+  items: {
+    items: [
+sand/1
+    ]
+  }
+}
+requirements: [
+item-a-1/25
+sand/15
+item-a-2/10
+item-a-3/5
+]
+category: crafting
+outputItem: item-b-1/8
+research: factory-m-4
+researchCostMultiplier: 0.1
+generateEffect: generatespark
+ambientSound: smelter
+ambientSoundVolume: 0.1
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawCrucibleFlame
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
