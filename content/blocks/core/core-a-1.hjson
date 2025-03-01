@@ -1,5 +1,5 @@
 type: CoreBlock
-name: Rusting core
+name: Core: rusting
 description: The core of the base once destroyed the sector is lost.
 requirements: [
   item-a-1/800

@@ -1,5 +1,5 @@
 type: CoreBlock
-name: Wooden core
+name: core: Wooden 
 description: The wooden core. second form. once destroyed the sector is lost.
 requirements: [
   item-a-6/1200
