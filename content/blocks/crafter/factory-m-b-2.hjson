@@ -3,7 +3,7 @@ name: Rusted Metal Melter
 type: GenericCrafter
 size: 2
 health: 125
-craftTime: 100
+craftTime: 80
 hasItems: true
 hasLiquids: false
 hasPower: false
@@ -24,7 +24,7 @@ item-a-2/10
 item-a-3/5
 ]
 category: crafting
-outputItem: item-b-1/8
+outputItem: item-a-1/2
 research: factory-m-4
 researchCostMultiplier: 0.1
 generateEffect: generatespark
