@@ -1,0 +1,17 @@
+localizedName: Scorching rust
+description: This sector lacks rusted metal use new technology to create eusted metal without mining it. Seems like rusted metal is running out.
+captureWave: 45
+difficulty: 6
+planet: dunes
+sector: 195
+overrideLaunchDefaults: true
+addStartingItems: true
+research: {
+  parent: 6.chasm
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 6.chasm
+    }
+  ]
+}
