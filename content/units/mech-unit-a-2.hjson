@@ -10,6 +10,12 @@ rotateSpeed: 4
 accel: 0.70
 itemCapacity: 10
 outlineColor: 8E665CFF
+commands: [move, mine, repair, rebuild, assist]
+mineFloor: true
+mineWalls: true
+mineTier: 1
+mineSpeed: 5
+buildSpeed: 0.55
 weapons: [
 {
   name: mech-unit-a-2-gun
