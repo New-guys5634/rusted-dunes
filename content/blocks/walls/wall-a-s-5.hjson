@@ -1,0 +1,17 @@
+name: Sheeted shale wall
+description: Deffends structures and absorbs lasers and lightning.
+type: Wall
+health: 1100
+armor: 1
+insulated: true
+absorbLasers: true
+requirements: [
+    item-b-2/8
+]
+category: defense
+research: {
+    parent: wall-a-l-4
+    requirements: [
+        item-b-2/80
+    ]
+}
