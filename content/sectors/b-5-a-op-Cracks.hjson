@@ -1,0 +1,19 @@
+localizedName: Cracks
+description: "Cracks is an survivalist, a way to test your skills past this point you can possibly beat the next sector, beware there's a T4 mank coming.
+
+A great opportunity to use this sector for Rusted metal and sand.
+[#feb380]Note: This is an optional sector. Capturing it is not required for conquering the campaign."
+difficulty: 4
+planet: dunes
+sector: 25
+overrideLaunchDefaults: true
+addStartingItems: true
+research: {
+  parent: 5.lead points
+  objectives: [
+    {
+      type: SectorComplete
+      preset: b-4-a-op-Novial
+    }
+  ]
+}
