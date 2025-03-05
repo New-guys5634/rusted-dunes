@@ -1,0 +1,53 @@
+name: Spinal Rock
+description: Fires bursts of 6 at the opponent dealing massive damage and knocking the opponent back far, its shots are far apart so not all will hit but usually useful against groups.
+type: ItemTurret
+reload: 115
+shootCone: 20
+rotateSpeed: 3.5
+targetGround: true
+targetAir: false
+range: 210
+recoil: 2
+size: 2
+shootSound: shootBig
+outlineColor: 000000FF
+consumes: {
+  power: 0.4
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.2
+}
+}
+shoot: {
+type: ShootSpread
+  spread: 3
+    shots: 6
+}
+ammoTypes: {
+   item-a-5: { 
+   width: 5
+   height: 7 
+   damage: 75
+   knockback: 25
+   speed: 4
+   lifetime: 60
+   trailWidth: 4
+   trailLength: 8
+        pierce: true
+       pierceCap: 2
+       pierceBuilding: true
+}
+}
+requirements: [
+sand/700
+item-b-2/250
+item-a-5/155
+silicon/85
+]
+research: {
+parent: turret-c-s-2
+}
+category: turret
+researchCostMultiplier: 1
