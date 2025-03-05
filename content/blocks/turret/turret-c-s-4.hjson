@@ -21,16 +21,11 @@ coolant: {
   amount: 0.2
 }
 }
-shoot: {
-type: ShootSpread
-  spread: 3
-    shots: 6
-}
 ammoTypes: {
    item-a-5: { 
    type: ArtilleryBulletType
-   width: 5
-   height: 7 
+   width: 9
+   height: 12
    splashDamage: 90
    splashDamageRadius: 15
    speed: 2.5
