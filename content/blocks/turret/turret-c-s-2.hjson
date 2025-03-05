@@ -9,6 +9,7 @@ targetAir: false
 range: 210
 recoil: 2
 size: 2
+health: 675
 shootSound: shootAlt
 outlineColor: 000000FF
 consumes: {

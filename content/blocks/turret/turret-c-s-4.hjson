@@ -1,15 +1,15 @@
-name: Spinal Rock
-description: Fires bursts of 6 at the opponent dealing massive damage and knocking the opponent back far, its shots are far apart so not all will hit but usually useful against groups.
+name: Eld
+description: Fires a massive artillery type projectile that deal high area damage,the first usage of old iron as a stand alone turret.
 type: ItemTurret
 reload: 115
 shootCone: 20
 rotateSpeed: 3.5
 targetGround: true
 targetAir: false
-range: 210
+range: 270
 recoil: 2
 size: 2
-health: 700
+health: 900
 shootSound: shootBig
 outlineColor: 000000FF
 consumes: {
@@ -28,27 +28,29 @@ type: ShootSpread
 }
 ammoTypes: {
    item-a-5: { 
+   type: ArtilleryBulletType
    width: 5
    height: 7 
-   damage: 75
-   knockback: 25
-   speed: 4
-   lifetime: 60
-   trailWidth: 4
+   splashDamage: 90
+   splashDamageRadius: 15
+   speed: 2.5
+   lifetime: 90
+   trailWidth: 2
    trailLength: 8
-        pierce: true
-       pierceCap: 2
-       pierceBuilding: true
+   frontColor: 313131FF
+   backColor: 313131FF
+   trailColor: 313131FF
+ trailEffect: shootSmokeTitan
+ trailInterval: 6
 }
 }
 requirements: [
-sand/700
-item-b-2/250
-item-a-5/155
-silicon/85
+sand/500
+item-b-2/50
+item-a-5/350
 ]
 research: {
-parent: turret-c-s-2
+parent: turret-c-s-1
 }
 category: turret
 researchCostMultiplier: 1
