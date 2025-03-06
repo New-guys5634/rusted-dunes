@@ -44,7 +44,7 @@ item-a-4/35
 item-a-5/110
 ]
 research: {
-parent: turret-a-s-3
+parent: turret-c-s-7
 }
 category: turret
 researchCostMultiplier: 1
