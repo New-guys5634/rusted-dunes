@@ -1,14 +1,14 @@
 type: Drill
-drillTime: 300
-name: Old iron drill
-description: Drills ores more efficiently.
+drillTime: 250
+name: Sheeted shale drill
+description: Drills ores way more efficiently.
 size: 2
 category: production
 hasLiquids: true
 liquidCapacity: 50
 drawMineItem: false
 research: {
-  parent: drill-a-1
+  parent: drill-a-2
 }
 	consumes: {
 		liquid: {
@@ -23,7 +23,8 @@ tier: 3
 itemCapacity: 15
 researchCostMultiplier: 1
 requirements: [
-item-a-5/75
+item-b-2/90
+item-a-5/60
 sand/65
-item-a-1/90
+item-a-4/65
 ]

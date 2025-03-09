@@ -11,6 +11,14 @@ drawMineItem: false
 research: {
   parent: core-a-1
 }
+	consumes: {
+		liquid: {
+			liquid: liquid-a-1
+			amount: 0.1
+			optional: true
+			booster: true
+		}
+}
 hasPower: false
 tier: 2
 itemCapacity: 10
