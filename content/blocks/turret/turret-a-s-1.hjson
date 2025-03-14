@@ -32,7 +32,7 @@ ammoTypes: {
         speed: 6
         height: 6
         width: 6
-        lifetime: 15
+        lifetime: 20
         reloadMultiplier: 0.7
     }
     item-a-9: {
@@ -40,7 +40,7 @@ ammoTypes: {
         speed: 6
         height: 7
         width: 7
-        lifetime: 15
+        lifetime: 20
    }
 }
 requirements: [
