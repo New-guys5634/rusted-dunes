@@ -1,7 +1,7 @@
 name: Electronic 
 description: uses elictritcy sparks to knock back and ruin the opponent.
 type: PowerTurret
-reload: 55
+reload: 40
 shootCone: 20
 rotateSpeed: 3.5
 targetGround: true

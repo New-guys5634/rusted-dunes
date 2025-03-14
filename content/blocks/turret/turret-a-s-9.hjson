@@ -5,7 +5,7 @@ reload: 10
 shootCone: 20
 rotateSpeed: 3
 targetGround: true
-targetAir: false
+targetAir: true
 range: 65
 recoil: 0.5
 size: 1
