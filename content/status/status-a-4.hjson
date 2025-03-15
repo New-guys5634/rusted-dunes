@@ -1,0 +1,22 @@
+name: Insanity level 4...
+speedMultiplier: 2.30
+reloadMultiplier: 2.30
+damageMultiplier: 2.30
+healthMultiplier: 2.30
+damage: -0.02
+effect : {
+    type : MultiEffect
+    effects : [
+        {
+            particles : 2
+            colorFrom : EDF3A9
+            sizeFrom : 2
+            lifetime : 70
+            colorTo : EDF3A9
+            sizeTo : 0
+            length : 4
+            type : ParticleEffect
+            cone : 280
+}
+]
+}

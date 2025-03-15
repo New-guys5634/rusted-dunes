@@ -1,0 +1,22 @@
+name: INSANITY LEVEL 5
+speedMultiplier: 3
+reloadMultiplier: 3
+damageMultiplier: 3
+healthMultiplier: 3
+damage: -0.06
+effect : {
+    type : MultiEffect
+    effects : [
+        {
+            particles : 2
+            colorFrom : EDF3A9
+            sizeFrom : 2
+            lifetime : 70
+            colorTo : EDF3A9
+            sizeTo : 0
+            length : 4
+            type : ParticleEffect
+            cone : 280
+}
+]
+}
