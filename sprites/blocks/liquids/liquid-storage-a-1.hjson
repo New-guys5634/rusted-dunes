@@ -1,0 +1,20 @@
+type: LiquidRouter
+
+name: Wooden Liquid Storage
+description: Stores a small amount of liquids.
+size: 2
+category: liquid
+requirements: [
+item-a-4/80
+item-a-5/10
+item-a-7/25
+]
+
+liquidCapacity: 900
+liquidPadding: 2
+research: pipe-router
+researchCost: [
+item-a-4/800
+item-a-5/100
+item-a-7/250
+]
