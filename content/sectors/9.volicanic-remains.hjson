@@ -1,0 +1,16 @@
+localizedName: Meteor ruins
+description: "The volcanic ashes your radars detected two drop zones and an enemy core take it out and recover lost knolloge of [red]the second moon...[white]the MECHS are inraged of there losses and gone insane, there statuses are [purple] INSANITY LEVEL 5.[white]Note that rusted metal is totally out except for 4 vains use the recent technology and manufacture rusted metal."
+difficulty: 8
+planet: dunes
+sector: 170
+overrideLaunchDefaults: true
+addStartingItems: true
+research: {
+  parent: 8.meteor-ruins
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 8.meteor-ruins
+    }
+  ]
+}
