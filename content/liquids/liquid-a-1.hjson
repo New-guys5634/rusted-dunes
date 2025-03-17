@@ -5,7 +5,6 @@ barColor: AF2A2AFF
 viscosity: 0.3
 temperature: 0.5
 gas: false
-coolant: false 
 particleEffect: {
     particles: 4
     length: 0
