@@ -2,8 +2,8 @@ name: Melted crystal liquid
 description: The liquid that is simply melted Sheeted crystal and is used as a massive booster to turrets.
 color: BFECFF
 barColor: BFECFF
-viscosity: 0.4
-temperature: 0.6
+boilPoint: 1.0
+heatCapacity: 0.9
 gas: false 
 coolant: true
 particleEffect: {
