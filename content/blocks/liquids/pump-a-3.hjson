@@ -1,0 +1,53 @@
+type: GenericCrafter
+name: Crystal turbine 
+description: Intakes water and sheeted crystal to melt crystal water.
+size: 2
+hasLiquids: true
+squareSprite: false
+liquidCapacity: 50
+outputLiquid: liquid-a-2/0.2
+consumes: {
+power: 1
+  liquid: water/0.2
+  items: {
+    items: [
+item-a-7/1
+    ]
+  }
+}
+category: liquid
+research: pump-a-2
+requirements: [
+item-a-7 /95
+item-a-5/70
+item-a-3/80
+sand/35
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawRegion
+      suffix: -top
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: liquid-a-2
+      padding: 0.5
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawRegion
+      suffix: -spinner
+      spinSprite: true
+      rotateSpeed: 0.2
+    }
+  ]
+}
+researchCostMultiplier: 0.5
