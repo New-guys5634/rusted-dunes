@@ -23,7 +23,7 @@ drawer: {
       under: false
       progress: recoil
       moveY: -2
-      moveRot: 25
+      moveRot: -25
     }
   ]
 }
@@ -39,7 +39,7 @@ coolant: {
 shoot: {
   shots: 3
   shotDelay: 4
-  firstShotDelay: 15
+  firstShotDelay: 45
 }
 shootType: {
     type: FlakBulletType
