@@ -35,6 +35,7 @@ coolant: {
   allowLiquid: true
   amount: 0.1
 }
+}
 shoot: {
   shots: 3
   shotDelay: 4
