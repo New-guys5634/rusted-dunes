@@ -1,6 +1,6 @@
 name: Point 
 description: Fires 3 projectiles at once dealing high damage.
-type: ItemTurret
+type: PowerTurret
 reload: 95
 shootCone: 20
 rotateSpeed: 3.5
@@ -13,44 +13,44 @@ health: 390
 AmmoPerShot: 10
 shootSound: laser
 outlineColor: 000000FF
+drawer: {
+  type: DrawTurret
+  parts: [
+    {
+      type: RegionPart
+      suffix: -side
+      mirror: true
+      under: false
+      progress: recoil
+      moveY: -2
+      moveRot: 25
+    }
+  ]
+}
 coolant: {
+  power: 1.5
   type: ConsumeCoolant
   allowGas: true
   allowLiquid: true
   amount: 0.1
 }
 shoot: {
-  type: ShootSpread
-  spread: 2
   shots: 3
+  shotDelay: 4
+  firstShotDelay: 15
 }
-ammoTypes: {
-    item-a-8: {
-        damage: 45
-        speed: 9
-        height: 6
-        width: 6
-        lifetime: 20
-   trailWidth: 2
-   trailLength: 8
-  frontColor: 8E665C
-   backColor: 8E665C
-   trailColor: 8E665C
-      reloadMultiplier: 0.7
-    }
-    item-a-9: {
+shootType: {
+    type: FlakBulletType
         damage: 35
         speed: 9
         height: 6
         width: 6
         lifetime: 20
    trailWidth: 2
-   trailLength: 6
+   trailLength: 8
    frontColor: FFE4C9FF
    backColor: FFE4C9FF
    trailColor: FFE4C9FF
-   reloadMultiplier: 1.2
-    }
 }
 requirements: [
 item-a-2/90
