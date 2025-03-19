@@ -27,8 +27,9 @@ drawer: {
     }
   ]
 }
-coolant: {
+consumes: {
   power: 1.5
+coolant: {
   type: ConsumeCoolant
   allowGas: true
   allowLiquid: true
