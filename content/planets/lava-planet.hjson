@@ -1,0 +1,183 @@
+localizedName: Zrogro 
+generator: SerpuloPlanetGenerator
+parent: erekir
+iconColor: FFCD66FF
+orbitRadius: 7
+hasAtmosphere: true
+updateLighting: true
+atmosphereRadIn: 0
+atmosphereRadOut: 0.3
+atmosphereColor: FFCD66FF
+drawOrbit: true
+allowLaunchSchematics: false
+allowLaunchToNumbered: false
+allowLaunc3e9d6bhLoadout: false
+allowSectorInvasion: false
+icon: planet-zrogro
+accessible: true
+alwaysUnlocked: true
+defaultCore: "main-core"
+sectorSeed: 0
+startSector: 0
+sectorSize: 3
+
+clearSectorOnLose: true
+allowSectorInvasion: false
+allowLaunchToNumbered: false
+allowWaveSimulation: true
+clearSectorOnLose: true
+allowWaves: true
+prebuildBase: false
+cloudMesh: {
+    type: HexSkyMesh
+    planet: lava-planet 
+    seed: 76
+    speed: 0.8
+    radius: 0.13
+    divisions: 6
+    color: E36956FF
+    octaves: 3
+    persistence: 0.3
+    scl: 0.85
+    thresh: 0.4
+}
+launchCandidates: []
+hiddenItems: [
+    "titanium"
+    "thorium"
+    "silicon"
+    "plastanium"
+    "phase-fabric"
+    "surge-alloy"
+    "blast-compound"
+    "pyratite"
+    "metaglass"
+    "beryllium"
+    "oxide"
+    "tungsten"
+    "carbide"
+    "fissile-matter"
+    "dormant-cyst"
+]
+mesh: [
+  {
+    type: NoiseMesh
+    divisions: 5
+    radius: 0.943
+    color1: E36956FF
+    color2: FF9166FF
+    octaves: 1
+    persistence: 0.0001
+    scale: 0.0001
+    mag: 1
+    coct: 1
+    cper: 1
+    cscl: 1
+    cthresh: 4
+  }
+  {
+    type: NoiseMesh
+    divisions: 5
+    radius: 1.019
+    color1: 422445FF
+    color2: 545873FF
+    octaves: 4.2
+    persistence: 0.9
+    scale: 0.7
+    mag: 0.2
+    coct: 4
+    cper: 1
+    cscl: 1.8
+    cthresh: 1
+  }
+  {
+    type: NoiseMesh
+    divisions: 6
+    radius: 1.0088
+    color1: E9B675FF
+    color2: D5806BFF
+    octaves: 4.2
+    persistence: 0.9
+    scale: 0.7
+    mag: 0.3
+    coct: 4
+    cper: 1
+    cscl: 1.8
+    cthresh: 1
+  }
+  {
+    type: NoiseMesh
+    divisions: 6
+    radius: 0.998
+    color1: FFCD66FF
+    color2: E28654FF
+    octaves: 4.2
+    persistence: 0.9
+    scale: 0.7
+    mag: 0.4
+    coct: 1
+    cper: 1
+    cscl: 1.8
+    cthresh: 1
+  }
+  {
+    type: NoiseMesh
+    divisions: 6
+    radius: 0.945
+    color1: E0B28DFF
+    color2: 9B928BFF
+    octaves: 4.6
+    persistence: 0.9
+    scale: 0.7
+    mag: 0.9
+    coct: 4
+    cper: 1
+    cscl: 1.8
+    cthresh: 1
+  }
+  {
+    type: NoiseMesh
+    divisions: 6
+    radius: 0.884
+    color1: 2A2A2AFF
+    color2: 2A2A2AFF
+    octaves: 4.6
+    persistence: 0.9
+    scale: 0.7
+    mag: 1.5
+    coct: 4
+    cper: 1
+    cscl: 4
+    cthresh: 1
+  }
+  {
+    type: NoiseMesh
+    divisions: 6
+    radius: 0.818
+    color1: 73779AFF
+    color2: 454A5EFF
+    octaves: 4.6
+    persistence: 0.9
+    scale: 0.7
+    mag: 2.2
+    coct: 4
+    cper: 1
+    cscl: 0.7
+    cthresh: 1
+  }
+  {
+    type: NoiseMesh
+    divisions: 6
+    radius: 0.721
+    color1: 2A2A2AFF
+    color2: 2A2A2AFF
+    octaves: 4.6
+    persistence: 0.9
+    scale: 0.7
+    mag: 3.4
+    coct: 4
+    cper: 1
+    cscl: 1.8
+    cthresh: 1
+  }
+]
