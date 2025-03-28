@@ -1,0 +1,15 @@
+name: Wooden unloader
+description: Unloads items from storage blocks.
+type: Unloader
+health: 15
+itemCapacity: 15
+requirements: [
+item-a-4/45
+item-a-5/75
+] 
+category: effect
+research: core-a-2
+researchCost: [
+item-a-4/90
+item-a-5/145
+ ]
