@@ -1,0 +1,12 @@
+type: LogicDisplay
+name: Iron Screen
+description: Outputs any imagines you want.
+size: 3
+displaySize: 80
+category: logic
+research: a-2-logic
+requirements: [
+item-a-4/45
+item-a-5/25
+]
+researchCostMultiplier: 0.5

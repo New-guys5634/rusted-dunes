@@ -1,0 +1,14 @@
+type: LogicBlock
+name: Logic block
+description: Runs basic logic and controls units and blocks.
+category: logic
+research: core-a-1
+requirements: [
+item-a-1/50
+sand/55
+item-a-4/30
+item-a-5/15
+]
+instructionsPerTick: 2
+size: 1
+researchCostMultiplier: 0.1

@@ -1,0 +1,13 @@
+type: MemoryBlock
+name: Memory container
+description: Stores logic instructions and values. 
+memoryCapacity: 64
+category: logic
+research: a-1-logic
+requirements: [
+item-a-5/25
+item-a-4/75
+]
+squareSprite: false
+size: 1
+researchCostMultiplier: 0.5

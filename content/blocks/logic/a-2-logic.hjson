@@ -1,0 +1,11 @@
+type: SwitchBlock
+name: Logic controller 
+description: Enables or disables logic processors.
+size: 1
+category: logic
+research: a-1-logic
+requirements: [
+item-a-5/15
+item-a-4/15
+]
+researchCostMultiplier: 0.2

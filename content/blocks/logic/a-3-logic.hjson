@@ -1,0 +1,10 @@
+type: MessageBlock
+name: Message block
+description: Stores any messages for teammates but can't be viewed by enemies.
+size: 1
+requirements: [
+item-a-5/20
+item-a-4/15
+]
+category: logic
+research: a-1-logic
