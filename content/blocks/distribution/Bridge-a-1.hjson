@@ -2,7 +2,7 @@
   name: Rusted bridge 
   description: Slow and olden used as a transport over walls.
   health: 40
-  range: 3
+  range: 4
   transportTime: 3
   hasPower: false
 requirements: [
