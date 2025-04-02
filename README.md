@@ -1,9 +1,6 @@
-welcome to rusted dunes 
+# Rusted Dunes
 
-basically reading the name its basically a planet full of old and janky rusted nonsenses and dont forget SAND 
+Rusted Dunes is a Mindustry mod with a new planet, Dunes. You must disassemble derelict structures for resources to build your own.
+There are 12-16 planned sectors to conquer, but this mod is still in beta, and will not be finished for a while.
 
-the planet plans to add 12-16 sectors of fun and optional sectors (propobaly by other people) to conquer and enjoying hell
-
-be warned that this still beta and not far from Finnished so beware this mod will be updated regularly.
-
-enjoy
+Have fun!
