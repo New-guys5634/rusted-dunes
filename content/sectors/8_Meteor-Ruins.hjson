@@ -7,11 +7,11 @@ sector: 35
 overrideLaunchDefaults: true
 addStartingItems: true
 research: {
-  parent: 7.Scoching rust
+  parent: 7_Scorching-Rust
   objectives: [
     {
       type: SectorComplete
-      preset: 7.Scoching rust
+      preset: 7_Scorching-Rust
     }
   ]
 }

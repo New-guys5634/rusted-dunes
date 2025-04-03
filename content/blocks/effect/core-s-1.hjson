@@ -10,7 +10,7 @@ research: {
   objectives: [
     {
       type: OnSector
-      preset: 3old-road
+      preset: 3_Old-Road
     }
   ]
 }

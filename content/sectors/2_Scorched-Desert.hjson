@@ -7,11 +7,11 @@ sector: 4
 overrideLaunchDefaults: true
 addStartingItems: true
 research: {
-  parent: 1rusted-valley
+  parent: 1_Rusted-Valley
   objectives: [
     {
       type: SectorComplete
-      preset: 1rusted-valley
+      preset: 1_Rusted-Valley
     }
   ]
 }

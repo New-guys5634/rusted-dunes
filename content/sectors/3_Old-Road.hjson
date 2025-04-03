@@ -7,11 +7,11 @@ sector: 17
 overrideLaunchDefaults: true
 addStartingItems: true
 research: {
-  parent: 2scorched-desert
+  parent: 2_Scorched-Desert
   objectives: [
     {
       type: SectorComplete
-      preset: 2scorched-desert
+      preset: 2_Scorched-Desert
     }
   ]
 }

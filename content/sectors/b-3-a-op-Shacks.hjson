@@ -10,7 +10,7 @@ sector: 7
 overrideLaunchDefaults: true
 addStartingItems: true
 research: {
-  parent: 4.attack-centre
+  parent: 4_Attack-Centre
   objectives: [
     {
       type: SectorComplete

@@ -7,11 +7,11 @@ sector: 195
 overrideLaunchDefaults: true
 addStartingItems: true
 research: {
-  parent: 6.chasm
+  parent: 6_Chasm
   objectives: [
     {
       type: SectorComplete
-      preset: 6.chasm
+      preset: 6_Chasm
     }
   ]
 }

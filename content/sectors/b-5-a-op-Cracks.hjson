@@ -9,7 +9,7 @@ sector: 25
 overrideLaunchDefaults: true
 addStartingItems: true
 research: {
-  parent: 5.lead points
+  parent: 5_Lead-Points
   objectives: [
     {
       type: SectorComplete

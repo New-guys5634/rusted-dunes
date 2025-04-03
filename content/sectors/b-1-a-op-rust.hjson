@@ -10,11 +10,11 @@ sector: 201
 overrideLaunchDefaults: true
 addStartingItems: true
 research: {
-  parent: 3old-road
+  parent: 3_Old-Road
   objectives: [
     {
       type: SectorComplete
-      preset: 3old-road
+      preset: 3_Old-Road
     }
   ]
 }

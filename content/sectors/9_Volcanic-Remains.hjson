@@ -6,11 +6,11 @@ sector: 170
 overrideLaunchDefaults: true
 addStartingItems: true
 research: {
-  parent: 8.meteor-ruins
+  parent: 8_Meteor-Ruins
   objectives: [
     {
       type: SectorComplete
-      preset: 8.meteor-ruins
+      preset: 8_Meteor-Ruins
     }
   ]
 }
