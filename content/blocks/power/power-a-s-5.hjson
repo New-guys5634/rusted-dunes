@@ -1,0 +1,38 @@
+name: Rusted turbine
+description: Spins to generate a small amount of power.
+type: ConsumeGenerator
+size: 2
+health: 110
+hasItems: false
+hasLiquids: true
+hasPower: true
+powerProduction: 0.5
+requirements: [
+item-a-1/50
+item-a-4/45
+]
+category: power
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawRegion
+      suffix: -top
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawRegion
+      suffix: -spinner
+      spinSprite: true
+      rotateSpeed: 8
+    }
+  ]
+}
+researchCostMultiplier: 0.1
+
