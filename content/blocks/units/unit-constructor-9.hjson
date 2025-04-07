@@ -1,0 +1,43 @@
+name: Mech their 3 upgrade site
+description: Upgrades teir2's to teir3's.
+type: Reconstructor
+size: 5
+health: 450
+category: units
+consumes: {
+  power: 3
+    items: {
+      items: [
+item-a-4/50
+item-a-1/50
+item-a-5/50
+item-a-8/15
+item-a-7/50
+      ]
+    }
+}
+upgrades: [
+  [mech-unit-a-2,mech-unit-a-3]
+  [unit-tank-a-2,unit-tank-a-3]
+  [hover-unit-b-2,hover-unit-b-3]
+]
+constructTime: 1250
+requirements: [
+item-a-4/115
+item-a-1/660
+sand/600
+item-a-2/300
+item-a-5/90
+item-a-7/90
+]
+research: {
+    parent: unit-constructor-4
+} 
+researchCost: [
+item-a-4/400
+item-a-1/800
+sand/900
+item-a-2/370
+item-a-5/150
+item-a-7/300
+]
