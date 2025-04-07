@@ -116,3 +116,5 @@ sizeTo: 0
 }
 }
 ]
+research: hover-unit-b-2
+researchCostMultiplier: 1

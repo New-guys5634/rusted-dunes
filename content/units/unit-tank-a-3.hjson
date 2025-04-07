@@ -76,3 +76,5 @@ weapons: [
 }
 }
 ]
+research: unit-tank-a-2
+researchCostMultiplier: 1
