@@ -63,6 +63,8 @@ name: core-unit-1-wep
   y: 0
   shootY: 2
   shootX: 0
+    controllable: false
+    autoTarget: true
   mirror: false
   rotate: true
   shootCone: 20

@@ -55,6 +55,34 @@ weapons: [
 		    maxRange: 35
 		}
     }
+{
+name: core-unit-1-wep
+  top: false
+  x: 0
+  y: 0
+  shootY: 2
+  shootX: 0
+    controllable: false
+    autoTarget: true
+  mirror: false
+  rotate: true
+  shootCone: 20
+  shootSound: shootAlt
+  inaccuracy: 0
+  reload: 20
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  bullet: {
+   type: BasicBulletType
+        damage: 18
+        speed: 6
+        height: 6
+        width: 6
+        lifetime: 36
+        buildingDamageMultiplier: 0.001
+   }
+  }
 ]
 engines: [
     {
