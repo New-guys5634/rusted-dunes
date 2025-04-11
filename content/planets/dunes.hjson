@@ -62,8 +62,8 @@ mesh: [
     seed: 562697
     color1: 8E665CFF
     color2: 76151EFF
-    colorScale: 5
-    colorThreshold: 0.55
+    colorScale: 8
+    colorThreshold: 0.8
     divisions: 5
     radius: 0.8
     octaves: 9
