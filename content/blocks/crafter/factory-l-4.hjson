@@ -39,12 +39,13 @@ craftEffect: {
     followParent: true
     rotWithParent: false
     sizeFrom: 2
-    sizeTo: 01
+    sizeTo: 8
     colorFrom: FFE4C9FF
-    colorTo: 
+    colorTo: e0e0e066
     lifetime: 100
-    length: 2
-    baseLength: 1.2
+    length: 8
+    height: 5
+    baseLength: 1.5
     interp: pow2
     sizeInterp: pow3In
   }
