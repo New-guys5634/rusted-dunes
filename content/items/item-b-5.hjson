@@ -1,0 +1,6 @@
+description: Uses sand and wood for glass, used for units.
+name: Protected glass
+color: FDFDFD
+hardness: 2
+hiddenOnPlanets: [serpulo, erekir]
+research: item-a-4
