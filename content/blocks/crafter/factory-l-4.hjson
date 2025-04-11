@@ -1,0 +1,66 @@
+description: Uses wood and sand for glass.
+name: Large glass forge
+type: GenericCrafter
+size: 3
+health: 400
+craftTime: 150
+hasItems: true
+hasLiquids: false
+hasPower: false
+itemCapacity: 25
+consumes: {
+  items: {
+    items: [
+item-a-4/2
+sand/2
+    ]
+  }
+}
+requirements: [
+item-a-1/200
+sand/50
+item-a-5/15
+item-a-4/40
+]
+category: crafting
+outputItem: item-b-5/2
+research: factory-s-1
+researchCostMultiplier: 1
+craftEffect: {
+  type: RadialEffect
+  amount: 8
+  rotationSpacing: 90
+  rotationOffset: 45
+  lengthOffset: 8
+  effect: {
+    type: ParticleEffect
+    particles: 4
+    cone: 380
+    followParent: true
+    rotWithParent: false
+    sizeFrom: 2
+    sizeTo: 01
+    colorFrom: FFE4C9FF
+    colorTo: 
+    lifetime: 100
+    length: 2
+    baseLength: 1.2
+    interp: pow2
+    sizeInterp: pow3In
+  }
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawCrucibleFlame
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
+ 
