@@ -1,7 +1,6 @@
 localizedName: dunes
 generator: SerpuloPlanetGenerator
 parent: sun
-icon: planet-dunes
 iconColor: 8E665CFF
 orbitRadius: 65
 hasAtmosphere: true
@@ -63,8 +62,10 @@ mesh: [
     seed: 562697
     color1: 8E665CFF
     color2: 76151EFF
+    colorScale: 5
+    colorThreshold: 0.55
     divisions: 5
-    radius: 0.9
+    radius: 0.8
     octaves: 9
     persistence: 1
     scl: 0.75
@@ -76,11 +77,11 @@ mesh: [
   seed: 644564
   color1: AF2A2AFF
   color2: 8E665CFF
-  divisions: 5
+  divisions: 4
   radius: 1
   octaves: 9
   persistence: 1
-  scl: 0.85
+  scl: 0.70
   mag: 1.1
   }
   {
@@ -89,11 +90,13 @@ mesh: [
   seed: 756452
   color1: 9E78DDFF
   color2:  8E665CFF
+    colorScale: 2
+    colorThreshold: 0.50
   divisions: 7
   radius: 0.9
   octaves: 9
   persistence: 1
-  scl: 0.95
+  scl: 0.70
   mag: 1.1
   }
   {
@@ -102,153 +105,14 @@ mesh: [
   seed: 435678
   color1: 76151EFF
   color2: AF2A2AFF
+    colorScale: 2
+    colorThreshold: 0.30
   divisions: 6
-  radius: 0.865
+  radius: 0.8
   octaves: 1
   persistence: 1
-  scl: 0.72
-  mag: 1.4
-  }
-]
-launchCandidates: []
-itemWhitelist: [
-"sand"
-"silicon"
-"item-a-1"
-"item-a-2"
-"item-a-3"
-"item-a-4"
-"item-a-5"
-"item-a-6"
-"item-a-7"
-"item-a-8"
-"item-a-9"
-"item-b-1"
-"item-b-2"
-"item-b-3"
-"item-b-4"
-]
-hiddenItems: [
-    "copper"
-    "lead"
-    "scrap"
-    "graphite"
-    "coal"
-    "titanium"
-    "thorium"
-    "plastanium"
-    "phase-fabric"
-    "surge-alloy"
-    "spore-pod"
-    "blast-compound"localizedName: dunes
-generator: SerpuloPlanetGenerator
-parent: sun
-iconColor: 8E665CFF
-orbitRadius: 65
-hasAtmosphere: true
-updateLighting: true
-allowLaunchSchematics: false
-allowLaunchToNumbered: false
-allowLaunchLoadout: false
-allowSectorInvasion: false
-atmosphereRadIn: 0
-atmosphereRadOut: 0.3
-atmosphereColor: 8E665CFF
-drawOrbit: true
-accessible: true
-alwaysUnlocked: true
-defaultCore: "core-a-1"
-sectorSeed: 0
-startSector: 0
-sectorSize: 3
-clearSectorOnLose: true
-allowSectorInvasion: false
-allowLaunchToNumbered: false
-allowWaveSimulation: true
-clearSectorOnLose: true
-allowWaves: true
-prebuildBase: false
-bloom: true
-cloudMesh: [
-{
-    type: HexSkyMesh
-    planet: dunes 
-    seed: 74
-    speed: 0.8
-    radius: 0.13
-    divisions: 6
-    color: 76151EFF
-    octaves: 3
-    persistence: 0.3
-    scl: 0.85
-    thresh: 0.4
-}
-{
-    type: HexSkyMesh
-    planet: dunes 
-    seed: 64
-    speed: 0.2
-    radius: 0.13
-    divisions: 4
-    color: 8E665CFF
-    octaves: 6
-    persistence: 0.2
-    scl: 0.85
-    thresh: 0.4
-}
-]
-mesh: [
-  {
-    type: NoiseMesh
-    planet: dunes
-    seed: 562697
-    color1: 8E665CFF
-    color2: 76151EFF
-    divisions: 5
-    radius: 0.9
-    octaves: 9
-    persistence: 1
-    scl: 0.75
-    mag: 1.2
-  }
-  { 
-  type: NoiseMesh
-  planet: dunes
-  seed: 644564
-  color1: AF2A2AFF
-  color2: 8E665CFF
-  divisions: 5
-  radius: 1
-  octaves: 9
-  persistence: 1
-  scl: 0.85
-  mag: 1.1
-  }
-  {
-     type: NoiseMesh
-  planet: dunes
-  seed: 756452
-  color1: 9E78DDFF
-  color2:  8E665CFF
-  divisions: 7
-  radius: 0.9
-  octaves: 9
-  persistence: 1
-  scl: 0.95
-  mag: 1.1
-  }
-  {
-     type: NoiseMesh
-  planet: dunes
-  seed: 435678
-  color1: 76151EFF
-  color2: AF2A2AFF
-  divisions: 6
-  radius: 0.865
-  octaves: 1
-  persistence: 1
-  scl: 0.72
-  mag: 1.4
+  scl: 0.70
+  mag: 1.2
   }
 ]
 launchCandidates: []
