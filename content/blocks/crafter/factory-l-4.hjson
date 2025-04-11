@@ -48,6 +48,7 @@ craftEffect: {
     interp: pow2
     sizeInterp: pow3In
   }
+}
 drawer: {
   type: DrawMulti
   drawers: [
