@@ -23,8 +23,8 @@ mineTier: 1
 rotateSpeed: 7
 
 crashDamageMultiplier: 0
-hittable: false
-targetable: false
+hittable: true 
+targetable: true
 fogRadius: 0
 coreUnitDock: true
 outlineColor: 8E665CFFf
