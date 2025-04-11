@@ -1,13 +1,13 @@
-name: rust wind
-type: RainWeather
-sound: windhowl
-xspeed: 6
-yspeed: 3
-density: 40000
-status: none
+name: Sand storm
+type: ParticleWeather
+color: FFE4C9FF
+noiseColor: FFE4C9FF 
+sizeMax: 100
+sizeMin: 80
+density: 50000
 useWindVector: true
-sizeMin: 130
-sizeMax: 240
-splashTimeScale: 0
-color: AF2A2AFF
-force: 2
+drawNoise: true
+opacityMultiplier: 0.3
+baseSpeed: 4
+sound: windhowl
+soundVol: 0.4
