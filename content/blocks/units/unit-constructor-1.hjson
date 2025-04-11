@@ -12,6 +12,7 @@ plans: [
         sand/30
         item-a-2/10
         item-a-4/15
+       item-b-5/20
     ]
 }
 ]
