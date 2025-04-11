@@ -1,0 +1,19 @@
+localizedName: Active base
+description: "A strong and hard base to take down, use multiple units and use hover units for the molten rust.
+
+A great opportunity to use this sector for Technology.
+[#feb380]Note: This is an optional sector. Capturing it is not required for conquering the campaign."
+difficulty: 6
+planet: dunes
+sector: 225
+overrideLaunchDefaults: true
+addStartingItems: true
+research: {
+  parent: b-4-a-op-Novial
+  objectives: [
+    {
+      type: SectorComplete
+      preset: b-4-a-op-Novial
+    }
+  ]
+}
