@@ -27,6 +27,7 @@ clearSectorOnLose: true
 allowWaves: true
 prebuildBase: false
 bloom: true
+updateLighting: true
 cloudMesh: [
 {
     type: HexSkyMesh
@@ -48,7 +49,7 @@ cloudMesh: [
     speed: 0.2
     radius: 0.13
     divisions: 4
-    color: 8E665CFF
+    color: FFE4C9
     octaves: 6
     persistence: 0.2
     scl: 0.85
@@ -60,7 +61,7 @@ mesh: [
     type: NoiseMesh
     planet: dunes
     seed: 562697
-    color1: 8E665CFF
+    color1: FFE4C9
     color2: 76151EFF
     colorScale: 8
     colorThreshold: 0.8
@@ -76,7 +77,7 @@ mesh: [
   planet: dunes
   seed: 644564
   color1: AF2A2AFF
-  color2: 8E665CFF
+  color2: FFE4C9
   divisions: 4
   radius: 1
   octaves: 9
@@ -88,7 +89,7 @@ mesh: [
      type: NoiseMesh
   planet: dunes
   seed: 756452
-  color1: 9E78DDFF
+  color1: FFE4C9
   color2:  8E665CFF
     colorScale: 2
     colorThreshold: 0.50
@@ -103,7 +104,7 @@ mesh: [
      type: NoiseMesh
   planet: dunes
   seed: 435678
-  color1: 76151EFF
+  color1: FFE4C9
   color2: AF2A2AFF
     colorScale: 2
     colorThreshold: 0.30
