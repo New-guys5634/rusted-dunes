@@ -10,7 +10,7 @@ hasPower: false
 itemCapacity: 30
 liquidCapacity: 50
 consumes: {
-  liquid: water/0.2
+  liquid: water/0.6
   items: {
     items: [
 item-a-6/2
