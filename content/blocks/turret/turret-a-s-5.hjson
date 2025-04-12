@@ -53,6 +53,9 @@ shootType: {
    frontColor: FFE4C9FF
    backColor: FFE4C9FF
    trailColor: FFE4C9FF
+      collidesAir: true
+      collidesGround: true
+      collideTerrain: false
 }
 requirements: [
 item-a-2/90

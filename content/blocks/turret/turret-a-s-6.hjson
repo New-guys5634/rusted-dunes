@@ -38,7 +38,7 @@ shootType: {
    trailColor: BFECFFFF
       collidesAir: false
       collidesGround: true
-      collideTerrain: fakse
+      collideTerrain: false
 }
 requirements: [
 item-a-6/130
