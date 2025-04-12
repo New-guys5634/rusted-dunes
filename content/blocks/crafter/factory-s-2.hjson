@@ -1,0 +1,67 @@
+description: Dries scorched material for sand.
+name: Scorch drier
+type: GenericCrafter
+size: 1
+health: 100
+craftTime: 110
+hasItems: true
+hasLiquids: false
+hasPower: false
+itemCapacity: 20
+consumes: {
+  items: {
+    items: [
+item-a-6/1
+    ]
+  }
+}
+requirements: [
+item-a-3/15
+item-a-2/25
+sand/25
+]
+category: crafting
+outputItem: sand/6
+research: factory-s-1
+researchCost: [
+item-a-3/60
+item-a-2/70
+sand/125
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+  {
+type: DrawDefault
+}
+  {
+type: DrawGlowRegion
+color: 8E665CFFf
+suffix: -glow
+glowScale: 25
+  }
+  ]
+}
+craftEffect: {
+    type: RadialEffect
+    layer: 90
+    rotationSpacing: 45
+    amount: 5
+    lengthOffset: 2
+    effect: {
+      particles: 1
+      length: 10
+      lifetime: 100
+      speed: 6
+      cone: 20
+      baseRotation: 15
+      useRotation: false 
+      sizeFrom: 0
+      sizeTo: 8
+      colorFrom: e0e0e066
+      colorTo: e0e0e000
+      sizeInterp: pow2Out
+      interp: pow2Out
+      layer: 90
+    }
+  }

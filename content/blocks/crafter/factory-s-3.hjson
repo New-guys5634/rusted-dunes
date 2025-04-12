@@ -1,0 +1,69 @@
+description: Scraps sanded metal for the same cost.
+details: no idea why you would use this but have fun.
+name: Sanded metal scraper
+type: GenericCrafter
+size: 1
+health: 100
+craftTime: 110
+hasItems: true
+hasLiquids: false
+hasPower: false
+itemCapacity: 20
+consumes: {
+  items: {
+    items: [
+item-a-2/1
+    ]
+  }
+}
+requirements: [
+item-a-1/50
+item-a-2/25
+]
+category: crafting
+outputItems: [
+sand/5
+item-a-1/1
+]
+research: factory-s-1
+researchCost: [
+item-a-1/125
+item-a-2/75
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+  {
+type: DrawDefault
+}
+  {
+type: DrawGlowRegion
+color: 8E665CFFf
+suffix: -glow
+glowScale: 25
+  }
+  ]
+}
+craftEffect: {
+    type: RadialEffect
+    layer: 90
+    rotationSpacing: 45
+    amount: 5
+    lengthOffset: 2
+    effect: {
+      particles: 1
+      length: 10
+      lifetime: 100
+      speed: 6
+      cone: 20
+      baseRotation: 15
+      useRotation: false 
+      sizeFrom: 0
+      sizeTo: 8
+      colorFrom: e0e0e066
+      colorTo: e0e0e000
+      sizeInterp: pow2Out
+      interp: pow2Out
+      layer: 90
+    }
+  }
