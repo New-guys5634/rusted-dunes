@@ -1,0 +1,44 @@
+type: BurstDrill
+name: Old iron buster
+description: A medium sized burst drill, better than thee small ones.
+size: 2
+category: production
+hasLiquids: false
+hardnessDrillMultiplier: 40
+drillTime: 225
+hasPower: false
+tier: 2
+shake: 0.5
+itemCapacity: 20
+researchCostMultiplier: 1
+drillEffect: {
+    type: RadialEffect
+    layer: 90
+    rotationSpacing: 45
+    amount: 5
+    lengthOffset: 5
+    effect: {
+      particles: 1
+      length: 80
+      lifetime: 150
+      speed: 2
+      cone: 20
+      baseRotation: 20
+      useRotation: false 
+      sizeFrom: 0
+      sizeTo: 8
+      colorFrom: 1E1D23FF
+      colorTo: e0e0e000
+      sizeInterp: pow2Out
+      interp: pow2Out
+      layer: 90
+    }
+  }
+requirements: [
+item-a-1/80
+item-a-2/50
+item-a-3/55
+item-a-4/35
+item-a-5/40
+]
+research: drill-a-2
