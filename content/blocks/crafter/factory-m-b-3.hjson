@@ -1,0 +1,75 @@
+description: Consumes scorched material and water for sulfur materials.
+name: Sulfur material mixer
+type: GenericCrafter
+size: 2
+health: 125
+craftTime: 180
+hasItems: true
+hasLiquids: false
+hasPower: false
+itemCapacity: 30
+liquidCapacity: 50
+consumes: {
+  liquid: water/0.2
+  items: {
+    items: [
+item-a-6/2
+    ]
+  }
+}
+requirements: [
+item-a-1/50
+item-a-6/50
+item-a-5/25
+]
+category: crafting
+outputItem: item-b-6/2
+research: factory-m-3
+researchCostMultiplier: 0.1
+generateEffect: generatespark
+ambientSound: smelter
+ambientSoundVolume: 0.1
+craftEffect: {
+    type: RadialEffect
+    layer: 90
+    rotationSpacing: 45
+    amount: 4
+    lengthOffset: 5
+    effect: {
+      particles: 2
+      length: 80
+      lifetime: 125
+      speed: 6
+      cone: 20
+      baseRotation: 15
+      useRotation: false 
+      sizeFrom: 0
+      sizeTo: 8
+      colorFrom: e0e0e066
+      colorTo: e0e0e000
+      sizeInterp: pow2Out
+      interp: pow2Out
+      layer: 90
+    }
+  }
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+     }
+     {
+      type: DrawLiquidTile
+      drawLiquid: water
+      alpha: 0.4
+      padding: 2
+    }
+    {
+      type: DrawCrucibleFlame
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
