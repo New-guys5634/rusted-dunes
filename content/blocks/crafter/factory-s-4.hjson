@@ -1,0 +1,68 @@
+type: HeatCrafter
+name: Heat iron user
+description: Uses heat to melt rusted metal and rusted spring for old iron.
+size: 1
+heatRequirement: 1
+squareSprite: false
+maxEfficiency: 1.75
+category: crafting
+research: factory-m-7
+researchCostMultiplier: 1
+craftTime: 225
+outputItem: item-a-5/2
+requirements: [
+item-a-1/50
+item-a-2/45
+item-a-3/25
+item-a-4/25
+]
+consumes: {
+  items: {
+    items: [
+item-a-1/1
+item-a-3/2
+    ]
+  }
+}
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawHeatInput
+      heatColor: 641616B3
+    }
+  ]
+}
+ambientSound: flux
+ambientSoundVolume: 0.4
+hasLiquids: false
+craftEffect: {
+    type: RadialEffect
+    layer: 90
+    rotationSpacing: 45
+    amount: 4
+    lengthOffset: 5
+    effect: {
+      particles: 2
+      length: 50
+      lifetime: 100
+      speed: 6
+      cone: 20
+      baseRotation: 15
+      useRotation: false 
+      sizeFrom: 0
+      sizeTo: 8
+      colorFrom: e0e0e066
+      colorTo: e0e0e000
+      sizeInterp: pow2Out
+      interp: pow2Out
+      layer: 90
+    }
+  }
