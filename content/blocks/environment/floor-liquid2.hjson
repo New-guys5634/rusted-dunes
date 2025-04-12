@@ -1,0 +1,7 @@
+name: Blue water
+type: Floor
+variants: 0
+isLiquid: true
+speedMultiplier: 0.5
+cacheLayer: water
+liquidDrop: water
