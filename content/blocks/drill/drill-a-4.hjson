@@ -4,13 +4,17 @@ description: A medium sized burst drill, better than thee small ones.
 size: 2
 category: production
 hasLiquids: false
-hardnessDrillMultiplier: 40
-drillTime: 225
+hardnessDrillMultiplier: 50
+drillTime: 325
 hasPower: false
 tier: 2
 shake: 0.5
 itemCapacity: 20
 researchCostMultiplier: 1
+consumes: {
+power: 1
+  liquid: water/0.1
+}
 drillEffect: {
     type: RadialEffect
     layer: 90
