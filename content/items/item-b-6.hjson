@@ -1,0 +1,7 @@
+description: Created with sulfur and water, only used for power.
+name: Sulfur material
+color: B98461
+hardness: 2
+flammability: 2.2
+hiddenOnPlanets: [serpulo, erekir]
+research: item-a-6

@@ -1,7 +1,7 @@
-description: Created with sulfur and water, only used for power.
-name: Sulfur material
-color: B98461
+description: Extreme material that has been rising from the core of dunes also seems linked with the sanding event.
+name: Scorched material
+color: AF2A2A
 hardness: 2
-flammability: 2.2
+flammability: 1.4
 hiddenOnPlanets: [serpulo, erekir]
-research: item-a-6
+research: item-a-5
