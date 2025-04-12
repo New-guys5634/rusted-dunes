@@ -28,6 +28,12 @@ drawer: {
     {
       type: DrawRegion
       suffix: -top
+     }
+     {
+      type: DrawLiquidTile
+      drawLiquid: liquid-a-1
+      alpha: 0.6
+      padding: 2
     }
     {
       type: DrawDefault
@@ -37,12 +43,6 @@ drawer: {
       suffix: -spinner
       spinSprite: true
       rotateSpeed: 8
-     }
-     {
-      type: DrawLiquidTile
-      drawLiquid: liquid-a-1
-      alpha: 0.6
-      padding: 2
     }
   ]
 }
