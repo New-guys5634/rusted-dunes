@@ -19,6 +19,6 @@ category: effect
 research: {
   planet: dunes
   root: true
-  name: dunes
+  name: Dunes
   requiresUnlock: false
 }
