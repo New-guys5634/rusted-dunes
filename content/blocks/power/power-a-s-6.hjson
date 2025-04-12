@@ -1,0 +1,50 @@
+name: Rusted Water Turbine
+description: Spins with the usage of flamible materials and water.
+type: ConsumeGenerator
+size: 2
+health: 110
+hasItems: true
+hasLiquids: true
+hasPower: true
+powerProduction: 0.8
+requirements: [
+item-a-1/40
+item-a-2/50
+item-a-5/50
+item-a-6/25
+]
+consumes: {
+  itemFlammable: {}
+liquid: water/0.3
+}
+category: power
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawRegion
+      suffix: -top
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawRegion
+      suffix: -spinner
+      spinSprite: true
+      rotateSpeed: 8
+     }
+     {
+      type: DrawLiquidTile
+      drawLiquid: liquid-a-1
+      alpha: 0.6
+      padding: 2
+    }
+  ]
+}
+researchCostMultiplier: 0.1
+
