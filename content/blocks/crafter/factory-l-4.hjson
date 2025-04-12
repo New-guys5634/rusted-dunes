@@ -27,29 +27,28 @@ outputItem: item-b-5/2
 research: factory-s-1
 researchCostMultiplier: 1
 craftEffect: {
-  type: RadialEffect
-  amount: 8
-  rotationSpacing: 90
-  rotationOffset: 45
-  lengthOffset: 8
-  effect: {
-    type: ParticleEffect
-    particles: 4
-    cone: 380
-    followParent: true
-    rotWithParent: false
-    sizeFrom: 2
-    sizeTo: 8
-    colorFrom: FFE4C9FF
-    colorTo: e0e0e066
-    lifetime: 100
-    length: 8
-    height: 5
-    baseLength: 1.5
-    interp: pow2
-    sizeInterp: pow3In
+    type: RadialEffect
+    layer: 90
+    rotationSpacing: 45
+    amount: 5
+    lengthOffset: 2
+    effect: {
+      particles: 1
+      length: 90
+      lifetime: 100
+      speed: 6
+      cone: 20
+      baseRotation: 15
+      useRotation: false 
+      sizeFrom: 0
+      sizeTo: 8
+      colorFrom: e0e0e066
+      colorTo: e0e0e000
+      sizeInterp: pow2Out
+      interp: pow2Out
+      layer: 90
+    }
   }
-}
 drawer: {
   type: DrawMulti
   drawers: [

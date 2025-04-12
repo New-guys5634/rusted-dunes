@@ -52,7 +52,7 @@ craftEffect: {
     lengthOffset: 2
     effect: {
       particles: 1
-      length: 10
+      length: 90
       lifetime: 100
       speed: 6
       cone: 20
