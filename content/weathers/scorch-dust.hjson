@@ -1,0 +1,17 @@
+
+type: ParticleWeather
+particleRegion: circle
+color: AF2A2A
+noiseColor: AF2A2A 
+sizeMax: 100
+sizeMin: 80
+density: 14000
+useWindVector: true
+drawNoise: true
+opacityMultiplier: 0.3
+baseSpeed: 4
+sound: windhowl
+soundVol: 0.1
+noisePath: fog
+minAlpha: 0
+maxAlpha: 0.2
