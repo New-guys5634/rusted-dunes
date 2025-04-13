@@ -11,3 +11,4 @@ opacityMultiplier: 0.3
 baseSpeed: 4
 sound: windhowl
 soundVol: 0.4
+noisePath: fog
