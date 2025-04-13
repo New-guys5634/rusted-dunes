@@ -29,6 +29,23 @@ prebuildBase: false
 bloom: true
 updateLighting: true
 defaultEnv: 129
+
+generator: {
+  berylChance: 0.45
+  iceChance: 0.15
+  ferricChance: 0.55
+  stoneChance: 2
+  radMin: 1500
+  radMax: 1500
+  berylliumScale: 4
+  copperScale: 0.6
+  scale: 25
+  mag: 0.5
+  thresh: 0.9
+  fscl: 30
+  fper: 0.4
+}
+
 cloudMesh: [
 {
     type: HexSkyMesh
