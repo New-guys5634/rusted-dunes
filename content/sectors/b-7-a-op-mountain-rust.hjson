@@ -1,0 +1,20 @@
+localizedName: Rusted mountains
+description: "A mountain area filled with two ponds but it's polluted.
+
+A great opportunity to use this sector for water.
+[#feb380]Note: This is an optional sector. Capturing it is not required for conquering the campaign."
+difficulty: 5
+captureWave: 25
+planet: dunes
+sector: 221
+overrideLaunchDefaults: true
+addStartingItems: true
+research: {
+  parent: b-4-a-op-Novial
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 4.attack-centre
+    }
+  ]
+}
