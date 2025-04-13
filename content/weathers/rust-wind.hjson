@@ -1,14 +1,17 @@
 name: Sand storm
 type: ParticleWeather
+particleRegion: circle
 color: FFE4C9FF
 noiseColor: FFE4C9FF 
 sizeMax: 100
 sizeMin: 80
-density: 50000
+density: 14000
 useWindVector: true
 drawNoise: true
 opacityMultiplier: 0.3
 baseSpeed: 4
 sound: windhowl
-soundVol: 0.4
+soundVol: 0.1
 noisePath: fog
+minAlpha: 0
+maxAlpha: 0.2
