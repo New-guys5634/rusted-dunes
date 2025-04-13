@@ -1,0 +1,73 @@
+description: Cools molten rust for water and rusted metal.
+name: Molten rust cooler
+type: GenericCrafter
+size: 2
+health: 125
+craftTime: 180
+hasItems: true
+hasLiquids: true
+hasPower: false
+itemCapacity: 30
+liquidCapacity: 50
+consumes: {
+ liquid: liquid-a-1/0.2
+}
+requirements: [
+sand/75
+item-a-1/50
+item-a-6/55
+item-a-5/60
+item-b-2/35
+]
+category: crafting
+outputItem: item-a-1/2
+outputLiquid: water/0.2
+research: factory-m-4
+researchCostMultiplier: 0.1
+generateEffect: generatespark
+ambientSound: flux
+ambientSoundVolume: 0.4
+craftEffect: {
+    type: RadialEffect
+    layer: 90
+    rotationSpacing: 45
+    amount: 4
+    lengthOffset: 5
+    effect: {
+      particles: 2
+      length: 80
+      lifetime: 125
+      speed: 6
+      cone: 20
+      baseRotation: 15
+      useRotation: false 
+      sizeFrom: 0
+      sizeTo: 8
+      colorFrom: e0e0e066
+      colorTo: e0e0e000
+      sizeInterp: pow2Out
+      interp: pow2Out
+      layer: 90
+    }
+  }
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+     }
+     {
+      type: DrawLiquidTile
+      drawLiquid: liquid-a-1
+      alpha: 0.4
+      padding: 2
+    }
+    {
+      type: DrawCrucibleFlame
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
