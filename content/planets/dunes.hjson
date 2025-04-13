@@ -28,7 +28,7 @@ allowWaves: true
 prebuildBase: false
 bloom: true
 updateLighting: true
-defaultEnv: 129
+defaultEnv: 220
 
 generator: {
   berylChance: 0.45
