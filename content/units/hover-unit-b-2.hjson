@@ -16,9 +16,10 @@ groundLayer: 60
 health: 515
 armor: 5
 hitSize: 10
-itemCapacity: 10
+itemCapacity: 0
 useEngineElevation: false
 lowAltitude: true
+canDrown: false
 engines: [
   {
     x: 0

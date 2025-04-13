@@ -19,6 +19,7 @@ hitSize: 8
 itemCapacity: 15
 useEngineElevation: false
 lowAltitude: true
+canDrown: false
 engines: [
   {
     x: 0
