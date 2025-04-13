@@ -28,7 +28,7 @@ allowWaves: true
 prebuildBase: false
 bloom: true
 updateLighting: true
-defaultEnv: 225
+defaultEnv: 129
 cloudMesh: [
 {
     type: HexSkyMesh
