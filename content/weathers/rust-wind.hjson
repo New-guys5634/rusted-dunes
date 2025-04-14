@@ -1,4 +1,3 @@
-
 type: ParticleWeather
 useWindVector: true
 particleRegion: circle
@@ -11,6 +10,7 @@ sizeMax: 300
 minAlpha: 0.25
 maxAlpha: 0.5
 sound: none
-baseSpeed: 6
+baseSpeed: 0.25
 density: 14000
 noisePath: fog
+status: slow
