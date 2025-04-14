@@ -1,6 +1,8 @@
+
 type: ParticleWeather
 useWindVector: true
-opacityMultiplier: 0.75
+particleRegion: circle
+opacityMultiplier: 0.25
 color: 231D1D
 drawNoise: true
 noiseColor: 231D1D
@@ -9,9 +11,6 @@ sizeMax: 300
 minAlpha: 0.25
 maxAlpha: 0.5
 sound: none
-baseSpeed: 7
+baseSpeed: 6
 density: 14000
-force: 0.60
-minAlpha: 0
-maxAlpha: 0.2
-particleRegion: circle
+noisePath: fog
