@@ -1,0 +1,6 @@
+description: Created through processing sand and power, can reveal items.
+name: Peated sand
+color: FEBB78
+hardness: 2
+hiddenOnPlanets: [serpulo, erekir]
+research: item-a-1
