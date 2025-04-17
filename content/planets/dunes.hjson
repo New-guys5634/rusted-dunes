@@ -1,4 +1,4 @@
-//generator: SerpuloPlanetGenerator
+generator: AsteroidGenerator
 localizedName: dunes
 parent: sun
 iconColor: 8E665CFF
