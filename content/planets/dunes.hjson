@@ -28,7 +28,7 @@ allowWaves: true
 prebuildBase: false
 bloom: true
 updateLighting: true
-  defaultEnv: 17
+  defaultEnv: 129
   defaultAttributes: {
     rust-wind: 1.0
   }
