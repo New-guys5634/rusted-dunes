@@ -1,6 +1,6 @@
 
 type: ParticleWeather
-particleRegion: circle
+particleRegion: rusted-dunes-shape-scorch
 color: AF2A2A
 noiseColor: AF2A2A 
 sizeMax: 100

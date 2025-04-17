@@ -1,6 +1,6 @@
 
 type: ParticleWeather
-particleRegion: circle
+particleRegion: rusted-dunes-shape-log
 color: 88593F
 noiseColor: 88593F 
 sizeMax: 100
