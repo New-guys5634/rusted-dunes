@@ -1,0 +1,74 @@
+description: Consumes scorch material and peat to reveal multiple resources.
+name: Peat scraper
+type: Separator
+size: 2
+health: 250
+craftTime: 150
+hasItems: true
+hasLiquids: false
+hasPower: false
+itemCapacity: 30
+results: [
+item-a-1/0.5
+sand/0.25
+item-a-4/0.25
+]
+consumes: {
+  items: {
+    items: [
+item-a-6/2
+item-b-6/2
+    ]
+  }
+}
+requirements: [
+item-a-1/75
+item-a-2/35
+item-a-3/45
+item-a-4/50
+sand/45
+]
+category: crafting
+research: factory-l-5
+researchCostMultiplier: 0.1
+generateEffect: generatespark
+ambientSound: flux
+ambientSoundVolume: 0.1
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawCrucibleFlame
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
+craftEffect: {
+    type: RadialEffect
+    layer: 90
+    rotationSpacing: 45
+    amount: 4
+    lengthOffset: 5
+    effect: {
+      particles: 2
+      length: 50
+      lifetime: 100
+      speed: 6
+      cone: 20
+      baseRotation: 15
+      useRotation: false 
+      sizeFrom: 0
+      sizeTo: 8
+      colorFrom: e0e0e066
+      colorTo: e0e0e000
+      sizeInterp: pow2Out
+      interp: pow2Out
+      layer: 90
+    }
+  }

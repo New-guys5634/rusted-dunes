@@ -1,0 +1,72 @@
+description: Intakes peat and heat to reveal rusted metal and water.
+name: Peat compressor
+type: HeatCrafter
+heatRequirement: 1
+size: 1
+health: 100
+craftTime: 110
+hasItems: true
+hasLiquids: true
+hasPower: false
+itemCapacity: 20
+consumes: {
+  items: {
+    items: [
+item-b-7/2
+    ]
+  }
+}
+requirements: [
+item-a-3/15
+item-a-2/25
+sand/25
+]
+category: crafting
+outputItem: item-a-1/1
+outputLiquid: water/0.2
+research: factory-l-5
+researchCost: [
+item-a-3/50
+item-a-2/125
+item-a-1/75
+item-a-5/15
+]
+craftEffect: {
+    type: RadialEffect
+    layer: 90
+    rotationSpacing: 45
+    amount: 5
+    lengthOffset: 2
+    effect: {
+      particles: 1
+      length: 90
+      lifetime: 100
+      speed: 6
+      cone: 20
+      baseRotation: 15
+      useRotation: false 
+      sizeFrom: 0
+      sizeTo: 8
+      colorFrom: e0e0e066
+      colorTo: e0e0e000
+      sizeInterp: pow2Out
+      interp: pow2Out
+      layer: 90
+    }
+  }
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawHeatInput
+      heatColor: 641616B3
+    }
+  ]
+}

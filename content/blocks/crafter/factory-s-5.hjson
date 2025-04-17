@@ -1,0 +1,54 @@
+description: Intakes power and sand to create peat.
+name: Peat compressor
+type: GenericCrafter
+size: 1
+health: 100
+craftTime: 110
+hasItems: true
+hasLiquids: false
+hasPower: true
+itemCapacity: 20
+consumes: {
+power: 0.4
+  items: {
+    items: [
+sand/4
+    ]
+  }
+}
+requirements: [
+item-a-3/15
+item-a-2/25
+sand/25
+]
+category: crafting
+outputItem: item-b-7/2
+research: factory-l-5
+researchCost: [
+item-a-3/50
+item-a-2/125
+sand/125
+]
+craftEffect: {
+    type: RadialEffect
+    layer: 90
+    rotationSpacing: 45
+    amount: 5
+    lengthOffset: 2
+    effect: {
+      particles: 1
+      length: 90
+      lifetime: 100
+      speed: 6
+      cone: 20
+      baseRotation: 15
+      useRotation: false 
+      sizeFrom: 0
+      sizeTo: 8
+      colorFrom: e0e0e066
+      colorTo: e0e0e000
+      sizeInterp: pow2Out
+      interp: pow2Out
+      layer: 90
+    }
+  }

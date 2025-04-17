@@ -1,0 +1,70 @@
+description: Consumes molten rust and sulfur to melt oil. 
+name: Oil confarctor
+type: GenericCrafter
+size: 2
+health: 250
+craftTime: 150
+hasItems: true
+hasLiquids: false
+hasPower: false
+itemCapacity: 30
+liquidCapacity: 50
+consumes: {
+  liquid: liquid-a-1/0.2
+  items: {
+    items: [
+item-b-6/3
+    ]
+  }
+}
+requirements: [
+item-a-1/100
+sand/85
+item-a-2/55
+item-a-3/20
+]
+category: crafting
+outputLiquid: oil/0.1
+research: factory-l-5
+researchCostMultiplier: 0.1
+generateEffect: generatespark
+ambientSound: flux
+ambientSoundVolume: 0.1
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawCrucibleFlame
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
+craftEffect: {
+    type: RadialEffect
+    layer: 90
+    rotationSpacing: 45
+    amount: 4
+    lengthOffset: 5
+    effect: {
+      particles: 2
+      length: 50
+      lifetime: 100
+      speed: 6
+      cone: 20
+      baseRotation: 15
+      useRotation: false 
+      sizeFrom: 0
+      sizeTo: 8
+      colorFrom: e0e0e066
+      colorTo: e0e0e000
+      sizeInterp: pow2Out
+      interp: pow2Out
+      layer: 90
+    }
+  }
