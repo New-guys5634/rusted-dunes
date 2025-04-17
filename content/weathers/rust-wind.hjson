@@ -13,3 +13,6 @@ sound: none
 baseSpeed: 0.9
 density: 12000
 noisePath: fog
+  attrs: {
+    rust-wind: 1.0
+  }
