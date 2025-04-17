@@ -22,10 +22,10 @@ sand/50
 silicon/25
 ]
 category: crafting
-outputItems: {
+outputItems: [
 sand/5
 silicon/1
-}
+]
 research: factory-l-1
 researchCostMultiplier: 1
 craftEffect: {
