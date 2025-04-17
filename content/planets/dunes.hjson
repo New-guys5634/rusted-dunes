@@ -28,7 +28,10 @@ allowWaves: true
 prebuildBase: false
 bloom: true
 updateLighting: true
-defaultEnv: 1
+  defaultEnv: 225
+  defaultAttributes: {
+    rust-wind: 1.0
+  }
 
 generator: {
   berylChance: 0.45
