@@ -32,7 +32,16 @@ outlineColor: 8E665CFFf
 payloadCapacity: 64
 pickupUnits: true
 vulnerableWithPayloads: true
-
+parts: [
+    {
+        type: RegionPart
+        suffix: -decal-glow
+        color: FED58ADF
+        mirror: false
+        outline: false
+        blending: additive
+    }
+]
 weapons: [
     {
         type: RepairBeamWeapon
