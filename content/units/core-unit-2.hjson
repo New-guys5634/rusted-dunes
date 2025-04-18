@@ -20,7 +20,7 @@ drag: 0.1
 mineSpeed: 2.5
 mineTier: 2
 rotateSpeed: 8
-
+trailLength: 9
 crashDamageMultiplier: 0
 hittable: true
 targetable: true
