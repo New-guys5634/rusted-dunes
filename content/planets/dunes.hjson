@@ -20,7 +20,7 @@ defaultCore: "core-a-1"
 sectorSeed: 0
 startSector: 0
 sectorSize: 3
-defaultEnv: 193
+defaultEnv: 38
 unlockedOnLand: [
   sand,
 ]
