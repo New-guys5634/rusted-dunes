@@ -1,6 +1,6 @@
   icon: commandRally
   iconColor: AF2A2AFF
-  solarSystem: star
+  solarSystem: rusted-dunes-star
   parent: sun
   drawOrbit: false
   orbitRadius: 1620
