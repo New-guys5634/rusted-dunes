@@ -11,7 +11,7 @@ sizeMax: 60
 minAlpha: 0
 maxAlpha: 0.2
 sound: none
-baseSpeed: 0.25
+baseSpeed: 4
 density: 14000
 status: sanded
 noisePath: fog
