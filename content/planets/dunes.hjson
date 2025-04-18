@@ -1,46 +1,11 @@
-
 localizedName: dunes
-solarSystem: sun
-parent: sun
-iconColor: 8E665CFF
-orbitRadius: 12
-hasAtmosphere: true
-updateLighting: true
-allowLaunchSchematics: false
-allowLaunchToNumbered: false
-worklowLaunchLoadout: false
-allowSectorInvasion: false
-atmosphereRadIn: 0
-atmosphereRadOut: 0.3
-atmosphereColor: 8E665CFF
-drawOrbit: true
-accessible: true
-alwaysUnlocked: true
-defaultCore: "core-a-1"
-sectorSeed: 0
-startSector: 0
-sectorSize: 3
-defaultEnv: 193
-clearSectorOnLose: true
-allowSectorInvasion: false
-allowLaunchToNumbered: false
-allowWaveSimulation: true
-clearSectorOnLose: true
-allowWaves: true
-prebuildBase: true
-bloom: true
-visible: true
-updateLighting: true
-orbitTime: 12000
-rotateTime: 5000
-
 generator: {
   berylChance: 0.45
   iceChance: 0.15
   ferricChance: 0.55
-  stoneChance: 2
-  radMin: 1500
-  radMax: 1500
+  stoneChance: 0.001
+  ralocalizedNamedMin: 25
+  radMax: 25
   berylliumScale: 4
   copperScale: 0.6
   scale: 25
@@ -49,6 +14,31 @@ generator: {
   fscl: 30
   fper: 0.4
 }
+sectorSize: 3.1
+sectorSeed: 0
+startSector: 0
+parent: sun
+iconColor: 8E665CFF
+atmosphereRadIn: 0.25
+atmosphereRadOut: 0.35
+atmosphereColor: 8E665CFF
+orbitRadius: 38
+orbitOffset: 140
+orbitTime: 12000
+rotateTime: 5000
+accessible: true
+allowLaunchToNumbered: false
+defaultEnv: 193
+allowLaunchSchematics: false
+allowLaunchLoadout: false
+allowWaveSimulation: true
+allowSectorInvasion: false
+clearSectorOnLose: true
+prebuildBase: true
+allowWaves: true
+allowLaunchToNumbered: false
+enemyBuildSpeedMultiplier: 1
+defaultCore: core-a-1
 
 cloudMesh: [
 {
@@ -176,4 +166,3 @@ hiddenItems: [
     "fissile-matter"
     "dormant-cyst"
 ]
-
