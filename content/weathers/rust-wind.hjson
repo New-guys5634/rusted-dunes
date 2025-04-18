@@ -15,3 +15,6 @@ baseSpeed: 4
 density: 14000
 status: sanded
 noisePath: fog
+  attrs: {
+   rust-rain: 1.0
+  }
