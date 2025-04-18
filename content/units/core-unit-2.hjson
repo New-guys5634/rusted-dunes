@@ -41,8 +41,8 @@ weapons: [
         mirror: false
         shootY: 0
 		beamWidth: 0.5
-        repairSpeed: 1
-        fractionRepairSpeed: 0.07
+        repairSpeed: 1.4
+        fractionRepairSpeed: 0.09
         shootCone: 15
 		
         targetUnits: true
@@ -68,15 +68,20 @@ name: core-unit-1-wep
   rotate: true
   shootCone: 20
   shootSound: shootAlt
-  inaccuracy: 0
+  inaccuracy: 15
   reload: 20
   targetInterval: 1
   targetSwitchInterval: 3
   cooldownTime: 35 
+  shoot: {
+  shots: 3
+  shotDelay: 1
+  }
   bullet: {
    type: BasicBulletType
-        damage: 18
-        speed: 6
+        damage: 25
+        speed: 7
+        drag: 0.6
         height: 6
         width: 6
         lifetime: 36
