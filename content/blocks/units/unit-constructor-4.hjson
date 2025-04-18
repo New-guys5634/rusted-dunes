@@ -19,6 +19,8 @@ upgrades: [
   [unit-tank-a-1,unit-tank-a-2]
   [hover-unit-b-1,hover-unit-b-2]
   [mech-unit-a-1,mech-unit-a-2]
+  [mech-unit-b-1,mech-unit-b-2]
+  [unit-tank-b-1,unit-tank-b-2]
 ]
 constructTime: 1000
 
