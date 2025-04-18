@@ -39,7 +39,7 @@ allowWaves: true
 allowLaunchToNumbered: false
 enemyBuildSpeedMultiplier: 1
 defaultCore: core-a-1
-
+alwaysUnlocked: true
 cloudMesh: [
 {
     type: HexSkyMesh
