@@ -1,0 +1,54 @@
+type: tank
+name: Shock
+description: The first second of the upgraded branch which fires twin damage electronic bullets.
+omniMovement: false
+faceTarget: false
+outlineColor: 8E665CFF
+speed: 1.6
+rotateSpeed: 2.5
+groundLayer: 60
+health: 650
+armor: 1
+hitSize: 10
+itemCapacity: 25
+treadRects: [
+{
+    x: -15
+    y: -25
+    width: 18
+    height: 51
+    }
+]
+weapons: [
+ {
+  name: unit-tank-b-2-gun
+  top: false
+  x: 0
+  y: 0
+  shootY: 2
+  shootX: 0
+  mirror: false
+  rotate: true
+  shootCone: 20
+  shootSound: laser
+  inaccuracy: 2
+  reload: 25
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  bullet: {
+   width: 8
+   height: 10
+   damage: 25
+   speed: 7
+   lifetime: 20
+   trailWidth: 3
+   trailLength: 5
+   frontColor: 8E665CFF
+   backColor: 8E665CFF 
+    status: shocked
+   }
+}
+]
+research: unit-tank-b-1
+researchCostMultiplier: 1
