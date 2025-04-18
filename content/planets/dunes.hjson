@@ -1,7 +1,7 @@
 
 localizedName: dunes
-  solarSystem: rusted-dunes-star
-  parent: rusted-dunes-star
+  solarSystem: sun-star
+  parent: sun-star
 defaultEnv: 225
 iconColor: 8E665CFF
 orbitRadius: 64.7
