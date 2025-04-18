@@ -11,7 +11,7 @@ sizeMax: 60
 minAlpha: 0
 maxAlpha: 0.2
 sound: none
-baseSpeed: 4
+baseSpeed: 0.25
 density: 14000
 status: fast
 noisePath: fog
