@@ -13,5 +13,5 @@ maxAlpha: 0.2
 sound: none
 baseSpeed: 0.25
 density: 14000
-status: fast
+status: sanded
 noisePath: fog
