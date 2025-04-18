@@ -1,6 +1,7 @@
 
 localizedName: dunes
-parent: sun
+  solarSystem: star
+  parent: star
 defaultEnv: 225
 iconColor: 8E665CFF
 orbitRadius: 64.7
