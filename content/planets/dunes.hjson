@@ -166,3 +166,6 @@ hiddenItems: [
     "fissile-matter"
     "dormant-cyst"
 ]
+  defaultAttributes: {
+    rust-rain: 1.0
+  }
