@@ -1,11 +1,10 @@
 
 localizedName: dunes
 solarSystem: sun
-parent: sun-star
+parent: sun
 defaultEnv: 225
 iconColor: 8E665CFF
-orbitRadius: 12
-orbitSpacing: 8
+orbitRadius: 40
 hasAtmosphere: true
 updateLighting: true
 allowLaunchSchematics: false
@@ -31,7 +30,7 @@ allowWaves: true
 prebuildBase: true
 bloom: true
 visible: true
-updateLighting: false
+updateLighting: true
 orbitTime: 12000
 rotateTime: 5000
 
