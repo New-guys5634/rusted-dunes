@@ -1,0 +1,16 @@
+localizedName: Insanity revenge
+description: "The second last sector of dunes, the enemies are getting low but stronger and more [red]mental [white]take over and be prepared for the last one ."
+difficulty: 8
+planet: dunes
+sector: 198
+overrideLaunchDefaults: true
+addStartingItems: true
+research: {
+  parent: 9.volicanic-remains
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 9.volicanic-remains
+    }
+  ]
+}
