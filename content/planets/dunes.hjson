@@ -28,7 +28,7 @@ allowWaves: true
 prebuildBase: true
 bloom: true
 updateLighting: true
-defaultEnv: 129
+defaultEnv: 193
 orbitTime: 12000
 rotateTime: 5000
 
