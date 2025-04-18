@@ -19,7 +19,7 @@ sectorSeed: 0
 startSector: 0
 parent: sun
 iconColor: 8E665CFF
-atmosphereRadIn: 0.25
+atmosphereRadIn: 0
 atmosphereRadOut: 0.35
 atmosphereColor: 8E665CFF
 orbitRadius: 38
