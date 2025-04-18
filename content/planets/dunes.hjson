@@ -1,9 +1,9 @@
 
 localizedName: dunes
 parent: sun
-defaultEnv: 193
+defaultEnv: 225
 iconColor: 8E665CFF
-orbitRadius: 38
+orbitRadius: 64.7
 hasAtmosphere: true
 updateLighting: true
 allowLaunchSchematics: false
