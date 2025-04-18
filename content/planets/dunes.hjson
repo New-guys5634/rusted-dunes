@@ -2,12 +2,12 @@
 localizedName: dunes
 parent: sun
 iconColor: 8E665CFF
-orbitRadius: 51
+orbitRadius: 39
 hasAtmosphere: true
 updateLighting: true
 allowLaunchSchematics: false
 allowLaunchToNumbered: false
-allowLaunchLoadout: false
+worklowLaunchLoadout: false
 allowSectorInvasion: false
 atmosphereRadIn: 0
 atmosphereRadOut: 0.3
@@ -25,13 +25,12 @@ allowLaunchToNumbered: false
 allowWaveSimulation: true
 clearSectorOnLose: true
 allowWaves: true
-prebuildBase: false
+prebuildBase: true
 bloom: true
 updateLighting: true
-  defaultEnv: 129
-  defaultAttributes: {
-    rust-wind: 1.0
-  }
+defaultEnv: 129
+orbitTime: 12000
+rotateTime: 5000
 
 generator: {
   berylChance: 0.45
@@ -177,3 +176,4 @@ hiddenItems: [
     "fissile-matter"
     "dormant-cyst"
 ]
+
