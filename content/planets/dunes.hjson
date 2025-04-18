@@ -1,7 +1,7 @@
 
 localizedName: dunes
-  solarSystem: sun-star
-  parent: sun-star
+solarSystem: sun-star
+parent: sun-star
 defaultEnv: 225
 iconColor: 8E665CFF
 orbitRadius: 64.7
@@ -29,6 +29,7 @@ clearSectorOnLose: true
 allowWaves: true
 prebuildBase: true
 bloom: true
+visible: true
 updateLighting: true
 orbitTime: 12000
 rotateTime: 5000
