@@ -83,7 +83,7 @@ mesh: [
     seed: 562697
     color1: FFE4C9
     color2: 76151EFF
-    colorScale: 8
+    colorScale: 1
     colorThreshold: 0.8
     divisions: 5
     radius: 0.8
@@ -111,8 +111,7 @@ mesh: [
   seed: 756452
   color1: FFE4C9
   color2:  8E665CFF
-    colorScale: 2
-    colorThreshold: 0.50
+   colorScale: 1
   divisions: 7
   radius: 0.9
   octaves: 9
@@ -126,8 +125,7 @@ mesh: [
   seed: 435678
   color1: FFE4C9
   color2: AF2A2AFF
-    colorScale: 2
-    colorThreshold: 0.30
+  colorScale: 1
   divisions: 6
   radius: 0.8
   octaves: 1
