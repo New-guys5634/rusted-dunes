@@ -81,10 +81,10 @@ name: core-unit-1-wep
    type: BasicBulletType
         damage: 25
         speed: 7
-        drag: 0.6
+        drag: 0.2
         height: 6
         width: 6
-        lifetime: 36
+        lifetime: 50
         buildingDamageMultiplier: 0.001
    }
   }
