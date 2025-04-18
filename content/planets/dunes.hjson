@@ -2,9 +2,8 @@
 localizedName: dunes
 solarSystem: sun
 parent: sun
-defaultEnv: 225
 iconColor: 8E665CFF
-orbitRadius: 40
+orbitRadius: 38
 hasAtmosphere: true
 updateLighting: true
 allowLaunchSchematics: false
@@ -21,6 +20,10 @@ defaultCore: "core-a-1"
 sectorSeed: 0
 startSector: 0
 sectorSize: 3
+defaultEnv: 193
+unlockedOnLand: [
+  sand,
+]
 clearSectorOnLose: true
 allowSectorInvasion: false
 allowLaunchToNumbered: false
