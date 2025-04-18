@@ -1,0 +1,20 @@
+accessible: false
+localizedName: "Rusted system"
+camRadius: 25
+minZoom: 0.02
+  mesh: {
+    type: SunMesh
+    planet: 1212
+    divisions: 5
+    colorScale: 1.2
+    colors: [
+      FEBB78
+      B98461
+      AF2A2AFF
+    ]
+    octaves: 3.0
+    persistence: 6.0
+    scl: 1.2
+    pow: 1.2
+    mag: 1.2
+  }
