@@ -5,6 +5,7 @@
   parent: sun
   drawOrbit: false
   orbitRadius: 1620
+  orbitSpacing: 8
   orbitTime: 18220
   rotateTime: 3660
   tidalLock: true
