@@ -1,26 +1,22 @@
 type: ConsumeGenerator
-name: scorched reactor 
-description: burns items and molten rust for more power
+name: Oil burner
+description: Burns oil for power.
 size: 1
 category: power
 research: {
   parent: power-a-s-1
 }
 requirements: [
-item-a-1/150
-item-a-6/15
-item-a-7/45
+item-a-1/200
+sand/160
+item-b-7/15
+item-a-7/80
 ]
 consumes: {
-liquid: liquid-a-1/0.2
-items: {
-    items: [
-item-a-6/2
-    ]
-  }
+liquid: oil/0.1
 }
-powerProduction: 1.3
-itemDuration: 220
+powerProduction: 1.5
+itemDuration: 200
 generateEffect: generatespark
 ambientSound: smelter
 ambientSoundVolume: 0.2
