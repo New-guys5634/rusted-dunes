@@ -22,13 +22,13 @@ iconColor: 8E665CFF
 atmosphereRadIn: 0
 atmosphereRadOut: 0.35
 atmosphereColor: 8E665CFF
-orbitRadius: 64.7
+orbitRadius: 39
 orbitOffset: 140
 orbitTime: 12000
 rotateTime: 5000
 accessible: true
 allowLaunchToNumbered: false
-defaultEnv: 225
+defaultEnv: 129
 allowLaunchSchematics: false
 allowLaunchLoadout: false
 allowWaveSimulation: true
