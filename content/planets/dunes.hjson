@@ -1,7 +1,7 @@
 
 localizedName: dunes
 solarSystem: sun-star
-parent: sun-star
+parent: rusted-dunes-sun-star
 defaultEnv: 225
 iconColor: 8E665CFF
 orbitRadius: 64.7
@@ -30,7 +30,7 @@ allowWaves: true
 prebuildBase: true
 bloom: true
 visible: true
-updateLighting: true
+updateLighting: false
 orbitTime: 12000
 rotateTime: 5000
 
