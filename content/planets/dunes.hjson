@@ -4,7 +4,8 @@ solarSystem: sun
 parent: sun-star
 defaultEnv: 225
 iconColor: 8E665CFF
-orbitRadius: 64.7
+orbitRadius: 12
+orbitSpacing: 8
 hasAtmosphere: true
 updateLighting: true
 allowLaunchSchematics: false
