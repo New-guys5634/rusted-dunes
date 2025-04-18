@@ -28,7 +28,7 @@ orbitTime: 12000
 rotateTime: 5000
 accessible: true
 allowLaunchToNumbered: false
-defaultEnv: 255
+defaultEnv: 225
 allowLaunchSchematics: false
 allowLaunchLoadout: false
 allowWaveSimulation: true
