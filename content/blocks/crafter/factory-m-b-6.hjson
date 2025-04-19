@@ -8,11 +8,6 @@ hasItems: true
 hasLiquids: false
 hasPower: false
 itemCapacity: 30
-results: [
-item-a-1/0.5
-sand/0.25
-item-a-4/0.25
-]
 consumes: {
   items: {
     items: [
@@ -28,7 +23,12 @@ item-a-3/45
 item-a-4/50
 sand/45
 ]
-category: crafting
+results: [
+item-a-1/1
+sand/2
+item-a-4/1
+]
+category: production
 research: factory-l-5
 researchCostMultiplier: 0.1
 generateEffect: generatespark
