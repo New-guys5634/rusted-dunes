@@ -11,7 +11,7 @@ atmosphereRadIn: 0
 atmosphereRadOut: 0.3
 atmosphereColor: E36956FF
 drawOrbit: true
-
+defaultEnv: 17
 accessible: false
 alwaysUnlocked: false
 defaultCore: "core-shard"

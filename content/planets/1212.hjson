@@ -2,6 +2,7 @@
 accessible: false
 localizedName: "Rusted system"
 camRadius: 25
+defaultEnv: 16
 minZoom: 0.02
   mesh: {
     type: SunMesh
