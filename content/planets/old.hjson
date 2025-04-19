@@ -1,7 +1,7 @@
 // the old caverns nightmares?
 
 localizedName: lava zrogro 
-generator: SerpuloPlanetGenerator
+generator: AsteroidGenerator
 parent: 1212 
 iconColor: fga000
 orbitRadius: 9
@@ -36,59 +36,51 @@ cloudMesh: {
     scl: 0.85
     thresh: 0.4
 }
-	
 mesh: [
   {
-    type: NoiseMesh
-    planet: lava-planet 
-    seed: 562697
-    color1: E36956FF
-    color2: FF9166FF
+    type: SunMesh 
     divisions: 5
-    radius: 0.9
-    octaves: 9
-    persistence: 1
-    scl: 0.75
-    mag: 1.2
-  }
-  { 
-  type: NoiseMesh
-  planet: lava-planet
-  seed: 644564
-  color1: 422445FF
-  color2: 232331FF
-  divisions: 4
-  radius: 0.9
-  octaves: 9
-  persistence: 1
-  scl: 0.85
-  mag: 1.1
+    octaves: 1
+    persistence: 0.5
+    scl: 2
+    pow: 1
+    mag: 1
+    colorScale: 1
+    colors: [
+      FFCC6DFF,
+      BA4C4CFF,
+      CA3A3AFF
+    ]
   }
   {
-     type: NoiseMesh
-  planet: lava-planet
-  seed: 756452
-  color1: B5564BFF
-  color2:  E36956FF
-  divisions: 7
-  radius: 0.9
-  octaves: 9
-  persistence: 1
-  scl: 0.95
-  mag: 1.1
+    type: NoiseMesh
+    divisions: 5
+    radius: 0.63
+    color1: 353540FF
+    color2: FF9166FF
+    octaves: 4.6
+    persistence: 0.9
+    scale: 0.7
+    mag: 1.1
+    coct: 4
+    cper: 1
+    cscl: 1.8
+    cthresh: 1
   }
   {
-     type: NoiseMesh
-  planet: lava-planet
-  seed: 435678
-  color1: 353540FF
-  color2: 606070FF
-  divisions: 5
-  radius: 0.765
-  octaves: 1
-  persistence: 1
-  scl: 0.72
-  mag: 1.4
+    type: NoiseMesh
+    divisions: 5
+    radius: 0.6045
+    color1: 422445FF
+    color2: 232331FF
+    octaves: 4.6
+    persistence: 0.9
+    scale: 0.7
+    mag: 1.5
+    coct: 4
+    cper: 1
+    cscl: 1.8
+    cthresh: 1
   }
 ]
 hiddenItems: [
