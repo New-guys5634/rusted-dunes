@@ -17,7 +17,7 @@ generator: {
   fper: 0.4
 }
 sectorSize: 3.1
-sectorSeed: 0
+sectorSeed: -4
 startSector: 0
 parent: 1212
 iconColor: 8E665CFF
