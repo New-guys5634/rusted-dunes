@@ -30,7 +30,7 @@ orbitRadius: 38
 orbitTime: 12000
 rotateTime: 5000
 accessible: true
-  defaultEnv: 223
+  defaultEnv: 224
 orbitOffset: 140
 allowLaunchToNumbered: false
 allowLaunchSchematics: false
