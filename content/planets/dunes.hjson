@@ -19,7 +19,7 @@ generator: {
 sectorSize: 3.1
 sectorSeed: 514
 startSector: 0
-parent: 1212
+parent: sun
 iconColor: 8E665CFF
 cloudColor: AF2A2AFF
 ambientLight: FFE4C9

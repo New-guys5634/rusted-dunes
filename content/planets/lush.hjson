@@ -2,9 +2,9 @@
 
 localizedName: Lushion
 generator: AsteroidGenerator
-parent: 1212 
+parent: dunes
 iconColor: 4E914EFF
-orbitRadius: 21
+orbitRadius: 9
 hasAtmosphere: true
 updateLighting: true
 atmosphereRadIn: 0

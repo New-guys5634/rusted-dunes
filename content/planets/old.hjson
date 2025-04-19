@@ -2,9 +2,9 @@
 
 localizedName: Thermite
 generator: AsteroidGenerator
-parent: 1212 
+parent: dunes
 iconColor: fga000
-orbitRadius: 13
+orbitRadius: 11
 hasAtmosphere: true
 updateLighting: true
 atmosphereRadIn: 0
