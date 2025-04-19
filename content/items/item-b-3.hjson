@@ -6,3 +6,4 @@ flammability: 1.6
 charge: 0.5
 hiddenOnPlanets: [serpulo, erekir]
 research: item-a-6
+shownPlanets: [dunes, lush, old]

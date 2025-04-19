@@ -4,3 +4,4 @@ color: 313131FF
 hardness: 4
 hiddenOnPlanets: [serpulo, erekir]
 research: item-a-4
+shownPlanets: [dunes, lush, old]

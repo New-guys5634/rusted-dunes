@@ -5,3 +5,4 @@ hardness: 4
 charge: 0.2
 hiddenOnPlanets: [serpulo, erekir]
 research: item-a-5
+shownPlanets: [dunes, lush, old]

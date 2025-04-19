@@ -5,3 +5,4 @@ hardness: 2
 flammability: 1.4
 hiddenOnPlanets: [serpulo, erekir]
 research: item-a-5
+shownPlanets: [dunes, lush, old]

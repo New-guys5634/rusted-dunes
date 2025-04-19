@@ -2,6 +2,6 @@ description: Rusted metal has broken of a main object and has been scattered due
 name: Rusted metal
 color: 231D1D
 hardness: 2 
-hiddenOnPlanets: [serpulo, erekir]
 alwaysUnlocked: true
 research: core-a-1
+shownPlanets: [dunes, lush, old]
