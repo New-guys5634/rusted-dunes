@@ -16,7 +16,8 @@ item-a-1/4
   }
 }
 requirements: [
-item-a-1/110
+item-a-1/75
+item-a-1/45
 sand/25
 ]
 category: crafting
