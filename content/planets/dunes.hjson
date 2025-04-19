@@ -1,4 +1,5 @@
 localizedName: dunes
+  icon: planet
 generator: {
   berylChance: 0.45
   iceChance: 0.15
@@ -22,24 +23,30 @@ iconColor: 8E665CFF
 atmosphereRadIn: 0
 atmosphereRadOut: 0.35
 atmosphereColor: 8E665CFF
-orbitRadius: 64.7
+  orbitRadius: 64.7
 orbitOffset: 140
 orbitTime: 12000
 rotateTime: 5000
 accessible: true
+  defaultEnv: 225
 allowLaunchToNumbered: false
-defaultEnv: 225
 allowLaunchSchematics: false
 allowLaunchLoadout: false
 allowWaveSimulation: true
 allowSectorInvasion: false
 clearSectorOnLose: true
+  launchCapacityMultiplier: 1.0
 prebuildBase: true
 allowWaves: true
 allowLaunchToNumbered: false
+  enemyBuildSpeedMultiplier: 1.0
+  enemyCoreSpawnReplace: false
 enemyBuildSpeedMultiplier: 1
 defaultCore: core-a-1
 alwaysUnlocked: true
+  updateLighting: true
+  bloom: false
+  tidalLock: false
 cloudMesh: [
 {
     type: HexSkyMesh
@@ -167,5 +174,7 @@ hiddenItems: [
     "dormant-cyst"
 ]
   defaultAttributes: {
-    rust-rain: 1.0
+    reind-attr-env-wind: 1.0
   }
+
+
