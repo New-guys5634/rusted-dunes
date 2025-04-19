@@ -1,0 +1,49 @@
+type: BurstDrill
+name: Shale buster
+description: A larged sized burst drill, better than the others.
+size: 3
+category: production
+hasLiquids: false
+hardnessDrillMultiplier: 95
+drillTime: 450
+hasPower: false
+tier: 4
+shake: 0.5
+itemCapacity: 20
+researchCostMultiplier: 1
+consumes: {
+power: 2
+  liquid: liquid-a-1/0.1
+}
+drillEffect: {
+    type: RadialEffect
+    layer: 90
+    rotationSpacing: 45
+    amount: 5
+    lengthOffset: 5
+    effect: {
+      particles: 1
+      length: 120
+      lifetime: 300
+      speed: 2
+      cone: 20
+      baseRotation: 20
+      useRotation: false 
+      sizeFrom: 0
+      sizeTo: 8
+      colorFrom: 1E1D23FF
+      colorTo: e0e0e000
+      sizeInterp: pow2Out
+      interp: pow2Out
+      layer: 90
+    }
+  }
+requirements: [
+item-a-1/80
+item-a-2/50
+item-a-3/65
+silicon/55
+item-b-2/80
+item-a-5/95
+]
+research: drill-a-4
