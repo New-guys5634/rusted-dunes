@@ -1,4 +1,4 @@
-generator: AsteroidGenerator
+generator: "AsteroidGenerator"
 localizedName: Dunes
   icon: planet
 generator: {
@@ -17,7 +17,7 @@ generator: {
   fper: 0.4
 }
 sectorSize: 3.1
-sectorSeed: -4
+sectorSeed: 514
 startSector: 0
 parent: 1212
 iconColor: 8E665CFF
@@ -26,12 +26,11 @@ ambientLight: FFE4C9
 atmosphereRadIn: 0
 atmosphereRadOut: 0.35
 atmosphereColor: 8E665CFF
-  orbitRadius: 38
-orbitOffset: 140
+orbitRadius: 64.7
 orbitTime: 12000
 rotateTime: 5000
 accessible: true
-  defaultEnv: 193
+  defaultEnv: 225
 orbitOffset: 140
 allowLaunchToNumbered: false
 allowLaunchSchematics: false
