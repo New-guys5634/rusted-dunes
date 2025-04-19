@@ -22,6 +22,10 @@ sectorSize: 1
 clearSectorOnLose: true
 allowSectorInvasion: false
 allowLaunchToNumbered: false
+
+bloom: true
+totalRadius: 1.8
+radius: 0.7
 	
 cloudMesh: {
     type: HexSkyMesh
