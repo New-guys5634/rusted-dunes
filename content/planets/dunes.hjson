@@ -49,7 +49,6 @@ alwaysUnlocked: true
   updateLighting: true
   bloom: false
   tidalLock: false
-radius: 1.5
 cloudMesh: [
 {
     type: HexSkyMesh
