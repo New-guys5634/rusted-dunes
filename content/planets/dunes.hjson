@@ -20,6 +20,8 @@ sectorSeed: 0
 startSector: 0
 parent: 1212
 iconColor: 8E665CFF
+cloudColor: AF2A2AFF
+ambientLight: FFE4C9
 atmosphereRadIn: 0
 atmosphereRadOut: 0.35
 atmosphereColor: 8E665CFF
@@ -47,6 +49,7 @@ alwaysUnlocked: true
   updateLighting: true
   bloom: false
   tidalLock: false
+radius: 1.5
 cloudMesh: [
 {
     type: HexSkyMesh
@@ -150,6 +153,9 @@ itemWhitelist: [
 "item-b-2"
 "item-b-3"
 "item-b-4"
+"item-b-5"
+"item-b-6"
+"item-b-7"
 ]
 hiddenItems: [
     "copper"
@@ -173,8 +179,6 @@ hiddenItems: [
     "fissile-matter"
     "dormant-cyst"
 ]
-  defaultAttributes: {
-    reind-attr-env-wind: 1.0
-  }
+
 
 
