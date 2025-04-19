@@ -26,11 +26,11 @@ ambientLight: FFE4C9
 atmosphereRadIn: 0
 atmosphereRadOut: 0.35
 atmosphereColor: 8E665CFF
-orbitRadius: 64.7
+orbitRadius: 38
 orbitTime: 12000
 rotateTime: 5000
 accessible: true
-  defaultEnv: 225
+  defaultEnv: 0
 orbitOffset: 140
 allowLaunchToNumbered: false
 allowLaunchSchematics: false
