@@ -4,7 +4,7 @@ localizedName: lava zrogro
 generator: AsteroidGenerator
 parent: 1212 
 iconColor: fga000
-orbitRadius: 9
+orbitRadius: 13
 hasAtmosphere: true
 updateLighting: true
 atmosphereRadIn: 0
@@ -56,8 +56,8 @@ mesh: [
     type: NoiseMesh
     divisions: 5
     radius: 0.63
-    color1: 353540FF
-    color2: FF9166FF
+    color1: 231D1D
+    color2: 88593F
     octaves: 4.6
     persistence: 0.9
     scale: 0.7
@@ -72,7 +72,7 @@ mesh: [
     divisions: 5
     radius: 0.6045
     color1: 422445FF
-    color2: 232331FF
+    color2: BFECFF
     octaves: 4.6
     persistence: 0.9
     scale: 0.7
