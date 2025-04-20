@@ -16,7 +16,7 @@ accessible: true
 alwaysUnlocked: true
 defaultCore: "core-a-1"
 sectorSeed: 0
-startSector: 0
+startSector: 17
 sectorSize: 1
 
 clearSectorOnLose: true
