@@ -34,6 +34,14 @@ ammoTypes: {
         width: 6
         lifetime: 20
         reloadMultiplier: 0.7
+    trailColor: 60615BFF
+    trailLength: 0.22
+    trailWidth: 1
+    trailEffect: shootSmokeTitan
+    trailSinScl: 2
+    trailSinMag: 0.5
+    trailInterval: 1
+    trailRotation: true
     }
     item-a-9: {
         damage: 18
@@ -41,6 +49,14 @@ ammoTypes: {
         height: 7
         width: 7
         lifetime: 20
+    trailColor: 60615BFF
+    trailLength: 0.22
+    trailWidth: 1
+    trailEffect: shootSmokeTitan
+    trailSinScl: 2
+    trailSinMag: 0.5
+    trailInterval: 1
+    trailRotation: true
    }
 }
 requirements: [

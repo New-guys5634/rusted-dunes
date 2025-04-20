@@ -26,6 +26,15 @@ ammoTypes: {
         height: 6
         width: 6
         lifetime: 36
+        knockback: 12
+    trailColor: 60615BFF
+    trailLength: 0.22
+    trailWidth: 1
+    trailEffect: shootSmokeTitan
+    trailSinScl: 2
+    trailSinMag: 0.5
+    trailInterval: 1
+    trailRotation: true
     }
 }
 requirements: [

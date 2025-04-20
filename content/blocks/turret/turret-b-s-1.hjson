@@ -1,4 +1,4 @@
-name: drift
+name: Drift
 description: Uses scorched materials to launch a heavy projectiles at the opponents.
 type: ItemTurret
 reload: 10

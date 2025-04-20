@@ -34,6 +34,12 @@ ammoTypes: {
         pierce: true
        pierceCap: 5
        pierceBuilding: true
+    trailColor: 60615BFF
+    trailEffect: shootSmokeTitan
+    trailSinScl: 2
+    trailSinMag: 0.5
+    trailInterval: 1
+    trailRotation: true
 }
 }
 requirements: [

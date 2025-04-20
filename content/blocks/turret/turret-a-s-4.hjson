@@ -1,4 +1,4 @@
-name: nail
+name: Nail
 description: fires sharp nail like shards at its opponent
 type: ItemTurret
 reload: 60
@@ -26,6 +26,14 @@ ammoTypes: {
         height: 6
         width: 6
         lifetime: 36
+    trailColor: 60615BFF
+    trailLength: 0.22
+    trailWidth: 1
+    trailEffect: shootSmokeTitan
+    trailSinScl: 2
+    trailSinMag: 0.5
+    trailInterval: 1
+    trailRotation: true
     }
     item-a-8: {
         damage: 50
@@ -33,6 +41,14 @@ ammoTypes: {
         height: 6
         width: 6
         lifetime: 36
+    trailColor: 60615BFF
+    trailLength: 0.22
+    trailWidth: 1
+    trailEffect: shootSmokeTitan
+    trailSinScl: 2
+    trailSinMag: 0.5
+    trailInterval: 1
+    trailRotation: true
     }
 }
 requirements: [

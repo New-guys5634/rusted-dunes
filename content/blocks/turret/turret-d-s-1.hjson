@@ -8,7 +8,7 @@ targetGround: true
 targetAir: true
 range: 180
 recoil: 2
-size: 3
+size: 2
 health: 750
 shootSound: laser
 outlineColor: 000000FF

@@ -1,4 +1,4 @@
-name: cannon
+name: Cannon
 description: uses elictritcy and projectiles to fire a powerful artillery shot
 type: ItemTurret
 reload: 145
