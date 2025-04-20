@@ -1,0 +1,36 @@
+name: Old iron mender
+description: Restores lost health to blocks.
+category: effect
+type: MendProjector
+health: 435
+size: 2
+
+hasItems: false
+hasLiquids: true
+hasPower: true
+range: 30
+healPercent: 3
+reload: 250
+phaseBoost: 4
+phaseRangeBoost: 30
+  consumes: {
+      power: 1.5
+    liquids: {
+    liquids: [
+    liquid-a-2/0.2
+    ]
+      optional: true
+      booster: true
+}
+}
+requirements: [
+item-a-1/65
+item-a-3/35
+item-a-5/15
+item-b-5/50
+]
+research: {
+  parent: mender-a-1
+}
+
+researchCostMultiplier: 1
