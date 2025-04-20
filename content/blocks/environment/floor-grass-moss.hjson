@@ -1,0 +1,11 @@
+  localizedName: Grass moss
+  type: Block
+  breakable: true
+  hidden: true
+  alwaysReplace: true
+  buildVisibility: sandboxOnly
+
+  category: effect
+  requirements: [
+  item-a-4/4
+  ]
