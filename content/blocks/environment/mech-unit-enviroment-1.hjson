@@ -1,6 +1,11 @@
-type: prop
 name: Wasting hover unit
-variants: 0
+  type: Block
+  breakable: true
+  hidden: true
+  alwaysReplace: true
+  buildVisibility: sandboxOnly
+
+  category: effect
     requirements: [
         sand/30
         item-a-2/10
