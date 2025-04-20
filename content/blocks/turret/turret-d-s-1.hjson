@@ -1,0 +1,55 @@
+name: Dright
+description: Fires 8 projectiles at once dealing massive damage.
+type: PowerTurret
+reload: 320
+shootCone: 20
+rotateSpeed: 3.5
+targetGround: true
+targetAir: true
+range: 180
+recoil: 2
+size: 2
+health: 750
+shootSound: laser
+outlineColor: 000000FF
+consumes: {
+  power: 3
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.3
+}
+}
+shoot: {
+  shots: 8
+  shotDelay: 4
+  firstShotDelay: 45
+}
+shootType: {
+    type: FlakBulletType
+        damage: 65
+        speed: 9
+        height: 6
+        width: 6
+        lifetime: 20
+   trailWidth: 2
+   trailLength: 8
+   frontColor: FFE4C9FF
+   backColor: FFE4C9FF
+   trailColor: FFE4C9FF
+      collidesAir: true
+      collidesGround: true
+      collideTerrain: true
+}
+requirements: [
+item-a-3/125
+sand/250
+item-a-7/150
+item-b-4/50
+]
+research: {
+parent: turret-a-s-5
+}
+category: turret
+researchCostMultiplier: 1
