@@ -6,11 +6,12 @@ health: 125
 craftTime: 180
 hasItems: true
 hasLiquids: false
-hasPower: false
+hasPower: true
 itemCapacity: 30
 liquidCapacity: 50
 consumes: {
-  liquid: water/0.6
+power: 0.8
+  liquid: water/0.2
   items: {
     items: [
 item-a-6/2

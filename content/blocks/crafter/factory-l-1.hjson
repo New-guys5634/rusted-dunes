@@ -9,6 +9,7 @@ hasLiquids: false
 hasPower: false
 itemCapacity: 15
 consumes: {
+power: 0.5
   items: {
     items: [
 sand/3
