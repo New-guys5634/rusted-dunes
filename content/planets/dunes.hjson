@@ -26,7 +26,8 @@ ambientLight: FFE4C9
 atmosphereRadIn: 0
 atmosphereRadOut: 0.35
 atmosphereColor: 8E665CFF
-orbitRadius: 39
+orbitRadius: 38
+defaultEnv: 193
 orbitTime: 12000
 rotateTime: 5000
 accessible: true
