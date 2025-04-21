@@ -16,5 +16,6 @@ destroySound: plantBreak
 drawCracks: false
 createRubble: false
   requirements: [
-  item-a-4/50
+  item-a-4/100
+  sand/50
   ]
