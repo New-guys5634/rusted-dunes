@@ -4,5 +4,5 @@ color: AF2A2A
 hardness: 2
 flammability: 1.4
 hiddenOnPlanets: [serpulo, erekir]
-research: item-a-5
+research: item-a-4
 shownPlanets: [dunes, lush, old]
