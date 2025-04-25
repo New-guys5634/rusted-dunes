@@ -1,0 +1,16 @@
+type: Conduit
+name: Crystal conduit
+description: Moves liquids forward more effectively.
+category: liquid
+research: pipe-a-1
+requirements: [
+item-a-7/2
+item-b-5/2
+]
+health: 135
+leaks: false
+junctionReplacement: pipe-junction
+underBullets: true
+researchCostMultiplier: 1
+liquidPressure: 1.250
+liquidCapacity: 35
