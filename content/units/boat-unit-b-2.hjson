@@ -1,0 +1,57 @@
+type: naval
+name: Wooden medium naval boat
+description: Fires wooding sharp damage projectiles at the enemies.
+speed: 0.8
+health: 850
+armor: 1
+aimDst: 10
+range: 125
+drag: 0.1
+accel: 0.8
+hitSize: 10
+rotateSpeed: 2.5
+trailLength: 35
+outlineColor: 8E665CFFf
+weapons: [
+{
+    mirror: false
+    rotate: true
+    name: boat-unit-b-2-gun
+    rotateSpeed: 2
+    x: 0
+    y: -2
+    reload: 20
+    recoil: 1.25
+    shootSound: blaster
+    bullet: {
+      type: BasicBulletType
+      sprite: missile-large
+      width: 6
+      splashDamageRadius: 15
+      splashDamage: 45
+      lifetime: 30
+      damage: 32
+      speed: 6
+      smokeEffect: colorSpark
+      trailColor: 8E665CFFf
+      trailWidth: 1.5
+      trailLength: 5
+      backColor: 8E665CFFf
+      hitColor: 8E665CFFf
+      despawnEffect: {
+        type: WaveEffect
+        rotWithParent: true
+        followParent: true
+        lifetime: 4
+        sizeFrom: 0
+        sizeTo: 10
+        colorFrom: ffffff
+        colorTo: feb380
+        }
+      }
+}
+]
+immunities: [
+melting
+]
+research: boat-unit-b-1
