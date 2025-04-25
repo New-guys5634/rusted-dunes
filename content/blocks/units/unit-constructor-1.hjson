@@ -15,6 +15,16 @@ plans: [
        item-b-5/20
     ]
 }
+{
+    unit: boat-unit-b-1
+    time: 2250
+    requirements: [
+        sand/60
+        item-a-4/45
+        item-a-5/15
+       item-b-5/50
+    ]
+}
 ]
 requirements: [
 sand/90

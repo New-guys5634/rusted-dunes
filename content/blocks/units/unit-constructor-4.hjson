@@ -1,4 +1,4 @@
-name: wooden reconstructor
+name: Wooden reconstructor
 description: reconstructors the base forms of the units to there second weak form 
 type: Reconstructor
 size: 3
@@ -21,6 +21,7 @@ upgrades: [
   [mech-unit-a-1,mech-unit-a-2]
   [mech-unit-b-1,mech-unit-b-2]
   [unit-tank-b-1,unit-tank-b-2]
+  [boat-unit-b-1,boat-unit-b-2]
 ]
 constructTime: 1000
 

@@ -20,6 +20,7 @@ upgrades: [
   [mech-unit-a-2,mech-unit-a-3]
   [unit-tank-a-2,unit-tank-a-3]
   [hover-unit-b-2,hover-unit-b-3]
+  [boat-unit-b-2,boat-unit-b-3]
 ]
 constructTime: 1250
 requirements: [
