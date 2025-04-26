@@ -9,7 +9,6 @@ hasLiquids: false
 hasPower: false
 itemCapacity: 25
 consumes: {
-power: 0.8
   items: {
     items: [
 item-a-4/2
