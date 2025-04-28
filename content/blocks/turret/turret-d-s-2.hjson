@@ -1,0 +1,62 @@
+name: Rail ranger
+description: Fires a ridiculous strong railgun type projectile dealing high damage to multiple units, takes long to reload.
+details: Weak against few, Strong against groups since it deals area damage.
+type: PowerTurret
+reload: 800
+shootCone: 20
+rotateSpeed: 2
+targetGround: true
+targetAir: true
+range: 600
+recoil: 2
+size: 3
+health: 900
+shootSound: railgun
+outlineColor: 000000FF
+shootWarmupSpeed: 0.003
+minWarmupSpeed: 0.9
+consumes: {
+  power: 7
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.4
+}
+}
+shoot: {
+  shots: 8
+  shotDelay: 4
+  firstShotDelay: 45
+}
+shootType: {
+   type: RailBulletType
+   shootEffect: instShoot
+   hitEffect: instHit
+   pierceEffect: railHit
+   smokeEffect: smokeCloud
+   pointEffect: instTrail
+   despawnEffect: instBomb
+   pointEffectSpace: 30
+   damage: 1500
+   buildingDamageMultiplier: 0.1
+   maxDamageFraction: 0.8
+   pierceDamageFactor: 2
+   length: 600
+   hitshake: 6
+   splashDamage: 700
+   splashDamageRadius: 35
+}
+requirements: [
+item-a-3/125
+sand/250
+item-b-5/100
+item-a-7/400
+item-b-3/450
+item-b-4/50
+]
+research: {
+parent: turret-d-s-1
+}
+category: turret
+researchCostMultiplier: 1

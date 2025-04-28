@@ -1,0 +1,51 @@
+name: Large gunner
+description: Fires repetitive bullets at a high damage rate, used for single targets NOT groups.
+type: ItemTurret
+reload: 2
+shootCone: 20
+rotateSpeed: 2
+targetGround: true
+targetAir: true
+range: 215
+recoil: 3
+size: 3
+health: 800
+shootSound: shootAlt
+outlineColor: 000000FF
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.5
+}
+ammoTypes: {
+    item-a-9: {
+        damage: 15
+        speed: 6
+        height: 6
+        width: 6
+        lifetime: 36
+    trailColor: 60615BFF
+    trailLength: 0.22
+    trailWidth: 1
+    trailEffect: shootSmokeTitan
+    trailSinScl: 2
+    trailSinMag: 0.5
+    trailInterval: 1
+    trailRotation: true
+    }
+}
+requirements: [
+item-a-3/250
+sand/600
+item-b-5/125
+item-a-7/460
+item-b-3/550
+item-b-4/125
+]
+
+research: {
+parent: turret-d-s-1
+}
+category: turret
+researchCostMultiplier: 1
