@@ -24,11 +24,6 @@ coolant: {
   amount: 0.4
 }
 }
-shoot: {
-  shots: 8
-  shotDelay: 4
-  firstShotDelay: 45
-}
 shootType: {
    type: RailBulletType
    shootEffect: instShoot
