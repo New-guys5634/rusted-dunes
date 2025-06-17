@@ -1,0 +1,20 @@
+localizedName: Sandy Attack Assault
+description: "Has three spawn points with NO rusted metal use factories to factorize rusted metal.
+
+A great opportunity to use this sector for Old iron.
+[#feb380]Note: This is an optional sector. Capturing it is not required for conquering the campaign."
+difficulty: 6
+captureWave: 39
+planet: dunes
+sector: 65
+overrideLaunchDefaults: true
+addStartingItems: true
+research: {
+  parent: b-6-a-op-insanity
+  objectives: [
+    {
+      type: SectorComplete
+      preset: b-6-a-op-insanity
+    }
+  ]
+}
