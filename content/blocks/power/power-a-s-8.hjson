@@ -1,0 +1,48 @@
+type: ConsumeGenerator
+name: Water oil turbine
+description: Intakes water and oil to tribulate power.
+size: 2
+category: power
+research: {
+  parent: power-a-s-1
+}
+requirements: [
+item-a-1/250
+sand/300
+item-b-7/65
+item-a-7/145
+]
+consumes: {
+liquids: [
+water/0.2
+oil/0.1 
+]
+}
+powerProduction: 1.8
+itemDuration: 100
+generateEffect: generatespark
+ambientSound: smelter
+ambientSoundVolume: 0.2
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawRegion
+      suffix: -top
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawRegion
+      suffix: -spinner
+      spinSprite: true
+      rotateSpeed: 12
+    }
+  ]
+}
+researchCostMultiplier: 1
