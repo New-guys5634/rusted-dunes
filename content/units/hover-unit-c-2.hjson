@@ -60,7 +60,7 @@ weapons: [
   shootY: 1
   shootX: -3
   mirror: true
-  rotate: true
+  rotate: false
   shootCone: 80
   shootSound: shoot
   inaccuracy: 0
