@@ -13,7 +13,7 @@ speed: 3.5
 rotateSpeed: 4
 accel: 0.01440
 groundLayer: 60
-health: 425
+health: 635
 armor: 4
 hitSize: 8
 itemCapacity: 15
@@ -74,11 +74,11 @@ weapons: [
    type: BasicBulletType
    width: 5
    height: 7 
-   splashDamage: 50
+   splashDamage: 60
    splashDamageRadius: 5
    homingPower: 0.4
    homingRange: 100
-   speed: 4
+   speed: 6
    lifetime: 35
    trailWidth: 2
    trailLength: 8
@@ -92,7 +92,7 @@ weapons: [
      lightning: 4
      lightningLengthRand: 1.8
      lightningLength: 7
-     lightningDamage: 15
+     lightningDamage: 20
       hitSound: spark
    }
   }
