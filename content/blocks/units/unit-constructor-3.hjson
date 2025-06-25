@@ -1,5 +1,5 @@
-name: tank construction site
-description: constructs tanks that are low tier at a slow pace
+name: Tank construction site
+description: Constructs tanks that are low tier at a slow pace.
 type: UnitFactory
 category: units
 size: 3

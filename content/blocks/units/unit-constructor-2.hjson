@@ -1,5 +1,5 @@
-name: hover construction site
-description: constructs hover crafts that are low tier at a slow pace
+name: Hover construction site
+description: Constructs hover crafts that are low tier at a slow pace.
 type: UnitFactory
 category: units
 size: 3

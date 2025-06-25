@@ -1,28 +1,19 @@
-name: Mech construction site
-description: Constructs mechs that are low tier at a slow pace.
+name: Boat construction site
+description: Constructs wooden boats at a slow pace.
 type: UnitFactory
 category: units
 size: 3
 configurable: true
 plans: [
-  {
-    unit: mech-unit-a-1
-    time: 1300
-    requirements: [
-        sand/30
-        item-a-2/10
-        item-a-4/15
-       item-b-5/20
-    ]
-}
 {
     unit: boat-unit-b-1
     time: 2250
     requirements: [
         sand/60
         item-a-4/45
-        item-a-5/15
-       item-b-5/50
+        item-a-5/20
+       item-a-6/30
+       item-b-6/50
     ]
 }
 ]
@@ -34,7 +25,7 @@ item-a-4/48
 item-a-5/55
 ]
 research: {
-  parent: core-a-1
+  parent: unit-constructor-1
   objectives: [
     {
       type: OnSector
@@ -48,4 +39,6 @@ item-a-1/850
 item-a-2/900
 item-a-4/480
 item-a-5/550
+item-a-6/125
+item-b-6/250
 ]
