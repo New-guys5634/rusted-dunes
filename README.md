@@ -1,9 +1,9 @@
-welcome to rusted dunes 
+![logo](https://github.com/New-guys5634/rusted-dunes/blob/064d18f6aa60eba612f06b357d34a4389f52640e/sprites-override/ui/logo.png)
 
-basically reading the name its basically a planet full of old and janky rusted nonsenses and dont forget SAND 
+welcome to rusted dunes, rusted dunes plans to add a new varieties of rusty technology expand and go allover the planet dunes
 
-the planet plans to add 18 sectors of fun and optional sectors (propobaly by other people) to conquer and enjoying hell
+dunes is a planet that is a sandy hot hell, enjoy the current 20 sectors while you can stand your ground
 
-be warned that this still beta and not far from Finnished so beware this mod will be updated regularly.
+if you want a sector in my mod just ask i will explain when you send a message
 
-enjoy
+theres is going to be more sectors that will be added.
