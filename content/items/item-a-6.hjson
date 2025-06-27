@@ -6,3 +6,4 @@ flammability: 1.4
 hiddenOnPlanets: [serpulo, erekir]
 research: item-a-4
 shownPlanets: [dunes, lush, old]
+details: "A flamed metal sounds like coal but on steroids, strangely again is only material on the planet dunes and not anywhere else."
