@@ -1,0 +1,17 @@
+localizedName: Falling eclipse
+description: "The falling eclipse, the moon's are dangerous, the last hope of the crux are left on this heavily [RED] protected sectors [WHITE] protect and prepare to suffer, rusted metal is non existent here prepare with recent tech.
+-sector protection 1 taking this out will result of the others being revealed."
+difficulty: 8
+planet: dunes
+sector: 62
+overrideLaunchDefaults: true
+addStartingItems: true
+research: {
+  parent: a.insanity-revenge
+  objectives: [
+    {
+      type: SectorComplete
+      preset: a.insanity-revenge
+    }
+  ]
+}
