@@ -1,6 +1,6 @@
 type: naval
 name: Wooden large naval boat
-description: Fires wooding sharp damage projectiles at the enemies.
+description: Fires a heavy weight wooding sharp damage projectiles at the enemies.
 speed: 0.8
 health: 1250
 armor: 1
@@ -20,21 +20,19 @@ weapons: [
     rotateSpeed: 2
     x: 0
     y: -2
-    reload: 20
+    reload: 80
     recoil: 1.25
     shootSound: blaster
-    shoot: {
-    shots: 4
-    shotDelay: 15
-    }
     bullet: {
       type: BasicBulletType
       sprite: missile-large
-      width: 6
+      wobble: true
+       recoil: 1.25
+      width: 8
       splashDamageRadius: 15
-      splashDamage: 30
+      splashDamage: 100
       lifetime: 30
-      damage: 25
+      damage: 80
       speed: 6
       smokeEffect: colorSpark
       trailColor: 8E665CFFf

@@ -1,6 +1,6 @@
 type: naval
 name: Wooden naval boat
-description: Fires wooding sharp damage projectiles at the enemies.
+description: Fires a burst of wooding sharp damage projectiles at the enemies.
 speed: 0.8
 health: 625
 armor: 1
@@ -20,17 +20,26 @@ weapons: [
     rotateSpeed: 2
     x: 0
     y: -2
-    reload: 25
+    reload: 90
     recoil: 1.25
     shootSound: blaster
+  chargeSound: lasercharge2
+  shoot: {
+  type: ShootSpread
+  firstShotDelay: 60
+  spread: 2
+  shots: 4
+  shotDelay: 8
+  }
     bullet: {
       type: BasicBulletType
       sprite: missile-large
       width: 6
       splashDamageRadius: 15
-      splashDamage: 25
+      splashDamage: 15
       lifetime: 30
-      damage: 25
+      damage: 15
+      wobble: true
       speed: 6
       smokeEffect: colorSpark
       trailColor: 8E665CFFf
@@ -55,3 +64,6 @@ immunities: [
 melting
 ]
 research: unit-constructor-10
+details: "The first boat of its kind, these are great and more versatile than the hovercrafts.
+
+Only realy use it when there's a gateway of liquids and it leads to the enemies."

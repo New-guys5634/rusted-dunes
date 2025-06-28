@@ -1,6 +1,6 @@
 type: naval
 name: Wooden medium naval boat
-description: Fires wooding sharp damage projectiles at the enemies.
+description: Fires wooding sharp damage projectiles at a quick fire rate at the enemies.
 speed: 0.8
 health: 850
 armor: 1
@@ -20,17 +20,18 @@ weapons: [
     rotateSpeed: 2
     x: 0
     y: -2
-    reload: 20
+    reload: 10
     recoil: 1.25
     shootSound: blaster
     bullet: {
       type: BasicBulletType
       sprite: missile-large
+      wobble: true
       width: 6
       splashDamageRadius: 15
-      splashDamage: 45
+      splashDamage: 25
       lifetime: 30
-      damage: 32
+      damage: 25
       speed: 6
       smokeEffect: colorSpark
       trailColor: 8E665CFFf
