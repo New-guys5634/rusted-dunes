@@ -10,5 +10,5 @@ requirements: [
 item-b-5/5
 item-a-4/20
 ]
-research: pipe
+research: pipe-a-1
 researchCostMultiplier: 0.1
