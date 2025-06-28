@@ -10,6 +10,7 @@ sand/2
 health: 50
 leaks: false
 junctionReplacement: pipe-junction
+bridgeReplacement: pipe-bridge
 underBullets: true
 researchCostMultiplier: 1
 liquidPressure: 1.000
