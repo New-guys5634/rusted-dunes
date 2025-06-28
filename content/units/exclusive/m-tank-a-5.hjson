@@ -1,0 +1,149 @@
+type: tank
+name: Shotgun humvee
+description: Has slow speeds and a medicore amount of dps, exploades on the opponent, only on lushion.
+omniMovement: false
+faceTarget: false
+outlineColor: 1f1f1f
+speed: 0.9
+rotateSpeed: 2.4
+groundLayer: 60
+health: 120
+armor: 2
+hitSize: 10
+itemCapacity: 5
+treadRects: [
+{
+    x: -28
+    y: -25
+    width: 14
+    height: 51
+    }
+]
+weapons: [
+ {
+  name: m-tank-a-5-wep
+  top: false
+  x: 0
+  y: 0
+  shootY: 3
+  shootX: 0
+  mirror: false
+  rotate: true
+  shootCone: 20
+  shootSound: shotgun
+  inaccuracy: 0
+  reload: 12
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35
+    controllable: false
+    autoTarget: true 
+  velocityRnd: 0.32
+  shoot: {
+  type: ShootSpread
+  spread: 3
+  shots: 12
+  }
+  bullet: {
+   type: BasicBulletType
+   width: 5
+   height: 5
+   damage: 1
+   speed: 8
+   lifetime: 25
+        shootEffect: {
+          type: MultiEffect
+          effects: [
+            shootSmallColor
+            {
+              type: ParticleEffect
+              interp: pow10Out
+              lifetime: 180
+              startDelay: 0
+              region: money-shadow
+              layer: 86
+              particles: 9
+              followParent: false
+              rotWithParent: false
+              useRotation: true
+              colorFrom: ffffff60
+              colorTo: ffffff00
+              lightScl: 2
+              lightOpacity: 0
+              baseRotation: 0
+              offset: 0
+              cone: 30
+              spin: 0
+              randLength: true
+              length: 16
+              baseLength: 0
+              line: false
+              sizeInterp: pow2Out
+              sizeFrom: 1
+              sizeTo: 5
+              strokeFrom: 0
+              strokeTo: 0
+              lenFrom: 0
+              lenTo: 0
+      }
+   ]
+}
+}
+}
+{
+  name: boom
+  reload: 50
+  shootCone: 180
+  ejectEffect: none
+  shootSound: explosion
+  bullet: {
+    type: BombBulletType
+    hitEffect: pulverize
+    lifetime: 6
+    speed: 2
+    splashDamageRadius: 25
+    instantDisappear: true
+    splashDamage: 45
+    killShooter: true
+    hittable: false
+    collidesAir: false
+    fragBullets: 3
+    fragCone: 360
+    hitSound: laser
+    fragBullet: {
+     type: LaserBulletType
+     length: 0
+     colors: [FDFDFD00 FCFCFC00 FDFDFD00]
+     damage: 0
+        hitEffect: {
+          type: multiEffect
+          effects: [
+            {
+              type: ParticleEffect
+              particles: 6
+              lifetime: 260
+              length: 90
+              lightColor: FCFCFCFF
+              sizeFrom: 1
+              sizeTo: 6
+              colorFrom: FCFCFCFF
+              colorTo: FDFDFD35
+            }
+            {
+              type: ParticleEffect
+              lightOpacity: 0
+              particles: 15
+              length: 45
+              baseLength: 10
+              lifetime: 270
+              sizeFrom: 7
+              sizeTo: 1
+              colorFrom: FCFCFCFF
+              colorTo: FDFDFD35
+       }
+     ]
+    }
+   }
+ }
+ }
+]
