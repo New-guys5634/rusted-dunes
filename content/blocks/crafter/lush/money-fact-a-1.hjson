@@ -1,0 +1,38 @@
+description: It makes money, the economy is about to crash.
+name: Credits generator
+type: GenericCrafter
+size: 2
+health: 15
+craftTime: 80
+hasItems: true
+hasLiquids: false
+hasPower: false
+itemCapacity: 20
+requirements: [
+m-money/25
+]
+category: crafting
+outputItem: m-money/2
+craftEffect: {
+    type: RadialEffect
+    layer: 90
+    rotationSpacing: 45
+    amount: 4
+    lengthOffset: 5
+    effect: {
+      particles: 2
+      length: 50
+      lifetime: 100
+      speed: 6
+      cone: 20
+      baseRotation: 15
+      useRotation: false 
+      sizeFrom: 0
+      sizeTo: 8
+      colorFrom: e0e0e066
+      colorTo: e0e0e000
+      sizeInterp: pow2Out
+      interp: pow2Out
+      layer: 90
+    }
+  }
