@@ -56,7 +56,7 @@ weapons: [
               interp: pow10Out
               lifetime: 180
               startDelay: 0
-              region: money-shadow
+              region: rusted-dunes-shadow
               layer: 86
               particles: 9
               followParent: false
