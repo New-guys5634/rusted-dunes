@@ -1,0 +1,33 @@
+description: Fires powerful grenade type projectiles.
+name: Mortar
+type: ItemTurret
+reload: 60
+shootCone: 40
+rotateSpeed: 4
+targetGround: true
+targetAir: true
+range: 450
+trackingRange: 800
+recoil: 4
+shootSound: artillery
+size: 2
+health: 140
+AmmoPerShot: 5
+shootShake: 0.5
+ammoTypes: {
+    m-money: {
+   type: ArtilleryBulletType
+   splashDamage: 12
+   splashDamageRadius: 15
+        speed: 7
+        height: 10
+        width: 10
+        lifetime: 30
+    trailLength: 8
+    trailWidth: 2
+}
+}
+requirements: [
+    m-money/125
+]
+category: turret
