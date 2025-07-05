@@ -31,3 +31,5 @@ requirements: [
     m-money/125
 ]
 category: turret
+research: m-money-core
+researchCostMultiplier: 0.2
