@@ -2,4 +2,5 @@ description: This is your economies money use it wisely or not.
 name: Money credits
 color: F1EA78FF
 hardness: 1
+research: m-money-core
 hiddenOnPlanets: [serpulo, erekir]
