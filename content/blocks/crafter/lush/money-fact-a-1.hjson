@@ -36,3 +36,6 @@ craftEffect: {
       layer: 90
     }
   }
+research: m-money-core
+researchCostMultiplier: 0.1
+
