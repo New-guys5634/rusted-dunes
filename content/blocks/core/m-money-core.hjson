@@ -1,0 +1,22 @@
+type: CoreBlock
+name: Core: money
+description: The core of the base once destroyed the sector is lost.
+requirements: [
+m-money/500
+]
+isFirstTier: true
+size: 2
+outlineColor: 8E665CFFf
+squareSprite: false
+alwaysUnlocked: true
+unitType: m-tank-a-7
+health: 800
+itemCapacity: 4200
+unitCapModifier: 20
+category: effect
+research: {
+  planet: lush
+  root: true
+  name: Lushion
+  requiresUnlock: false
+}
