@@ -45,6 +45,9 @@ allowLaunchToNumbered: false
   enemyBuildSpeedMultiplier: 1.0
   enemyCoreSpawnReplace: false
 enemyBuildSpeedMultiplier: 1
+fog: true
+campaignRules.fog: true
+campaignRuleDefaults.fog: true
 defaultCore: core-a-1
 alwaysUnlocked: true
   updateLighting: true
