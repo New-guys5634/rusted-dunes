@@ -124,6 +124,19 @@ mesh: [
   scl: 0.70
   mag: 1.1
   }
+{
+  type: NoiseMesh
+  planet: dunes
+  seed: 562697
+  color1: 231D1D
+  color2: 232D2D
+  divisions: 5
+  radius: 0.875
+  octaves: 3
+  persistence: 1
+  scl: 0.73
+  mag: 1.4
+  }
   {
      type: NoiseMesh
   planet: dunes
