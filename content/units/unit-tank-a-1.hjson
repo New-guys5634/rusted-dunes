@@ -32,7 +32,7 @@ weapons: [
   shootCone: 20
   shootSound: shotgun
   inaccuracy: 0
-  reload: 35
+  reload: 30
   targetInterval: 1
   targetSwitchInterval: 3
   cooldownTime: 35 

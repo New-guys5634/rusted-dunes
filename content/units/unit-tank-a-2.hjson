@@ -8,7 +8,7 @@ speed: 0.6
 rotateSpeed: 2.5
 groundLayer: 60
 health: 480
-armor: 1
+armor: 2
 hitSize: 10
 itemCapacity: 5
 treadRects: [
@@ -33,7 +33,7 @@ weapons: [
   shootCone: 20
   shootSound: shoot
   inaccuracy: 0
-  reload: 15
+  reload: 14
   targetInterval: 1
   targetSwitchInterval: 3
   cooldownTime: 35

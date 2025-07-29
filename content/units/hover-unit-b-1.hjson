@@ -14,7 +14,7 @@ rotateSpeed: 4
 accel: 0.01440
 groundLayer: 60
 health: 215
-armor: 4
+armor: 1
 hitSize: 8
 itemCapacity: 15
 useEngineElevation: false
