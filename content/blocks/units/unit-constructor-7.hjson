@@ -1,5 +1,5 @@
 type: UnitAssembler
-name: Mech construction bay
+name: Tier 4 construction bay
 description: Constructs units to tier 4.
 size: 5
 category: units
@@ -19,25 +19,40 @@ plans: [
     type: AssemblerUnitPlan
     unit: hover-unit-b-4
     requirements: [
+rusted-dunes-hover-unit-b-2/4
 rusted-dunes-turret-a-s-4/6
 rusted-dunes-wall-a-s-2/6
 rusted-dunes-special-a-1-block/4
 rusted-dunes-power-a-n-1/8
     ]
-    time: 2350
+    time: 2800
   }
   {
     type: AssemblerUnitPlan
     unit: mech-unit-a-4
     requirements: [
+rusted-dunes-mech-unit-a-2/4
 rusted-dunes-turret-a-s-3/4
 rusted-dunes-wall-a-s-2/4
 rusted-dunes-special-a-2-block/2
 rusted-dunes-special-a-1-block/2
 rusted-dunes-power-a-n-1/6
     ]
-    time: 2500
+    time: 3750
   }
+{
+    type: AssemblerUnitPlan
+    unit: unit-tank-a-4
+    requirements: [
+rusted-dunes-unit-tank-a1/5
+rusted-dunes-turret-a-s-4/4
+rusted-dunes-wall-a-s-2/4
+rusted-dunes-special-a-2-block/2
+rusted-dunes-special-a-1-block/2
+rusted-dunes-power-a-n-1/8
+    ]
+    time: 2000
+}
 ]
 squareSprite: false
 consumes: {
