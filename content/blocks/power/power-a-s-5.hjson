@@ -35,4 +35,27 @@ drawer: {
   ]
 }
 researchCostMultiplier: 0.1
-
+generateEffectRange: 1
+effectChance: 0.035
+generateEffect: {
+      type: RadialEffect
+      rotationSpacing: 90
+      rotationOffset: 0
+      lengthOffset: 3
+      amount: 5
+      effect: {
+          type: ParticleEffect
+          particles: 5
+          length: 100
+          lifetime: 180
+          sizeFrom: 3
+          sizeTo: 10
+          cone: 2
+          baseRotation: 73
+          useRotation: false
+          interp: pow5Out
+          colorFrom: e0e0e066
+          colorTo: e0e0e000
+          layer: 120
+    }
+  }
