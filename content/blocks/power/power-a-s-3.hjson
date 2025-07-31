@@ -50,25 +50,25 @@ drawer: {
 generateEffectRange: 1
 effectChance: 0.035
 generateEffect: {
-    type: RadialEffect
-    layer: 100
-    rotationSpacing: 35
-    amount: 8
-    lengthOffset: 3
-    effect: {
-      particles: 2
-      length: 50
-      lifetime: 850
-      cone: 18
-      baseRotation: 15
-      useRotation: false 
-      sizeFrom: 0
-      sizeTo: 8
-      colorFrom: 615B5BFF
-      colorTo: 313131FF
-      sizeInterp: pow2Out
-      interp: pow2Out
-      layer: 100
+      type: RadialEffect
+      rotationSpacing: 90
+      rotationOffset: 0
+      lengthOffset: 3
+      amount: 5
+      effect: {
+          type: ParticleEffect
+          particles: 7
+          length: 100
+          lifetime: 180
+          sizeFrom: 3
+          sizeTo: 12
+          cone: 2
+          baseRotation: 73
+          useRotation: false
+          interp: pow5Out
+          colorFrom: e0e0e066
+          colorTo: e0e0e000
+          layer: 120
     }
   }
 researchCostMultiplier: 1
