@@ -87,7 +87,7 @@ mesh: [
     planet: dunes
     seed: 562697
     color1: FFE4C9
-    color2: 76151EFF
+    color2: FFE4D8
     colorScale: 1
     colorThreshold: 0.8
     divisions: 5
@@ -101,10 +101,10 @@ mesh: [
   type: NoiseMesh
   planet: dunes
   seed: 644564
-  color1: AF2A2AFF
-  color2: FFE4C9
-  divisions: 11
-  radius: 1.2
+  color1: AF2A2A
+  color2: AF2A4B
+  divisions: 4
+  radius: 1
   octaves: 9
   persistence: 1
   scl: 0.70
@@ -114,28 +114,15 @@ mesh: [
      type: NoiseMesh
   planet: dunes
   seed: 756452
-  color1: FFE4C9
-  color2:  8E665CFF
+  color1: 231D1D
+  color2:  231D4D
    colorScale: 1
-  divisions: 12
+  divisions: 7
   radius: 0.9
-  octaves: 8
+  octaves: 9
   persistence: 1
   scl: 0.70
-  mag: 1.0
-  }
-{
-  type: NoiseMesh
-  planet: dunes
-  seed: 562697
-  color1: 231D1D
-  color2: 232D2D
-  divisions: 11
-  radius: 0.875
-  octaves: 3
-  persistence: 1
-  scl: 0.73
-  mag: 1.4
+  mag: 1.1
   }
   {
      type: NoiseMesh
@@ -144,7 +131,7 @@ mesh: [
   color1: FFE4C9
   color2: AF2A2AFF
   colorScale: 1
-  divisions: 9
+  divisions: 6
   radius: 0.8
   octaves: 1
   persistence: 1
