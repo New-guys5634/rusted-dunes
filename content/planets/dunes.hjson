@@ -103,8 +103,8 @@ mesh: [
   seed: 644564
   color1: AF2A2AFF
   color2: FFE4C9
-  divisions: 3
-  radius: 1
+  divisions: 11
+  radius: 1.2
   octaves: 9
   persistence: 1
   scl: 0.70
@@ -117,7 +117,7 @@ mesh: [
   color1: FFE4C9
   color2:  8E665CFF
    colorScale: 1
-  divisions: 8
+  divisions: 12
   radius: 0.9
   octaves: 8
   persistence: 1
@@ -130,7 +130,7 @@ mesh: [
   seed: 562697
   color1: 231D1D
   color2: 232D2D
-  divisions: 7
+  divisions: 11
   radius: 0.875
   octaves: 3
   persistence: 1
@@ -144,7 +144,7 @@ mesh: [
   color1: FFE4C9
   color2: AF2A2AFF
   colorScale: 1
-  divisions: 6
+  divisions: 9
   radius: 0.8
   octaves: 1
   persistence: 1
