@@ -1,5 +1,5 @@
-name: wooden node
-description: transfers power through others
+name: Wooden node
+description: Transfers power through others.
 type: BeamNode
   
 hasPower: true

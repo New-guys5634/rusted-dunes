@@ -1,6 +1,6 @@
 type: ConsumeGenerator
-name: silicon reactor 
-description: burns sand and shale for power and small amount of water 
+name: Silicon Reactor 
+description: Burns sand and shale for power and small amount of water.
 size: 2
 category: power
 liquidCapacity: 50

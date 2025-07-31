@@ -1,6 +1,6 @@
 type: ConsumeGenerator
-name: scorched reactor 
-description: burns items and molten rust for more power
+name: Scorched Reactor 
+description: Burns items and molten rust for more power.
 size: 1
 category: power
 research: {
