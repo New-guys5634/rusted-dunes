@@ -1,4 +1,5 @@
-name: Insanity level 1
+name: Haste level effectiveness 1
+description: Just puts the units into a thought of murder.
 speedMultiplier: 1.25
 reloadMultiplier: 1.25
 damageMultiplier: 1.25
