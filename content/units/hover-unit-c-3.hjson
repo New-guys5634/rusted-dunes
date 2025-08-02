@@ -52,13 +52,13 @@ abilities: [
 ]
 weapons: [
  {
-  name: hover-unit-c-2-wep
+  name: hover-unit-c-3-base-wep
   
   top: false
   x: 0
   y: 0
-  shootY: 1
-  shootX: -3
+  shootY: 2
+  shootX: 0
   mirror: true
   rotate: false
   shootCone: 80

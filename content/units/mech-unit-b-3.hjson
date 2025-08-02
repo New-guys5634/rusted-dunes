@@ -18,12 +18,12 @@ mineSpeed: 5
 buildSpeed: 0.6
 weapons: [
 {
-  name: mech-unit-b-2-gun
+  name: mech-unit-b-3-gun
   top: false
   x: 0
   y: 0
-  shootY: 6
-  shootX: 6
+  shootY: 7
+  shootX: 8
   mirror: true
   rotate: false
   shootCone: 10
