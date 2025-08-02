@@ -1,0 +1,89 @@
+type: mech
+name: Explusive
+description: The upgraded teir three, fires a large laser that doesn't have recoil.
+hovering: true
+hoverable: true
+shadowElevation: 0.1
+mechFrontSway: 0
+mechSideSway: 0
+mechStride: 0
+drag: 0.04
+outlineColor: EDF3A9FF
+speed: 3.5
+rotateSpeed: 4
+accel: 0.01440
+groundLayer: 60
+health: 950
+armor: 4
+hitSize: 8
+itemCapacity: 15
+useEngineElevation: false
+lowAltitude: true
+canDrown: false
+engines: [
+  {
+    x: 0
+    y: -7
+    radius: 2
+  }
+]
+parts: [
+  {
+    type: HoverPart
+    color: EDF3A9FF
+    radius: 15
+    sides: 8
+    layerOffset: -0.0002
+    x: 0
+    y: 0
+    phase: 140
+  }
+]
+abilities: [
+  {
+    type: MoveEffectAbility
+    teamColor: true
+    effect: missileTrailShort
+    x: 0
+    y: -5
+    interval: 5
+    minVelocity: 0.8
+  }
+]
+weapons: [
+ {
+  name: hover-unit-c-2-wep
+  
+  top: false
+  x: 0
+  y: 0
+  shootY: 1
+  shootX: -3
+  mirror: true
+  rotate: false
+  shootCone: 80
+  shootSound: shoot
+  inaccuracy: 0
+  reload: 80
+  recoil: 1
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  velocityRnd: 0.40
+  bullet: {
+  type: LaserBulletType
+  colors: [EDF3A9FF, EDF3A9FF, EDF3A9FF]
+  lightningColor: EDF3A9FF
+  length: 125
+  width: 15
+  lightning: 4
+  lightningLength: 16
+  lightningDamage: 15
+  lightningCone: 20
+  damage: 200
+  buildingDamageMultiplier: 0.6
+   }
+  }
+]
+research: hover-unit-c-,2
+researchCostMultiplier: 1 

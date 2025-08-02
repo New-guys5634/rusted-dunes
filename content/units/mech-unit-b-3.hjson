@@ -1,14 +1,14 @@
-name: Stabilize 
-description: The second tier that has a blaster wich fires a burst of explosive bullets.
+name: Neutralize
+description: The third tier that has a blaster wich fires a large explosive bullet.
 type: mech
 mechLegColor: 1f1f1f
-health: 500
+health: 1100
 armor: 1
 hitSize: 10
 speed: .7
 rotateSpeed: 4
 accel: 0.70
-itemCapacity: 10
+itemCapacity: 30
 outlineColor: 313131FF
 commands: [move, mine, repair, rebuild, assist]
 mineFloor: true
@@ -29,23 +29,19 @@ weapons: [
   shootCone: 10
   shootSound: laser
   inaccuracy: 3
-  reload: 85
+  reload: 45
   targetInterval: 1
   targetSwitchInterval: 3
   cooldownTime: 35 
-  shoot: {
-  shots: 3
-  shotDelay: 10
-  }
   bullet: {
    type: BasicBulletType
    width: 8
    height: 9
-   damage: 55
-   splashDamage: 25
-   splashDamageRadius: 40
-   speed: 6
-   lifetime: 35
+   damage: 60
+   splashDamage: 45
+   splashDamageRadius: 80
+   speed: 8
+   lifetime: 25
    trailWidth: 2
    trailLength: 15
         hitEffect: {
@@ -79,5 +75,5 @@ weapons: [
 }
 }
 ]
-research: mech-unit-b-1
+research: mech-unit-b-2
 researchCostMultiplier: 1
