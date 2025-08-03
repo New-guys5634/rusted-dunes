@@ -1,0 +1,69 @@
+description: Uses oil,sulfur and scorched  material to factorize for explosive compound.
+name: Explosive compound factory
+type: GenericCrafter
+size: 3
+health: 400
+craftTime: 300
+hasItems: true
+hasLiquids: true
+hasPower: false
+itemCapacity: 25
+consumes: {
+liquid: oil/0.2
+  items: {
+    items: [
+item-a-6/4
+item-b-6/2
+    ]
+  }
+}
+requirements: [
+item-a-4/200
+item-a-5/80
+sand/80
+silicon/60
+]
+category: crafting
+outputItems: [
+item-b-8/2
+]
+research: factory-l-4
+researchCostMultiplier: 1
+craftEffect: [
+{
+      type: RadialEffect
+      rotationSpacing: 90
+      rotationOffset: 0
+      lengthOffset: 3
+      amount: 5
+      effect: {
+          type: ParticleEffect
+          particles: 7
+          length: 100
+          lifetime: 180
+          sizeFrom: 3
+          sizeTo: 12
+          cone: 2
+          baseRotation: 73
+          useRotation: false
+          interp: pow5Out
+          colorFrom: e0e0e066
+          colorTo: e0e0e000
+          layer: 120
+          }
+}
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawFrames
+      frames: 5
+      sine: true
+      interval: 4
+    }
+    {
+      type: DrawDefault
+     }
+  ]
+}
