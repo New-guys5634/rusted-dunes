@@ -120,7 +120,6 @@ ammoTypes: {
         ]
     }
  }
-{
     item-b-8: {
    type: ArtilleryBulletType
    width: 6
