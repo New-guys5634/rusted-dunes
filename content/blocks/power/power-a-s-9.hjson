@@ -1,0 +1,68 @@
+type: ConsumeGenerator
+name: Explosive generator
+description: Burns explosive material mixture and oil for a large amount of power.
+size: 3
+category: power
+liquidCapacity: 80
+research: {
+  parent: power-a-s-3
+}
+requirements: [
+item-a-7/75
+silicon/80
+item-b-2/90
+item-b-4/70
+]
+consumes: {
+liquid: oil/0.2
+items: {
+    items: [
+item-b-8/1
+    ]
+  }
+}
+powerProduction: 6
+itemDuration: 445
+generateEffect: generatespark
+ambientSound: flux
+ambientSoundVolume: 0.2
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawCrucibleFlame
+    }
+    {
+      type: DrawDefault
+    }
+]
+}
+generateEffectRange: 1
+effectChance: 0.035
+generateEffect: {
+      type: RadialEffect
+      rotationSpacing: 90
+      rotationOffset: 0
+      lengthOffset: 3
+      amount: 5
+      effect: {
+          type: ParticleEffect
+          particles: 9
+          length: 140
+          lifetime: 120
+          sizeFrom: 3
+          sizeTo: 12
+          cone: 2
+          baseRotation: 73
+          useRotation: false
+          interp: pow5Out
+          colorFrom: e0e0e066
+          colorTo: e0e0e000
+          layer: 120
+    }
+  }
+researchCostMultiplier: 1
