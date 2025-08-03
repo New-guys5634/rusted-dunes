@@ -1,0 +1,18 @@
+type: RepairTower
+name: Unit repair outpoint
+description: Heals injured units, requires power.
+size: 2
+squareSprite: false
+category: units
+requirements: [
+item-a-4/80
+item-a-5/30
+item-a-7/50
+]
+research: unit-constructor-1
+range: 50
+healAmount: 0.5
+consumes: {
+  power: 2
+}
+researchCostMultiplier: 0.2
