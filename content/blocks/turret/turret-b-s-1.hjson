@@ -62,6 +62,29 @@ item-b-3: {
      lightningDamage: 15
       hitSound: spark
 }
+item-b-8: {
+   type: ArtilleryBulletType
+   width: 5
+   height: 7 
+   splashDamage: 50
+   splashDamageRadius: 10
+   speed: 2.5
+   lifetime: 90
+   trailWidth: 2
+   trailLength: 8
+   frontColor: FB8F6BFF
+   backColor: FB8F6BFF
+   trailColor: FB8F6BFF
+    status: blasted
+    statusDuration: 165
+      ammoMultiplier: 8
+      hitSize: 10
+     lightning: 4
+     lightningLengthRand: 1.8
+     lightningLength: 7
+     lightningDamage: 15
+      hitSound: spark
+}
 }
 requirements: [
 sand/100

@@ -161,6 +161,63 @@ sizeTo: 0
 ]
 }
 }
+    item-b-3: {
+chargeEffect: [
+{
+lifetime: 90
+type: waveEffect
+colorFrom: 010101
+colorTo: 010101
+strokeTo: 4
+strokeFrom: 0
+sizeFrom: 25
+sizeTo: 0
+}
+]
+   type: ArtilleryBulletType
+   width: 8
+   height: 10
+   splashDamage: 350
+   splashDamageRadius: 50
+   speed: 4
+   lifetime: 115
+   trailWidth: 3
+   trailLength: 12
+   frontColor: FB8F6BFF
+   backColor: FB8F6BFF
+   trailColor: FB8F6BFF
+    status: tarred
+    statusDuration: 200
+    makeFire: true
+        hitEffect: {
+          type: multiEffect
+          effects: [
+            {
+              type: ParticleEffect
+              particles: 12
+              lifetime: 25
+              length: 90
+              lightColor: FB8F6BFF
+              sizeFrom: 10
+              sizeTo: 3
+              colorFrom: FB8F6BFF
+              colorTo: FB8F6BFF
+            }
+            {
+              type: ParticleEffect
+              lightOpacity: 0
+              particles: 32
+              length: 45
+              baseLength: 10
+              lifetime: 120
+              sizeFrom: 7
+              sizeTo: 1
+              colorFrom: FB8F6BFF
+              colorTo: FB8F6BFF
+}
+]
+}
+}
 }
 requirements: [
 sand/550

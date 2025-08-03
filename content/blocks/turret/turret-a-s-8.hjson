@@ -120,6 +120,49 @@ ammoTypes: {
         ]
     }
  }
+{
+    item-b-8: {
+   type: ArtilleryBulletType
+   width: 6
+   height: 8
+   
+   splashDamage: 325
+   splashDamageRadius: 60
+   shootEffect: sparkShoot
+   speed: 3
+   lifetime: 50
+   
+   trailWidth: 2
+   trailLength: 9
+    trailRotation: true
+   frontColor: FB8F6BFF
+   backColor: FB8F6BFF
+   trailColor: FB8F6BFF
+ 
+ trailEffect: shootSmokeTitan
+ trailInterval: 3
+    shootEffect: {
+     type: MultiEffect
+        effects: [
+             {
+              type: ParticleEffect
+              particles: 1
+              lifetime: 65
+              length: 3.5
+              sizeFrom: 4
+              sizeTo: 0
+              colorFrom: f1f1f1
+              colorTo: f1f1f1
+              strokeFrom: 6
+              strokeTo: 1
+              interp: pow3Out
+              spin: 0
+              sizeInterp: pow2In
+              region: rusted-dunes-halo
+              }
+        ]
+    }
+ }
 }
 requirements: [
 sand/35
