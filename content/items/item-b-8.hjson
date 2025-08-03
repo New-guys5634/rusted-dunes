@@ -1,0 +1,9 @@
+description: Created with scorched material and sulfur material, highly explosive.
+name: Explosive Compound Mixture
+color: F25455FF
+explosiveness: 0.8
+hardness: 2
+flammability: 0.4
+hiddenOnPlanets: [serpulo, erekir]
+research: item-a-6
+shownPlanets: [dunes, lush, old]
