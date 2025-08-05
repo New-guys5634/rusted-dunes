@@ -61,6 +61,7 @@ drawer: {
       sine: true
       interval: 4
     }
+    {
       type: DrawRegion
       suffix: -bottom
     }
