@@ -61,6 +61,26 @@ drawer: {
       sine: true
       interval: 4
     }
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawRegion
+      suffix: -top
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: oil
+      padding: 0.2
+     }
+     {
+     type: DrawBubbles
+     sides: 16
+     recurrence: 2
+     spread: 6
+     radius: 2
+     amount: 20
+    }
     {
       type: DrawDefault
      }
