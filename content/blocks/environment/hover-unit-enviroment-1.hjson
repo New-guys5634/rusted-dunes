@@ -11,3 +11,27 @@ name: Wasting hover unit
         item-a-2/25
         item-a-4/15
 ]
+breakEffect: {
+  particles: 20
+  baseLength: 50
+  length: 18
+  lifetime: 90
+  region: rusted-dunes-shadow
+  sizeFrom: 15
+  sizeTo: 25
+  colorFrom: e0e0e066
+  colorTo: e0e0e000
+  layer: 55
+}
+destroyEffect: {
+  particles: 30
+  baseLength: 48
+  length: 16
+  lifetime: 90
+  region: rusted-dunes-shadow
+  sizeFrom: 15
+  sizeTo: 25
+  colorFrom: e0e0e066
+  colorTo: e0e0e000
+  layer: 55
+}
