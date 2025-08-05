@@ -13,7 +13,7 @@ name: Wasting hover unit
 ]
 breakEffect: {
   particles: 20
-  baseLength: 50
+  baseLength: 15
   length: 18
   lifetime: 90
   region: rusted-dunes-shadow
@@ -25,7 +25,7 @@ breakEffect: {
 }
 destroyEffect: {
   particles: 30
-  baseLength: 48
+  baseLength: 15
   length: 16
   lifetime: 90
   region: rusted-dunes-shadow
