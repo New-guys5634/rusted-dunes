@@ -7,7 +7,7 @@ outlineColor: 8E665CFF
 speed: 0.3
 rotateSpeed: 1.5
 groundLayer: 60
-health: 8959
+health: 9000
 armor: 4
 hitSize: 17
 itemCapacity: 15
@@ -29,7 +29,7 @@ weapons: [
   shootX: 0
   mirror: false
   rotate: true
-  rotationLimit: 180
+  rotationLimit: 140
   shootCone: 20
   shootSound: bolt
   inaccuracy: 0
@@ -43,7 +43,7 @@ weapons: [
    height: 12
    speed: 8
    lifetime: 18
-   splashDamage: 300
+   splashDamage: 600
    splashDamageRadius: 40
    }
   }
