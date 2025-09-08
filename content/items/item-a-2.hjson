@@ -4,4 +4,9 @@ color: FFE4C9
 hardness: 2 
 hiddenOnPlanets: [serpulo, erekir]
 research: item-a-1
-details: "Imagine sanding metal"
+details: "
+Total Weight Per Item: 34 kgs
+Production Cost: 12.07$
+Mining Cost: 23.82$ 
+Base Value Per one gram: 11.85$
+Notice: Imagine sanding metal"
