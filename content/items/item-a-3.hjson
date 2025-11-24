@@ -4,9 +4,5 @@ color: 623D35
 hardness: 4
 hiddenOnPlanets: [serpulo, erekir]
 research: item-a-2
-details: "
-Total Weight Per Item: 58 kgs
-Production Cost: 34.67$
-Mining Cost: 43.32$ 
-Base Value Per one gram: 33.75$"
+
 

@@ -5,9 +5,4 @@ hardness: 2
 flammability: 1.4
 hiddenOnPlanets: [serpulo, erekir]
 research: item-a-4
-details: "
-Total Weight Per Item: 23 kgs
-Production Cost: 0$
-Mining Cost: 65.82$ 
-Base Value Per one gram: 38.75$
-Notice: A flamed metal sounds like coal but on steroids, strangely again is only material on the planet dunes and not anywhere else."
+details: " A flamed metal sounds like coal but on steroids, strangely again is only material on the planet dunes and not anywhere else."
