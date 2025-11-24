@@ -30,7 +30,7 @@ weapons: [
     shootSound: splash
   shoot: {
   type: ShootSpread
-  spread: 2
+  spread: 0.4
   shots: 30
   shotDelay: 3
   }
@@ -42,7 +42,7 @@ weapons: [
       width: 6
       splashDamageRadius: 15
       splashDamage: 15
-      lifetime: 90
+      lifetime: 120
       damage: 40
       wobble: true
       speed: 3
