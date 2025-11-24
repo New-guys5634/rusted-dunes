@@ -21,8 +21,10 @@ weapons: [
     rotate: true
     name: sand-event-a-1-blaster-head
     rotateSpeed: 0.5
-    x: 0
+    x: 3
     y: -2
+   shootY: 7
+   shootX: 2
     reload: 300
     recoil: 1.25
     shootSound: splash
