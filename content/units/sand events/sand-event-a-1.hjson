@@ -1,0 +1,69 @@
+type: naval
+name: Sand surchul
+description: "A large beast that only spawns on danger levels 4-5, has large amount of health and deals medium damage, only found on the north pole of dunes.
+
+weakness: It has a slow turning so abuse that.
+Killing method: It is suggested to have 2 players on a team and send one player using a strong boat to kill the beast."
+speed: 0.0
+health: 20000
+armor: 1
+aimDst: 10
+range: 125
+drag: 0.0
+accel: 0.0
+hitSize: 17
+rotateSpeed: 0
+trailLength: 0
+outlineColor: 8E665CFFf
+weapons: [
+{
+    mirror: false
+    rotate: true
+    name: sand-event-a-1-blaster-head
+    rotateSpeed: 0.5
+    x: 0
+    y: -2
+    reload: 300
+    recoil: 1.25
+    shootSound: splash
+  shoot: {
+  type: ShootSpread
+  spread: 2
+  shots: 30
+  shotDelay: 3
+  }
+    bullet: {
+      type: BasicBulletType
+      sprite: missile-large
+      homingPower: 0.4
+      homingRange: 100
+      width: 6
+      splashDamageRadius: 15
+      splashDamage: 15
+      lifetime: 90
+      damage: 40
+      wobble: true
+      speed: 3
+      smokeEffect: colorSpark
+      trailColor: F7CBA4FF
+      trailWidth: 1.5
+      trailLength: 5
+      backColor: F7CBA4FF
+      hitColor: F7CBA4FF
+      despawnEffect: {
+        type: WaveEffect
+        rotWithParent: true
+        followParent: true
+        lifetime: 4
+        sizeFrom: 0
+        sizeTo: 10
+        colorFrom: ffffff
+        colorTo: feb380
+        }
+      }
+}
+]
+immunities: [
+melting
+]
+
