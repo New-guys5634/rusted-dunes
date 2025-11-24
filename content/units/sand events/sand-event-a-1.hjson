@@ -23,7 +23,7 @@ weapons: [
     rotateSpeed: 0.5
     x: 3
     y: -2
-   shootY: 14
+   shootY: 21
    shootX: 0
     reload: 300
     recoil: 1.25
@@ -46,6 +46,8 @@ weapons: [
       damage: 40
       wobble: true
       speed: 3
+      despawnHit: true
+      despawnSound: splash
       smokeEffect: colorSpark
       trailColor: F7CBA4FF
       trailWidth: 1.5
