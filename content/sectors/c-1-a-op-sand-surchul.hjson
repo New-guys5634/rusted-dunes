@@ -1,0 +1,19 @@
+localizedName: Sand site
+description: "The north pole of dunes, this area is highly dangerous and could be very difficult to conquer by one.
+This sector has a beast of sorts.
+Survive."
+captureWave: 10
+difficulty: 6
+planet: dunes
+sector: 254
+overrideLaunchDefaults: true
+addStartingItems: true
+research: {
+  parent: 5.lead points
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 5.lead points
+    }
+  ]
+}
