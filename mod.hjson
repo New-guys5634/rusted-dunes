@@ -22,4 +22,3 @@ minGameVersion: 147
 version: "official 1.0"
 displayName: "Rusted Dunes"
 subtitle: "[[]#FFE4C9]The winds feel off...[[]]"
-dependencies: [hjsonpp]
