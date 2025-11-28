@@ -10,6 +10,8 @@ range: 215
 recoil: 2.3
 size: 1
 health: 350
+overHeatAmount: 15
+timeToCooldown: 200
 AmmoPerShot: 6
 shtimeToCooldownootSound: shootAlt
 outlineColor: 000000FF
@@ -27,8 +29,6 @@ ammoTypes: {
         width: 6
         lifetime: 36
         reloadMultiplier: 0.8
-      overHeatAmount: 15
-     timeToCooldown: 200
     trailColor: 60615BFF
     trailLength: 0.22
     trailWidth: 1
