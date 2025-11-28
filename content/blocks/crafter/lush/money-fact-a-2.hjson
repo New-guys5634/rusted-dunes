@@ -1,0 +1,55 @@
+description: It makes points which is used for second tier equipment.
+name: Point generator
+type: GenericCrafter
+size: 3
+health: 30
+craftTime: 200
+hasItems: true
+hasLiquids: false
+hasPower: false
+itemCapacity: 20
+requirements: [
+m-money/175
+]
+category: crafting
+outputItem: m-upgrade-point/1
+craftEffect: {
+    type: RadialEffect
+    layer: 90
+    rotationSpacing: 45
+    amount: 4
+    lengthOffset: 5
+    effect: {
+      particles: 2
+      length: 50
+      lifetime: 100
+      speed: 6
+      cone: 20
+      baseRotation: 15
+      useRotation: false 
+      sizeFrom: 0
+      sizeTo: 8
+      colorFrom: e0e0e066
+      colorTo: e0e0e000
+      sizeInterp: pow2Out
+      interp: pow2Out
+      layer: 90
+    }
+  }
+drawer: {
+  type: DrawMulti
+  drawers: [
+  {
+type: DrawDefault
+}
+  {
+type: DrawGlowRegion
+color: ff0000
+suffix: -glow
+glowScale: 10
+  }
+  ]
+}
+research: money-fact-a-1
+researchCostMultiplier: 0.1
+
