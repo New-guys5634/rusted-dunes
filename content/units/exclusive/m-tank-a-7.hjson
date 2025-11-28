@@ -66,9 +66,10 @@ shotDelay: 5
    type: BasicBulletType
    width: 5
    height: 5
-   damage: 4
+   damage: 2
    speed: 8
    lifetime: 25
+   buildingDamageMultiplier: 0.001
         shootEffect: {
           type: MultiEffect
           effects: [
@@ -119,7 +120,8 @@ shotDelay: 5
     hitEffect: pulverize
     lifetime: 6
     speed: 2
-    splashDamageRadius: 25
+    splashDamageRadius: 15
+    buildingDamageMultiplier: 0.001
     instantDisappear: true
     splashDamage: 45
     killShooter: true
