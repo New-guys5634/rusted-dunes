@@ -1,0 +1,6 @@
+description: Trade a large amount of money for ammo for your turrets.
+name: Ammo
+color: 7B4C2DFF
+hardness: 1
+research: m-money
+hiddenOnPlanets: [serpulo, erekir]
