@@ -1,0 +1,43 @@
+name: Their one constructor
+description: Constructs vehicles at a low tier.
+type: UnitFactory
+category: units
+size: 3
+configurable: true
+plans: [
+  {
+    unit: m-tank-a-3
+    time: 900
+    requirements: [
+     m-money/40
+     m-upgrade-point/5
+    ]
+}
+  {
+    unit: m-tank-a-1
+    time: 900
+    requirements: [
+     m-money/40
+     m-upgrade-point/5
+     m-ammo/20
+    ]
+}
+  {
+    unit: m-tank-a-2
+    time: 1200
+    requirements: [
+     m-money/80
+     m-upgrade-point/5
+     m-ammo/40
+    ]
+}
+]
+requirements: [
+     m-money/200
+     m-upgrade-point/50
+]
+research: m-money-core
+researchCost: [
+     m-money/800
+     m-upgrade-point/100
+]
