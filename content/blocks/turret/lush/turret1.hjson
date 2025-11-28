@@ -15,7 +15,7 @@ health: 140
 AmmoPerShot: 5
 shootShake: 0.5
 ammoTypes: {
-    m-money: {
+    m-ammo: {
    type: ArtilleryBulletType
    splashDamage: 12
    splashDamageRadius: 15
