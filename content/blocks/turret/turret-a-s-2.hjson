@@ -10,10 +10,10 @@ range: 215
 recoil: 2.3
 size: 1
 health: 350
-overHeatAmount: 15
-timeToCooldown: 200
+OverHeatAmount: 15
+TimeToCooldown: 200
 AmmoPerShot: 6
-shtimeToCooldownootSound: shootAlt
+shootSound: shootAlt
 outlineColor: 000000FF
 coolant: {
   type: ConsumeCoolant
