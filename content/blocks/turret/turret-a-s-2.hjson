@@ -1,6 +1,6 @@
 name: Continues 
 description: Fires barrage of bullets at the opponent.
-type: OverHeatTurret
+type: ItemTurret
 reload: 25
 shootCone: 20
 rotateSpeed: 3.5
@@ -10,8 +10,6 @@ range: 215
 recoil: 2.3
 size: 1
 health: 350
-OverHeatAmount: 15
-TimeToCooldown: 200
 AmmoPerShot: 6
 shootSound: shootAlt
 outlineColor: 000000FF
