@@ -1,0 +1,13 @@
+type: Junction
+name: Credit  Junction
+description: Transports the items through other ducts.
+health: 45
+size: 1
+speed: 22
+requirements: [
+m-money/20
+]
+squareSprite: false
+category: distribution
+research: credit-duct
+researchCostMultiplier: 0.5

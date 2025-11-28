@@ -1,0 +1,9 @@
+type: Sorter
+name: CrediytSorter
+description: Lllows certain inputs than others.
+category: distribution
+research: credit-duct
+requirements: [
+m-money/15
+]
+researchCostMultiplier: 0.5

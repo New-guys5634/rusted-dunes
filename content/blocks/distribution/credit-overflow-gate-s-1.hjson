@@ -1,0 +1,9 @@
+type: OverflowGate
+name: Credit Overflow Gate
+description: Sets credits in other output if main is clogged.
+category: distribution
+research: credit-duct
+requirements: [
+m-money/15
+]
+researchCostMultiplier: 0.5

@@ -1,0 +1,15 @@
+ type: ItemBridge
+  name: Credit bridge
+  description: Cheap and effective.
+  health: 40
+  range: 3
+  transportTime: 3
+  hasPower: false
+requirements: [
+  m-money/15
+] 
+category: distribution
+research: credit-junction-s-1
+researchCost: [
+    m-money/150
+  ]

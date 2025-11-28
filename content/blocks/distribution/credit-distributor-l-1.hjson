@@ -1,0 +1,14 @@
+type: Router
+name: Credit Distributor
+description: Same as router but bigger.
+size: 2
+speed: 7
+health: 250
+itemCapacity: 10
+requirements: [
+m-money/25
+]
+squareSprite: false
+category: distribution
+research: credit-router-s-1
+researchCostMultiplier: 0.5

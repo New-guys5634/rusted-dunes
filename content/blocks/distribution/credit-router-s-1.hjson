@@ -1,0 +1,14 @@
+type: Router
+name: Credit Router
+description: Inputs money in three different directions.
+size: 1
+speed: 6
+health: 75
+itemCapacity: 5
+requirements: [
+m-money/15
+]
+squareSprite: false
+category: distribution
+research: credit-duct
+researchCostMultiplier: 0.5

@@ -5,9 +5,9 @@ type: StackConveyor
 alwaysUnlocked: true
 health: 10
 speed: 0.06
-capacity: 10
+capacity: 100
 requirements: [
-m-money/2
+m-money/1
 ] 
 research: m-money-core
 
