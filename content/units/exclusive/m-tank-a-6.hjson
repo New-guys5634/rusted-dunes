@@ -46,7 +46,7 @@ weapons: [
    height: 5
    damage: 1
    speed: 4
-   lifetime: 30
+   lifetime: 60
         shootEffect: {
           type: MultiEffect
           effects: [
@@ -84,62 +84,6 @@ weapons: [
       }
    ]
 }
-}
-}
-{
-  name: boom
-  reload: 50
-  shootCone: 180
-  ejectEffect: none
-  shootSound: explosion
-  bullet: {
-    type: BombBulletType
-    hitEffect: pulverize
-    lifetime: 6
-    speed: 2
-    splashDamageRadius: 180
-    instantDisappear: true
-    splashDamage: 45
-    killShooter: true
-    hittable: false
-    collidesAir: false
-    fragBullets: 3
-    fragCone: 360
-    hitSound: laser
-    fragBullet: {
-     type: LaserBulletType
-     length: 0
-     colors: [FDFDFD00 FCFCFC00 FDFDFD00]
-     damage: 0
-        hitEffect: {
-          type: multiEffect
-          effects: [
-            {
-              type: ParticleEffect
-              particles: 6
-              lifetime: 260
-              length: 90
-              lightColor: FCFCFCFF
-              sizeFrom: 1
-              sizeTo: 6
-              colorFrom: FCFCFCFF
-              colorTo: FDFDFD35
-            }
-            {
-              type: ParticleEffect
-              lightOpacity: 0
-              particles: 15
-              length: 45
-              baseLength: 10
-              lifetime: 270
-              sizeFrom: 7
-              sizeTo: 1
-              colorFrom: FCFCFCFF
-              colorTo: FDFDFD35
-       }
-     ]
-    }
-   }
  }
  }
 ]
