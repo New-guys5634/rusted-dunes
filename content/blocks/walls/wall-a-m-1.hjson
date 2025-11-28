@@ -1,0 +1,17 @@
+name: Money wall 
+description: Defends structure and units from incoming attacks.
+details: Making money into literally everything chat.
+type: Wall
+health: 140
+armor: 1
+outlineColor: 8E665CFFf
+requirements: [
+    m-money/15
+]
+category: defense
+research: {
+    parent: m-money-core
+    requirements: [
+    m-money/150
+    ]
+}
