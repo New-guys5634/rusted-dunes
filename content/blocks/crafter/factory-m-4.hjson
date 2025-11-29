@@ -11,7 +11,7 @@ itemCapacity: 15
 consumes: {
   items: {
     items: [
-item-a-1/4
+item-a-1/2
     ]
   }
 }
