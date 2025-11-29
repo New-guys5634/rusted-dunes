@@ -71,14 +71,14 @@ weapons: [
   cooldownTime: 35 
   velocityRnd: 0.40
   shoot: {
-  shots: 6
+  shots: 4
   shotDelay: 5
   }
   bullet: {
    type: BasicBulletType
    width: 8
    height: 10
-   damage: 15
+   damage: 10
    speed: 6
    lifetime: 20
    trailWidth: 3

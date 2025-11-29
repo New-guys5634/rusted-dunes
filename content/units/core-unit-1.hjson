@@ -2,7 +2,7 @@ name: Rusting drone
 description: The starting drone for rusting core.
 type: payload
 flying: true
-health: 120
+health: 215
 armor: 1
 hitSize: 9
 

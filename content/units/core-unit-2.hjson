@@ -2,7 +2,7 @@ name: Old iron drone
 description: The second drone for the old iron core.
 type: payload
 flying: true
-health: 175
+health: 315
 armor: 1
 hitSize: 12
 
