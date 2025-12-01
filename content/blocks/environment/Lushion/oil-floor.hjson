@@ -1,0 +1,8 @@
+name: Oil floor
+type: Floor
+variants: 0
+isLiquid: true
+speedMultiplier: 0.2
+cacheLayer: tar
+drownTime: 200
+liquidDrop: liquid-m-1
