@@ -1,0 +1,15 @@
+type: Pump
+name: Credit pump
+description: Pumps liquids, cost credits and upgrade points.
+size: 2
+category: liquid
+research: m-money-core
+consumes: {
+power: 0.2
+}
+requirements: [
+m-money/120
+m-upgrade-point/5
+]
+pumpAmount: 0.25
+researchCostMultiplier: 0.1

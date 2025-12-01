@@ -1,5 +1,5 @@
 type: LiquidRouter
-name: Wooden conduit router
+name: Credit conduit router
 description: Splits liquids into three outputs.
 size: 1
 solid: false
@@ -8,9 +8,8 @@ health: 65
 liquidCapacity: 20
 category: liquid
 squareSprite: false
-research: pipe-junction
+research: m-pipe-junction
 requirements: [
-item-a-4/5
-sand/15
+m-money/25
 ]
 researchCostMultiplier: 1

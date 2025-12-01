@@ -1,0 +1,11 @@
+type: LiquidJunction
+name: Credit conduit Junction
+description: Allows liquids to cross eachother.
+solid: false
+category: liquid
+squareSprite: false
+research: pipe-m-1
+requirements: [
+m-money/10
+]
+researchCostMultiplier: 1

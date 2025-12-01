@@ -1,0 +1,13 @@
+name: Wooden bridge
+description: Allows pipes to go over buildings.
+type: LiquidBridge
+health: 100
+liquidCapacity: 20
+category: liquid
+hasPower: false
+range: 6
+requirements: [
+m-money/20
+]
+research: pipe-m-1
+researchCostMultiplier: 0.1

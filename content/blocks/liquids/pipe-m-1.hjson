@@ -1,0 +1,16 @@
+type: Conduit
+name: Credit conduit
+description: Moves liquids forward. 
+category: liquid
+research: pump-m-1
+requirements: [
+m-money/1
+]
+health: 10
+leaks: true
+junctionReplacement: m-pipe-junction
+bridgeReplacement: m-pipe-bridge
+underBullets: true
+researchCostMultiplier: 1
+liquidPressure: 1.000
+liquidCapacity: 10
