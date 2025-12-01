@@ -1,0 +1,14 @@
+type: PowerNode
+name: Connection line
+description: Connects with other connection lines to a main point while transfering power.
+size: 1
+squareSprite: false
+laserRange: 6
+maxNodes: 4
+health: 5
+requirements: [
+ m-money/25
+]
+category: power
+research: m-1-power
+researchCostMultiplier: 0.2
