@@ -33,11 +33,13 @@ plans: [
 }
 ]
 requirements: [
+    m-can-oil/50
      m-money/200
      m-upgrade-point/50
 ]
 research: m-money-core
 researchCost: [
+     m-can-oil/150
      m-money/800
      m-upgrade-point/100
 ]
