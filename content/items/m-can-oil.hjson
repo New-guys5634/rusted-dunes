@@ -1,0 +1,6 @@
+description: Trade a large amount of money for ammo for your turrets.
+name: Canister Of Oil
+color: 3C3837FF
+hardness: 1
+research: liquid-m-1
+hiddenOnPlanets: [serpulo, erekir]
