@@ -20,8 +20,8 @@ AmmoPerShot: 5
         height: 7
         width: 7
         lifetime: 20
-    trailColor: 60615BFF
-    trailLength: 0.22
+    trailColor: F1EA78FF
+    trailLength: 1
     trailWidth: 1
 }
 }
