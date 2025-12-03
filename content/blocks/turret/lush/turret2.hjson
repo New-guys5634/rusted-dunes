@@ -1,0 +1,33 @@
+description: Fires basic projectiles that deal minium damage.
+name: Basic tier one turret
+type: ItemTurret
+reload: 40
+shootCone: 40
+rotateSpeed: 4
+targetGround: true
+targetAir: false
+range: 120
+recoil: 4
+shootSound: blaster
+size: 2
+health: 140
+shootShake: 0.2
+ammoTypes: {
+    m-ammo: {
+AmmoPerShot: 5
+        damage: 12
+        speed: 6
+        height: 7
+        width: 7
+        lifetime: 20
+    trailColor: 60615BFF
+    trailLength: 0.22
+    trailWidth: 1
+}
+}
+requirements: [
+    m-money/150
+]
+category: turret
+research: turret1
+researchCostMultiplier: 0.1
