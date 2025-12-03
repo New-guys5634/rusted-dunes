@@ -141,3 +141,6 @@ weapons: [
  }
  }
 ]
+research: m-tank-a-3
+researchCostMultiplier: 0.1
+
