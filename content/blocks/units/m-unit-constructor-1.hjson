@@ -31,6 +31,33 @@ plans: [
      m-ammo/40
     ]
 }
+  {
+    unit: m-tank-a-5
+    time: 1200
+    requirements: [
+     m-money/90
+     m-upgrade-point/5
+     m-ammo/40
+    ]
+}
+  {
+    unit: m-tank-a-4
+    time: 1200
+    requirements: [
+     m-money/120
+     m-upgrade-point/5
+     m-ammo/60
+    ]
+}
+  {
+    unit: m-tank-a-6
+    time: 1500
+    requirements: [
+     m-money/150
+     m-upgrade-point/10
+     m-ammo/75
+    ]
+}
 ]
 requirements: [
     m-can-oil/50
