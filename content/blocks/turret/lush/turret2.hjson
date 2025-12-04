@@ -20,9 +20,11 @@ AmmoPerShot: 5
         height: 7
         width: 7
         lifetime: 20
-    trailColor: F1EA78FF
-    trailLength: 1
-    trailWidth: 1
+    trailLength: 8
+    trailWidth: 2
+   frontColor: F1EA78FF
+   backColor: F1EA78FF
+   trailColor: F1EA78FF
 }
 }
 requirements: [
