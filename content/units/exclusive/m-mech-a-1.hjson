@@ -1,0 +1,39 @@
+name: Small mech 
+description: A uniformed small mech that is useful in early game production and can cause large damage in groups.
+type: mech
+mechLegColor: 1f1f1f
+health: 100
+armor: 1
+hitSize: 8
+speed: .6
+rotateSpeed: 4
+accel: 0.70
+itemCapacity: 10
+weapons: [
+{
+  name: m-mech-a-1-gun
+  top: false
+  x: 0
+  y: 0
+  shootY: 5
+  shootX: 8
+  mirror: false
+  rotate: false
+  shootCone: 10
+  shootSound: bolt
+  reload: 55
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  bullet: {
+   type: BasicBulletType
+   width: 7
+   height: 8   
+   damage: 10
+   speed: 3
+   lifetime: 30
+   trailWidth: 1
+   trailLength: 12
+   }
+  }
+]
