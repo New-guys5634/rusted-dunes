@@ -2,7 +2,7 @@ type: Conduit
 name: Credit conduit
 description: Moves liquids forward. 
 category: liquid
-research: pump-m-1
+research: pump-m-2
 requirements: [
 m-money/1
 ]
