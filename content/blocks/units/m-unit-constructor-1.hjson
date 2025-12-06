@@ -1,4 +1,4 @@
-name: Their one constructor
+name: Tier one constructor
 description: Constructs vehicles at a low tier.
 type: UnitFactory
 category: units
