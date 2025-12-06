@@ -1,0 +1,11 @@
+localizedName: Landing 
+description: The first sector of lushion begin by producing all basic resources and units.
+sector: 0
+planet: lush
+alwaysUnlocked: true
+research: {
+   parent: m-money-core
+}
+alwaysUnlocked: true
+difficulty: 1
+overrideLaunchDefaults: true
