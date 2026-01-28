@@ -4,6 +4,4 @@ welcome to rusted dunes, rusted dunes plans to add a new varieties of rusty tech
 
 dunes is a planet that is a sandy hot hell, enjoy the current 20 sectors while you can stand your ground
 
-if you want a sector in my mod just ask i will explain when you send a message
-
-theres is going to be more sectors that will be added.
+due to the new recent updates the sound system in rusted dunes is completely bugged and i will be forced to fix the problem so be please notes about that.
