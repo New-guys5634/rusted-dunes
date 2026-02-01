@@ -10,7 +10,7 @@ range: 235
 recoil: 2.5
 size: 2
 health: 390
-shootSound: laser
+shootSound: shootLaser
 outlineColor: 000000FF
 consumes: {
   power: 2

@@ -11,7 +11,7 @@ recoil: 2
 size: 2
 health: 390
 AmmoPerShot: 10
-shootSound: laser
+shootSound: shootLaser
 outlineColor: 000000FF
 drawer: {
   type: DrawTurret

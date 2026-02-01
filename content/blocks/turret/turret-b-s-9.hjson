@@ -10,7 +10,7 @@ range: 75
 recoil: 2
 size: 2
 health: 550
-shootSound: spark
+shootSound: shootLaser
 outlineColor: 000000FF
 consumes: {
   power: 0.5

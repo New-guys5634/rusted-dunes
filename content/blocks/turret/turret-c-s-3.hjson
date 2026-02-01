@@ -10,7 +10,7 @@ range: 210
 recoil: 2
 size: 2
 health: 700
-shootSound: shootBig
+shootSound: shootReign
 outlineColor: 000000FF
 consumes: {
   power: 0.4

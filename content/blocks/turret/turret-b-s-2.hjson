@@ -10,7 +10,7 @@ range: 215
 recoil: 0.5
 size: 1
 health: 215
-shootSound: shootAlt
+shootSound: shootSpectre
 outlineColor: 000000FF
 consumes: {
   power: 0.2

@@ -10,8 +10,8 @@ range: 725
 recoil: 0.8
 size: 3
 health: 450
-shootSound: shootAlt
-chargeSound: lasercharge2
+shootSound: shootSpectre
+chargeSound: chargeLancer
 outlineColor: 000000FF
 consumes: {
   power: 0.5

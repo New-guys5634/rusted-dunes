@@ -10,7 +10,7 @@ range: 200
 recoil: 2.5
 size: 3
 health: 450
-shootSound: malignShoot
+shootSound: shootArtillerySapBig
 outlineColor: 000000FF
 consumes: {
   power: 2.5

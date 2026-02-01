@@ -11,7 +11,7 @@ recoil: 2
 size: 1
 health: 350
 AmmoPerShot: 10
-shootSound: shoot
+shootSound: shootSpectre
 outlineColor: 000000FF
 coolant: {
   type: ConsumeCoolant

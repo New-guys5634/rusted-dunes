@@ -10,7 +10,7 @@ range: 215
 recoil: 3
 size: 3
 health: 800
-shootSound: shootAlt
+shootSound: shootSpectre
 outlineColor: 000000FF
 coolant: {
   type: ConsumeCoolant

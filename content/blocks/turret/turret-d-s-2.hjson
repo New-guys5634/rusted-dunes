@@ -11,7 +11,7 @@ range: 600
 recoil: 2
 size: 3
 health: 900
-shootSound: railgun
+shootSound: shootConquer
 outlineColor: 000000FF
 shootWarmupSpeed: 0.003
 minWarmupSpeed: 0.9
