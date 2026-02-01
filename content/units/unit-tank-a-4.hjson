@@ -31,7 +31,7 @@ weapons: [
   rotate: true
   rotationLimit: 140
   shootCone: 20
-  shootSound: bolt
+  shootSound: shootArtillery
   inaccuracy: 0
   reload: 70
   targetInterval: 1

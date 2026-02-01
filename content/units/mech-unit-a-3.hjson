@@ -2,8 +2,8 @@ name: Wastement
 description: The third tier that shoots long ranged projectiles at its opponent.
 type: mech
 mechLegColor: 1f1f1f
-health: 925
-armor: 5
+health: 975
+armor: 6
 hitSize: 14
 speed: .4
 rotateSpeed: 4
@@ -27,7 +27,7 @@ weapons: [
   mirror: true
   rotate: false
   shootCone: 10
-  shootSound: artillery
+  shootSound: shootArtillery
   inaccuracy: 3
   reload: 60
   targetInterval: 1
@@ -46,7 +46,7 @@ weapons: [
    splashDamage: 15
    splashDamageRadius: 16
    speed: 7
-   lifetime: 18
+   lifetime: 23
    trailWidth: 3
    trailLength: 14
    }

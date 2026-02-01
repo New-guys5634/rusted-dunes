@@ -22,7 +22,7 @@ weapons: [
     y: -2
     reload: 80
     recoil: 1.25
-    shootSound: blaster
+    shootSound: shootCleroi
     bullet: {
       type: BasicBulletType
       sprite: missile-large

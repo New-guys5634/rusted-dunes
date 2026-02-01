@@ -14,7 +14,7 @@ rotateSpeed: 4
 accel: 0.01440
 groundLayer: 60
 health: 515
-armor: 5
+armor: 2
 hitSize: 10
 itemCapacity: 0
 useEngineElevation: false
@@ -62,7 +62,7 @@ weapons: [
   mirror: true
   rotate: false
   shootCone: 80
-  shootSound: shoot
+  shootSound: shootSpectre
   inaccuracy: 0
   reload: 40
   recoil: 1

@@ -27,7 +27,7 @@ weapons: [
   mirror: true
   rotate: false
   shootCone: 10
-  shootSound: shoot
+  shootSound: shootSpectre
   inaccuracy: 3
   reload: 30
   targetInterval: 1

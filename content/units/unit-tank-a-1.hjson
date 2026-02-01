@@ -30,7 +30,7 @@ weapons: [
   mirror: false
   rotate: true
   shootCone: 20
-  shootSound: shotgun
+  shootSound: shootFuse
   inaccuracy: 0
   reload: 30
   targetInterval: 1

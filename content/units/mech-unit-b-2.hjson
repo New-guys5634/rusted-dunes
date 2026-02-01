@@ -27,7 +27,7 @@ weapons: [
   mirror: true
   rotate: false
   shootCone: 10
-  shootSound: laser
+  shootSound: shootLancer
   inaccuracy: 3
   reload: 85
   targetInterval: 1

@@ -13,7 +13,7 @@ speed: 4
 rotateSpeed: 4
 accel: 0.01440
 groundLayer: 60
-health: 7450
+health: 8000
 armor: 6
 hitSize: 17
 itemCapacity: 80
@@ -77,7 +77,7 @@ weapons: [
   mirror: true
   rotate: false
   shootCone: 80
-  shootSound: laser
+  shootSound: shootLaser
   inaccuracy: 0
   reload: 85
   recoil: 1
@@ -93,9 +93,9 @@ weapons: [
   width: 15
   lightning: 4
   lightningLength: 16
-  lightningDamage: 15
+  lightningDamage: 30
   lightningCone: 20
-  damage: 145
+  damage: 300
   buildingDamageMultiplier: 0.6
 }
 }
@@ -110,7 +110,7 @@ weapons: [
   mirror: false
   rotate: false
   shootCone: 80
-  shootSound: flame
+  shootSound: shootFlame
   inaccuracy: 0
   reload: 4
   targetInterval: 1
@@ -121,8 +121,8 @@ weapons: [
     lifetime: 15
     drawFlare: false
     hitColor: 76151EFF
-    damage: 9
-    knockback: 2
+    damage: 15
+    knockback: 3
     pierce: true
     pierceArmor: false
     length: 80

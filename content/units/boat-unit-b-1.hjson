@@ -22,8 +22,7 @@ weapons: [
     y: -2
     reload: 90
     recoil: 1.25
-    shootSound: blaster
-  chargeSound: lasercharge2
+    shootSound: shootCleroi
   shoot: {
   type: ShootSpread
   firstShotDelay: 60

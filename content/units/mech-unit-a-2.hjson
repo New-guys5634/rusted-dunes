@@ -27,9 +27,9 @@ weapons: [
   mirror: true
   rotate: false
   shootCone: 10
-  shootSound: shootAlt
+  shootSound: shootSpectre
   inaccuracy: 3
-  reload: 45
+  reload: 50
   targetInterval: 1
   targetSwitchInterval: 3
   cooldownTime: 35 

@@ -62,7 +62,7 @@ weapons: [
   mirror: true
   rotate: true
   shootCone: 80
-  shootSound: shoot
+  shootSound: shootSpectre
   inaccuracy: 0
   reload: 85
   recoil: 1

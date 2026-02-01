@@ -77,7 +77,7 @@ weapons: [
   mirror: false
   rotate: false
   shootCone: 80
-  shootSound: laser
+  shootSound: shootLaser
   inaccuracy: 0
   reload: 125
   recoil: 1

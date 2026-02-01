@@ -67,7 +67,7 @@ name: core-unit-1-wep
   mirror: false
   rotate: true
   shootCone: 20
-  shootSound: shootAlt
+  shootSound: shootSpectre
   inaccuracy: 15
   reload: 20
   targetInterval: 1
