@@ -1,0 +1,17 @@
+localizedName: Green zone
+description: The next sector on lushion, get used to being barraged by enemies, the last sector sent all their troops to this sector capture and eliminate all the enemies.
+captureWave: 15
+difficulty: 2
+planet: lush
+sector: 15
+overrideLaunchDefaults: true
+addStartingItems: true
+research: {
+  parent: M-1-a-sector-Landing
+  objectives: [
+    {
+      type: SectorComplete
+      preset: M-1-a-sector-Landing
+    }
+  ]
+}
