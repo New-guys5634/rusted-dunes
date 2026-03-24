@@ -17,18 +17,19 @@ weapons: [
   y: 0
   shootY: 5
   shootX: 7
-  mirror: false
+  mirror: true
   rotate: false
   shootCone: 10
   shootSound: shootFlame
-  reload: 10
+  reload: 600
   targetInterval: 1
   targetSwitchInterval: 3
   cooldownTime: 35 
+  continuous: true
   bullet: {
   type: ContinuousLaserBulletType
   layerOffset: -0.001
-      lifetime: 900
+      lifetime: 1400
       damage: 1
       width: 1
       length: 250
