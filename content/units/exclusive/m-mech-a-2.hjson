@@ -1,0 +1,40 @@
+name: Advanced Small Mech
+description: A reinforced small mech informed with advanced laser tech.
+type: mech
+mechLegColor: 1f1f1f
+health: 115
+armor: 1
+hitSize: 8
+speed: .6
+rotateSpeed: 4
+accel: 0.70
+itemCapacity: 10
+weapons: [
+{
+  name: m-mech-a-2-laser
+  top: false
+  x: 0
+  y: 0
+  shootY: 5
+  shootX: 7
+  mirror: false
+  rotate: false
+  shootCone: 10
+  shootSound: shootFlame
+  reload: 10
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  bullet: {
+  type: ContinuousLaserBulletType
+  layerOffset: -0.001
+      lifetime: 900
+      damage: 1
+      width: 1
+      length: 250
+      knockback: 0.5
+  colors: [FFD380FF, EAB678FF, EAB67885]
+  lightningColor: FFD380FF
+   }
+  }
+]
