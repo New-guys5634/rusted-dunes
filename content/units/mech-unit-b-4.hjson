@@ -1,0 +1,71 @@
+name: Nomadic
+description: The fourth tier, has two large cannons that has destructive cabilities and is more tankier than the unpgraded version.
+type: mech
+mechLegColor: 1f1f1f
+health: 13450
+armor: 11
+hitSize: 20
+speed: .3
+rotateSpeed: 2
+itemCapacity: 85
+outlineColor: 313131FF
+weapons: [
+{
+  name: mech-unit-b-4-wep
+  top: false
+  x: 0
+  y: 0
+  shootY: 7
+  shootX: 12
+  mirror: true
+  rotate: false
+  shootCone: 10
+  shootSound: laser
+  inaccuracy: 3
+  reload: 180
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  bullet: {
+      type: ArtilleryBulletType
+   splashDamage: 230
+   splashDamageRadius: 35
+   width: 14
+   height: 14
+   knockback: 12
+   speed: 8
+   lifetime: 25
+   trailWidth: 2
+   trailLength: 15
+        hitEffect: {
+          type: multiEffect
+          effects: [
+            {
+              type: ParticleEffect
+              particles: 12
+              lifetime: 25
+              length: 120
+              lightColor: AF2A2AFF
+              sizeFrom: 10
+              sizeTo: 4
+              colorFrom: 313131FF
+              colorTo: AF2A2AFF
+            }
+            {
+              type: ParticleEffect
+              lightOpacity: 0
+              particles: 32
+              length: 60
+              baseLength: 10
+              lifetime: 120
+              sizeFrom: 7
+              sizeTo: 1
+              colorFrom: 313131FF
+              colorTo: AF2A2AFF
+}
+]
+}
+}
+}
+]
+
