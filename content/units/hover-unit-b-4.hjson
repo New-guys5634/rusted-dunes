@@ -131,3 +131,5 @@ weapons: [
 }
 }
 ]
+research: hover-unit-b-3
+researchCostMultiplier: 1
