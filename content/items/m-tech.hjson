@@ -1,0 +1,6 @@
+description: Allows for more stronger and durable units in the turret and unit category.
+name: Technology
+color: BFECFFFF
+hardness: 2
+research: m-upgrade-point
+hiddenOnPlanets: [serpulo, erekir]
