@@ -29,21 +29,21 @@ weapons: [
   shootCone: 10
   shootSound: shootFuse
   inaccuracy: 3
-  reload: 80
+  reload: 120
   targetInterval: 1
   targetSwitchInterval: 3
   cooldownTime: 35 
   shoot: {
   type: ShootSpread
   spread: 2
-  shots: 9
+  shots: 4
   }
   bullet: {
    type: BasicBulletType
    width: 12
    height: 10
    damage: 85
-   splashDamage: 25
+   splashDamage: 50
    splashDamageRadius: 16
    speed: 8
    lifetime: 20
