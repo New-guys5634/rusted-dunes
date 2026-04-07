@@ -1,0 +1,100 @@
+type: tank
+name: Electrified 
+description: The fourth tank, fires large cannons explosions, more agile than the other tiers.
+omniMovement: false
+faceTarget: false
+outlineColor: 8E665CFF
+speed: 2.1
+rotateSpeed: 3
+groundLayer: 60
+health: 11000
+armor: 11
+hitSize: 16
+itemCapacity: 55
+treadRects: [
+{
+    x: -35
+    y: -25
+    width: 50
+    height: 60
+    }
+]
+weapons: [
+ {
+  name: unit-tank-b-4-cannon
+  top: false
+  x: 0
+  y: 0
+  shootY: 2
+  shootX: 0
+  mirror: false
+  rotate: true
+  shootCone: 20
+  shootSound: shootLancer
+  chargeSound: chargeLancer
+  inaccuracy: 2
+  reload: 220
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  shoot: {
+  shots: 3
+  shotDelay: 25
+  firstShotDelay: 45
+  }
+  bullet: {
+chargeEffect: [
+{
+lifetime: 90
+type: waveEffect
+colorFrom: 010101
+colorTo: 010101
+strokeTo: 4
+strokeFrom: 0
+sizeFrom: 25
+sizeTo: 0
+}
+]
+   type: ArtilleryBulletType
+   width: 10
+   height: 15
+   splashDamage: 250
+   splashDamageRadius: 45
+   speed: 4.5
+   lifetime: 135
+   trailWidth: 4
+   trailLength: 15
+   frontColor: AF2A2AFF
+   backColor: AF2A2AFF
+   trailColor: 76151EFF
+    makeFire: true
+        hitEffect: {
+          type: multiEffect
+          effects: [
+            {
+              type: ParticleEffect
+              particles: 12
+              lifetime: 25
+              length: 90
+              lightColor: AF2A2AFF
+              sizeFrom: 10
+              sizeTo: 3
+              colorFrom: 313131FF
+              colorTo: AF2A2AFF
+            }
+            {
+              type: ParticleEffect
+              lightOpacity: 0
+              particles: 32
+              length: 45
+              baseLength: 10
+              lifetime: 120
+              sizeFrom: 7
+              sizeTo: 1
+              colorFrom: 313131FF
+              colorTo: AF2A2AFF
+}
+]
+}
+}
+]
