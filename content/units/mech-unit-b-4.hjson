@@ -20,7 +20,7 @@ weapons: [
   mirror: true
   rotate: false
   shootCone: 10
-  shootSound: laser
+  shootSound: massdriver
   inaccuracy: 3
   reload: 180
   targetInterval: 1
