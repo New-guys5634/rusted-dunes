@@ -22,7 +22,7 @@ weapons: [
   shootCone: 10
   shootSound: massdriver
   inaccuracy: 3
-  reload: 180
+  reload: 50
   targetInterval: 1
   targetSwitchInterval: 3
   cooldownTime: 35 
