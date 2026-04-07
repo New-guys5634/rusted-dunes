@@ -28,8 +28,8 @@ weapons: [
   cooldownTime: 35 
   bullet: {
       type: ArtilleryBulletType
-   splashDamage: 230
-   splashDamageRadius: 35
+   splashDamage: 400
+   splashDamageRadius: 50
    width: 14
    height: 14
    knockback: 12
